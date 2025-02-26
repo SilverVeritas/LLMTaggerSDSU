@@ -1,3 +1,0 @@
-2025-02-24 12:16:04,622 - INFO - Found 18 PDF files in DS3_APT2\APT
-2025-02-24 12:16:06,733 - INFO - Loading sentence-transformer model: all-MiniLM-L6-v2
-2025-02-24 12:16:08,023 - INFO - Encoding documents...

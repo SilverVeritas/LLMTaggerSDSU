@@ -1,4 +1,0 @@
-2025-02-24 08:51:40,400 - INFO - TF–IDF matrix shape: (10, 5000)
-2025-02-24 08:51:51,936 - INFO - NMI vs KMeans(6): 0.6067
-2025-02-24 08:51:51,937 - INFO - Evaluation complete.
-2025-02-24 08:51:51,937 - INFO - Saved results to DS1_Paper\llm-evaluation_results.json
