@@ -1,0 +1,220 @@
+2025-02-26 01:20:04,437 - INFO - Starting PDF/TXT extraction process (no streaming)
+2025-02-26 01:20:04,437 - INFO - Starting folder processing: DS1_Paper\pdfs
+2025-02-26 01:20:04,438 - INFO - Found 10 files (PDF or TXT) to process.
+2025-02-26 01:20:04,438 - INFO - 
+Processing file: Counterfactual Explanations for k-means and Gaussian Clustering.pdf
+2025-02-26 01:20:04,438 - INFO - Starting text extraction from PDF: DS1_Paper\pdfs\Counterfactual Explanations for k-means and Gaussian Clustering.pdf
+2025-02-26 01:20:04,441 - INFO - PDF has 17 pages
+2025-02-26 01:20:04,441 - DEBUG - Processing page 1/17
+2025-02-26 01:20:04,460 - DEBUG - Processing page 2/17
+2025-02-26 01:20:04,475 - DEBUG - Processing page 3/17
+2025-02-26 01:20:04,488 - DEBUG - Processing page 4/17
+2025-02-26 01:20:04,505 - DEBUG - Processing page 5/17
+2025-02-26 01:20:04,517 - DEBUG - Processing page 6/17
+2025-02-26 01:20:04,530 - DEBUG - Processing page 7/17
+2025-02-26 01:20:04,546 - DEBUG - Processing page 8/17
+2025-02-26 01:20:04,566 - DEBUG - Processing page 9/17
+2025-02-26 01:20:04,583 - DEBUG - Processing page 10/17
+2025-02-26 01:20:04,595 - DEBUG - Processing page 11/17
+2025-02-26 01:20:04,623 - DEBUG - Processing page 12/17
+2025-02-26 01:20:04,706 - DEBUG - Processing page 13/17
+2025-02-26 01:20:04,775 - DEBUG - Processing page 14/17
+2025-02-26 01:20:04,799 - DEBUG - Processing page 15/17
+2025-02-26 01:20:04,808 - DEBUG - Processing page 16/17
+2025-02-26 01:20:04,820 - DEBUG - Processing page 17/17
+2025-02-26 01:20:04,825 - INFO - Successfully extracted 47082 characters from PDF
+2025-02-26 01:20:05,037 - INFO - Getting LLM response
+2025-02-26 01:20:08,107 - INFO - Completed processing Counterfactual Explanations for k-means and Gaussian Clustering.pdf
+2025-02-26 01:20:08,108 - INFO - 
+Processing file: Detection of AI Deepfake and Fraud in Online Payments Using GAN-Based.pdf
+2025-02-26 01:20:08,108 - INFO - Starting text extraction from PDF: DS1_Paper\pdfs\Detection of AI Deepfake and Fraud in Online Payments Using GAN-Based.pdf
+2025-02-26 01:20:08,110 - INFO - PDF has 6 pages
+2025-02-26 01:20:08,111 - DEBUG - Processing page 1/6
+2025-02-26 01:20:08,116 - DEBUG - Processing page 2/6
+2025-02-26 01:20:08,150 - DEBUG - Processing page 3/6
+2025-02-26 01:20:08,203 - DEBUG - Processing page 4/6
+2025-02-26 01:20:08,230 - DEBUG - Processing page 5/6
+2025-02-26 01:20:08,259 - DEBUG - Processing page 6/6
+2025-02-26 01:20:08,303 - INFO - Successfully extracted 27546 characters from PDF
+2025-02-26 01:20:08,479 - INFO - Getting LLM response
+2025-02-26 01:20:15,680 - INFO - Completed processing Detection of AI Deepfake and Fraud in Online Payments Using GAN-Based.pdf
+2025-02-26 01:20:15,680 - INFO - 
+Processing file: Grey-Box Fuzzing in Constrained Ultra-Large Systems Lessons.pdf
+2025-02-26 01:20:15,681 - INFO - Starting text extraction from PDF: DS1_Paper\pdfs\Grey-Box Fuzzing in Constrained Ultra-Large Systems Lessons.pdf
+2025-02-26 01:20:15,684 - INFO - PDF has 11 pages
+2025-02-26 01:20:15,684 - DEBUG - Processing page 1/11
+2025-02-26 01:20:15,703 - DEBUG - Processing page 2/11
+2025-02-26 01:20:15,751 - DEBUG - Processing page 3/11
+2025-02-26 01:20:15,804 - DEBUG - Processing page 4/11
+2025-02-26 01:20:15,842 - DEBUG - Processing page 5/11
+2025-02-26 01:20:15,913 - DEBUG - Processing page 6/11
+2025-02-26 01:20:15,950 - DEBUG - Processing page 7/11
+2025-02-26 01:20:15,987 - DEBUG - Processing page 8/11
+2025-02-26 01:20:16,003 - DEBUG - Processing page 9/11
+2025-02-26 01:20:16,044 - DEBUG - Processing page 10/11
+2025-02-26 01:20:16,060 - DEBUG - Processing page 11/11
+2025-02-26 01:20:16,078 - INFO - Successfully extracted 63628 characters from PDF
+2025-02-26 01:20:16,250 - INFO - Getting LLM response
+2025-02-26 01:20:24,055 - INFO - Completed processing Grey-Box Fuzzing in Constrained Ultra-Large Systems Lessons.pdf
+2025-02-26 01:20:24,056 - INFO - 
+Processing file: Hybrid Deep Learning Model for epileptic seizure.pdf
+2025-02-26 01:20:24,057 - INFO - Starting text extraction from PDF: DS1_Paper\pdfs\Hybrid Deep Learning Model for epileptic seizure.pdf
+2025-02-26 01:20:24,063 - INFO - PDF has 21 pages
+2025-02-26 01:20:24,063 - DEBUG - Processing page 1/21
+2025-02-26 01:20:24,073 - DEBUG - Processing page 2/21
+2025-02-26 01:20:24,082 - DEBUG - Processing page 3/21
+2025-02-26 01:20:24,091 - DEBUG - Processing page 4/21
+2025-02-26 01:20:24,098 - DEBUG - Processing page 5/21
+2025-02-26 01:20:24,106 - DEBUG - Processing page 6/21
+2025-02-26 01:20:24,115 - DEBUG - Processing page 7/21
+2025-02-26 01:20:24,120 - DEBUG - Processing page 8/21
+2025-02-26 01:20:24,128 - DEBUG - Processing page 9/21
+2025-02-26 01:20:24,136 - DEBUG - Processing page 10/21
+2025-02-26 01:20:24,138 - DEBUG - Processing page 11/21
+2025-02-26 01:20:24,144 - DEBUG - Processing page 12/21
+2025-02-26 01:20:24,147 - DEBUG - Processing page 13/21
+2025-02-26 01:20:24,153 - DEBUG - Processing page 14/21
+2025-02-26 01:20:24,157 - DEBUG - Processing page 15/21
+2025-02-26 01:20:24,160 - DEBUG - Processing page 16/21
+2025-02-26 01:20:24,166 - DEBUG - Processing page 17/21
+2025-02-26 01:20:24,173 - DEBUG - Processing page 18/21
+2025-02-26 01:20:24,179 - DEBUG - Processing page 19/21
+2025-02-26 01:20:24,185 - DEBUG - Processing page 20/21
+2025-02-26 01:20:24,192 - DEBUG - Processing page 21/21
+2025-02-26 01:20:24,194 - INFO - Successfully extracted 46286 characters from PDF
+2025-02-26 01:20:24,371 - INFO - Getting LLM response
+2025-02-26 01:20:57,746 - INFO - Completed processing Hybrid Deep Learning Model for epileptic seizure.pdf
+2025-02-26 01:20:57,746 - INFO - 
+Processing file: Mapping the Increasing Use of LLMs in Scientific Papers.pdf
+2025-02-26 01:20:57,747 - INFO - Starting text extraction from PDF: DS1_Paper\pdfs\Mapping the Increasing Use of LLMs in Scientific Papers.pdf
+2025-02-26 01:20:57,753 - INFO - PDF has 25 pages
+2025-02-26 01:20:57,753 - DEBUG - Processing page 1/25
+2025-02-26 01:20:57,764 - DEBUG - Processing page 2/25
+2025-02-26 01:20:57,799 - DEBUG - Processing page 3/25
+2025-02-26 01:20:57,965 - DEBUG - Processing page 4/25
+2025-02-26 01:20:57,991 - DEBUG - Processing page 5/25
+2025-02-26 01:20:58,002 - DEBUG - Processing page 6/25
+2025-02-26 01:20:58,422 - DEBUG - Processing page 7/25
+2025-02-26 01:20:58,433 - DEBUG - Processing page 8/25
+2025-02-26 01:20:58,668 - DEBUG - Processing page 9/25
+2025-02-26 01:20:58,756 - DEBUG - Processing page 10/25
+2025-02-26 01:20:58,761 - DEBUG - Processing page 11/25
+2025-02-26 01:20:58,768 - DEBUG - Processing page 12/25
+2025-02-26 01:20:58,776 - DEBUG - Processing page 13/25
+2025-02-26 01:20:58,783 - DEBUG - Processing page 14/25
+2025-02-26 01:20:58,790 - DEBUG - Processing page 15/25
+2025-02-26 01:20:58,809 - DEBUG - Processing page 16/25
+2025-02-26 01:20:58,834 - DEBUG - Processing page 17/25
+2025-02-26 01:20:58,845 - DEBUG - Processing page 18/25
+2025-02-26 01:20:58,853 - DEBUG - Processing page 19/25
+2025-02-26 01:20:58,863 - DEBUG - Processing page 20/25
+2025-02-26 01:20:59,025 - DEBUG - Processing page 21/25
+2025-02-26 01:20:59,206 - DEBUG - Processing page 22/25
+2025-02-26 01:20:59,340 - DEBUG - Processing page 23/25
+2025-02-26 01:20:59,346 - DEBUG - Processing page 24/25
+2025-02-26 01:20:59,358 - DEBUG - Processing page 25/25
+2025-02-26 01:20:59,364 - INFO - Successfully extracted 61732 characters from PDF
+2025-02-26 01:20:59,535 - INFO - Getting LLM response
+2025-02-26 01:21:20,470 - INFO - Completed processing Mapping the Increasing Use of LLMs in Scientific Papers.pdf
+2025-02-26 01:21:20,470 - INFO - 
+Processing file: MechIR A Mechanistic Interpretability Framework.pdf
+2025-02-26 01:21:20,471 - INFO - Starting text extraction from PDF: DS1_Paper\pdfs\MechIR A Mechanistic Interpretability Framework.pdf
+2025-02-26 01:21:20,475 - INFO - PDF has 7 pages
+2025-02-26 01:21:20,475 - DEBUG - Processing page 1/7
+2025-02-26 01:21:20,492 - DEBUG - Processing page 2/7
+2025-02-26 01:21:20,757 - DEBUG - Processing page 3/7
+2025-02-26 01:21:20,767 - DEBUG - Processing page 4/7
+2025-02-26 01:21:20,814 - DEBUG - Processing page 5/7
+2025-02-26 01:21:20,824 - DEBUG - Processing page 6/7
+2025-02-26 01:21:20,833 - DEBUG - Processing page 7/7
+2025-02-26 01:21:20,836 - INFO - Successfully extracted 17697 characters from PDF
+2025-02-26 01:21:21,007 - INFO - Getting LLM response
+2025-02-26 01:21:23,515 - INFO - Completed processing MechIR A Mechanistic Interpretability Framework.pdf
+2025-02-26 01:21:23,516 - INFO - 
+Processing file: Modelling Activity Scheduling Behaviour with Deep.pdf
+2025-02-26 01:21:23,516 - INFO - Starting text extraction from PDF: DS1_Paper\pdfs\Modelling Activity Scheduling Behaviour with Deep.pdf
+2025-02-26 01:21:23,523 - INFO - PDF has 28 pages
+2025-02-26 01:21:23,523 - DEBUG - Processing page 1/28
+2025-02-26 01:21:23,528 - DEBUG - Processing page 2/28
+2025-02-26 01:21:23,538 - DEBUG - Processing page 3/28
+2025-02-26 01:21:23,546 - DEBUG - Processing page 4/28
+2025-02-26 01:21:23,556 - DEBUG - Processing page 5/28
+2025-02-26 01:21:23,561 - DEBUG - Processing page 6/28
+2025-02-26 01:21:23,570 - DEBUG - Processing page 7/28
+2025-02-26 01:21:23,578 - DEBUG - Processing page 8/28
+2025-02-26 01:21:23,589 - DEBUG - Processing page 9/28
+2025-02-26 01:21:23,599 - DEBUG - Processing page 10/28
+2025-02-26 01:21:23,607 - DEBUG - Processing page 11/28
+2025-02-26 01:21:23,614 - DEBUG - Processing page 12/28
+2025-02-26 01:21:23,621 - DEBUG - Processing page 13/28
+2025-02-26 01:21:23,629 - DEBUG - Processing page 14/28
+2025-02-26 01:21:23,635 - DEBUG - Processing page 15/28
+2025-02-26 01:21:23,643 - DEBUG - Processing page 16/28
+2025-02-26 01:21:23,644 - DEBUG - Processing page 17/28
+2025-02-26 01:21:23,652 - DEBUG - Processing page 18/28
+2025-02-26 01:21:23,660 - DEBUG - Processing page 19/28
+2025-02-26 01:21:23,672 - DEBUG - Processing page 20/28
+2025-02-26 01:21:23,685 - DEBUG - Processing page 21/28
+2025-02-26 01:21:23,692 - DEBUG - Processing page 22/28
+2025-02-26 01:21:23,693 - DEBUG - Processing page 23/28
+2025-02-26 01:21:23,695 - DEBUG - Processing page 24/28
+2025-02-26 01:21:23,703 - DEBUG - Processing page 25/28
+2025-02-26 01:21:23,711 - DEBUG - Processing page 26/28
+2025-02-26 01:21:23,719 - DEBUG - Processing page 27/28
+2025-02-26 01:21:23,729 - DEBUG - Processing page 28/28
+2025-02-26 01:21:23,730 - INFO - Successfully extracted 61537 characters from PDF
+2025-02-26 01:21:23,901 - INFO - Getting LLM response
+2025-02-26 01:22:00,573 - INFO - Completed processing Modelling Activity Scheduling Behaviour with Deep.pdf
+2025-02-26 01:22:00,574 - INFO - 
+Processing file: SEANN A Domain-Informed Neural Network for.pdf
+2025-02-26 01:22:00,574 - INFO - Starting text extraction from PDF: DS1_Paper\pdfs\SEANN A Domain-Informed Neural Network for.pdf
+2025-02-26 01:22:00,577 - INFO - PDF has 12 pages
+2025-02-26 01:22:00,577 - DEBUG - Processing page 1/12
+2025-02-26 01:22:00,597 - DEBUG - Processing page 2/12
+2025-02-26 01:22:00,619 - DEBUG - Processing page 3/12
+2025-02-26 01:22:00,640 - DEBUG - Processing page 4/12
+2025-02-26 01:22:00,673 - DEBUG - Processing page 5/12
+2025-02-26 01:22:00,691 - DEBUG - Processing page 6/12
+2025-02-26 01:22:00,708 - DEBUG - Processing page 7/12
+2025-02-26 01:22:00,726 - DEBUG - Processing page 8/12
+2025-02-26 01:22:00,745 - DEBUG - Processing page 9/12
+2025-02-26 01:22:00,765 - DEBUG - Processing page 10/12
+2025-02-26 01:22:00,781 - DEBUG - Processing page 11/12
+2025-02-26 01:22:00,798 - DEBUG - Processing page 12/12
+2025-02-26 01:22:00,809 - INFO - Successfully extracted 36139 characters from PDF
+2025-02-26 01:22:00,987 - INFO - Getting LLM response
+2025-02-26 01:22:16,978 - INFO - Completed processing SEANN A Domain-Informed Neural Network for.pdf
+2025-02-26 01:22:16,978 - INFO - 
+Processing file: The Distributed Multi-User Point Function.pdf
+2025-02-26 01:22:16,978 - INFO - Starting text extraction from PDF: DS1_Paper\pdfs\The Distributed Multi-User Point Function.pdf
+2025-02-26 01:22:16,980 - INFO - PDF has 9 pages
+2025-02-26 01:22:16,980 - DEBUG - Processing page 1/9
+2025-02-26 01:22:17,004 - DEBUG - Processing page 2/9
+2025-02-26 01:22:17,021 - DEBUG - Processing page 3/9
+2025-02-26 01:22:17,044 - DEBUG - Processing page 4/9
+2025-02-26 01:22:17,089 - DEBUG - Processing page 5/9
+2025-02-26 01:22:17,113 - DEBUG - Processing page 6/9
+2025-02-26 01:22:17,149 - DEBUG - Processing page 7/9
+2025-02-26 01:22:17,169 - DEBUG - Processing page 8/9
+2025-02-26 01:22:17,185 - DEBUG - Processing page 9/9
+2025-02-26 01:22:17,196 - INFO - Successfully extracted 38360 characters from PDF
+2025-02-26 01:22:17,365 - INFO - Getting LLM response
+2025-02-26 01:22:34,034 - INFO - Completed processing The Distributed Multi-User Point Function.pdf
+2025-02-26 01:22:34,035 - INFO - 
+Processing file: The_Evolution_of_Large_Language_Model_Models_Applications_and_Challenges.pdf
+2025-02-26 01:22:34,035 - INFO - Starting text extraction from PDF: DS1_Paper\pdfs\The_Evolution_of_Large_Language_Model_Models_Applications_and_Challenges.pdf
+2025-02-26 01:22:34,036 - INFO - PDF has 8 pages
+2025-02-26 01:22:34,036 - DEBUG - Processing page 1/8
+2025-02-26 01:22:34,078 - DEBUG - Processing page 2/8
+2025-02-26 01:22:34,121 - DEBUG - Processing page 3/8
+2025-02-26 01:22:34,160 - DEBUG - Processing page 4/8
+2025-02-26 01:22:34,209 - DEBUG - Processing page 5/8
+2025-02-26 01:22:34,251 - DEBUG - Processing page 6/8
+2025-02-26 01:22:34,304 - DEBUG - Processing page 7/8
+2025-02-26 01:22:34,370 - DEBUG - Processing page 8/8
+2025-02-26 01:22:34,423 - INFO - Successfully extracted 50177 characters from PDF
+2025-02-26 01:22:34,597 - INFO - Getting LLM response
+2025-02-26 01:23:06,552 - INFO - Completed processing The_Evolution_of_Large_Language_Model_Models_Applications_and_Challenges.pdf
+2025-02-26 01:23:06,552 - INFO - Saving results to: DS1_Paper\llm_1_extracted_keywords.json
+2025-02-26 01:23:06,554 - INFO - Successfully saved results
+2025-02-26 01:23:06,554 - INFO - Process completed successfully

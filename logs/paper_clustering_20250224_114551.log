@@ -1,0 +1,80 @@
+2025-02-24 11:45:51,759 - INFO - Starting paper grouping script.
+2025-02-24 11:45:51,759 - INFO - Loading extracted keywords from DS2_APT\extracted_keywords.json
+2025-02-24 11:45:51,969 - INFO - Sending request to LLM for paper clustering...
+2025-02-24 11:46:07,906 - INFO - LLM response received.
+2025-02-24 11:46:07,906 - DEBUG - Raw LLM response:
+```json
+{
+  "Advanced Persistent Threats (APT)": [
+    "Agent.BTZ_to_ComRAT.pdf",
+    "ANALYSIS-ON-APT-TO-BE-ATTACK-THAT-FOCUSING-ON-CHINAS-GOVERNMENT-AGENCY-.pdf",
+    "Anthem_hack_all_roads_lead_to_China.pdf",
+    "apt29-hammertoss-stealthy-tactics-define-a.pdf",
+    "China_Peace_Palace.pdf",
+    "CozyDuke.pdf",
+    "Duke_cloud_Linux.pdf"
+  ],
+  "Cyber Espionage": [
+    "Anthem_hack_all_roads_lead_to_China.pdf",
+    "butterfly-corporate-spies-out-for-financial-gain.pdf",
+    "China_Peace_Palace.pdf",
+    "CozyDuke.pdf",
+    "Duke_cloud_Linux.pdf"
+  ],
+  "Malware Analysis": [
+    "Agent.BTZ_to_ComRAT.pdf",
+    "Backdoor.Winnti_Trojan.Skelky.pdf",
+    "butterfly-corporate-spies-out-for-financial-gain.pdf",
+    "dino.pdf",
+    "Dissecting-LinuxMoose.pdf",
+    "Dissecting-the-Kraken.pdf",
+    "Duke_cloud_Linux.pdf"
+  ],
+  "Nation-State Actors": [
+    "Anthem_hack_all_roads_lead_to_China.pdf",
+    "apt29-hammertoss-stealthy-tactics-define-a.pdf",
+    "China_Peace_Palace.pdf",
+    "CozyDuke.pdf",
+    "Duke_cloud_Linux.pdf"
+  ],
+  "Cybersecurity Threats in the Middle East": [
+    "Attacks against Israeli & Palestinian interests - Cyber security updates.pdf"
+  ],
+  "Corporate Espionage": [
+    "butterfly-corporate-spies-out-for-financial-gain.pdf"
+  ],
+  "Linux Malware": [
+    "Agent.BTZ_to_ComRAT.pdf",
+    "Dissecting-LinuxMoose.pdf",
+    "Duke_cloud_Linux.pdf"
+  ],
+  "Command and Control (C&C)": [
+    "Agent.BTZ_to_ComRAT.pdf",
+    "Anthem_hack_all_roads_lead_to_China.pdf",
+    "apt29-hammertoss-stealthy-tactics-define-a.pdf",
+    "Backdoor.Winnti_Trojan.Skelky.pdf",
+    "butterfly-corporate-spies-out-for-financial-gain.pdf",
+    "CozyDuke.pdf",
+    "dino.pdf",
+    "Duke_cloud_Linux.pdf"
+  ],
+  "Phishing and Social Engineering": [
+    "ANALYSIS-ON-APT-TO-BE-ATTACK-THAT-FOCUSING-ON-CHINAS-GOVERNMENT-AGENCY-.pdf",
+    "Anthem_hack_all_roads_lead_to_China.pdf",
+    "CozyDuke.pdf",
+    "Duke_cloud_Linux.pdf"
+  ],
+  "Threat Intelligence": [
+    "Anthem_hack_all_roads_lead_to_China.pdf",
+    "apt29-hammertoss-stealthy-tactics-define-a.pdf",
+    "China_Peace_Palace.pdf",
+    "CozyDuke.pdf",
+    "cto-tib-20150223-01a.pdf"
+  ]
+}
+```
+
+2025-02-24 11:46:07,909 - INFO - Successfully parsed LLM output as JSON.
+2025-02-24 11:46:07,909 - INFO - Saving grouped labels to DS2_APT\generated_labels.json
+2025-02-24 11:46:07,910 - INFO - Labels successfully saved.
+2025-02-24 11:46:07,910 - INFO - Paper grouping process completed.

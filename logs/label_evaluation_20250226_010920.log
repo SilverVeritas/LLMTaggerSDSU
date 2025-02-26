@@ -1,0 +1,82 @@
+2025-02-26 01:09:20,397 - INFO - Loaded labels from DS2_APT/llm_2_generated_labels.json
+2025-02-26 01:09:20,397 - INFO - Found 9 labels
+2025-02-26 01:09:20,398 - INFO - Found 18 PDF files
+2025-02-26 01:09:25,552 - INFO - Extracted text from 18 PDFs
+2025-02-26 01:09:25,585 - INFO - TF–IDF matrix shape: (18, 5000)
+2025-02-26 01:09:25,585 - INFO - Computing multi-label density metrics...
+2025-02-26 01:09:25,586 - DEBUG - Label 'Advanced Persistent Threats (APT)' density: 0.0678
+2025-02-26 01:09:25,587 - DEBUG - Label 'Cyber Espionage' density: 0.0919
+2025-02-26 01:09:25,588 - DEBUG - Label 'Malware Analysis' density: 0.0834
+2025-02-26 01:09:25,588 - DEBUG - Label 'State-Sponsored Attacks' density: 0.0730
+2025-02-26 01:09:25,589 - DEBUG - Label 'Command and Control (C&C)' density: 0.0752
+2025-02-26 01:09:25,589 - DEBUG - Label 'Phishing and Social Engineering' density: 0.1249
+2025-02-26 01:09:25,590 - DEBUG - Label 'Network and Infrastructure Attacks' density: 0.0732
+2025-02-26 01:09:25,590 - DEBUG - Label 'Linux and Cross-Platform Malware' density: 0.0481
+2025-02-26 01:09:25,591 - DEBUG - Label 'Corporate and Financial Espionage' density: 0.1175
+2025-02-26 01:09:25,591 - INFO - Overall average density: 0.0839
+2025-02-26 01:09:25,591 - INFO - Computing multiple coherence metrics...
+2025-02-26 01:09:25,597 - DEBUG - Label 'Advanced Persistent Threats (APT)': extracted 28572 tokens
+2025-02-26 01:09:25,604 - DEBUG - Label 'Cyber Espionage': extracted 30006 tokens
+2025-02-26 01:09:25,612 - DEBUG - Label 'Malware Analysis': extracted 36019 tokens
+2025-02-26 01:09:25,616 - DEBUG - Label 'State-Sponsored Attacks': extracted 16762 tokens
+2025-02-26 01:09:25,628 - DEBUG - Label 'Command and Control (C&C)': extracted 58164 tokens
+2025-02-26 01:09:25,630 - DEBUG - Label 'Phishing and Social Engineering': extracted 8327 tokens
+2025-02-26 01:09:25,636 - DEBUG - Label 'Network and Infrastructure Attacks': extracted 29070 tokens
+2025-02-26 01:09:25,640 - DEBUG - Label 'Linux and Cross-Platform Malware': extracted 17822 tokens
+2025-02-26 01:09:25,642 - DEBUG - Label 'Corporate and Financial Espionage': extracted 10566 tokens
+2025-02-26 01:09:25,718 - DEBUG - Created dictionary with 8320 unique tokens
+2025-02-26 01:09:25,749 - DEBUG - Label 'Advanced Persistent Threats (APT)' top words: the, of, to, and, a...
+2025-02-26 01:09:25,750 - DEBUG - Label 'Cyber Espionage' top words: the, of, to, a, and...
+2025-02-26 01:09:25,750 - DEBUG - Label 'Malware Analysis' top words: the, to, of, a, is...
+2025-02-26 01:09:25,750 - DEBUG - Label 'State-Sponsored Attacks' top words: the, of, to, a, and...
+2025-02-26 01:09:25,751 - DEBUG - Label 'Command and Control (C&C)' top words: the, to, of, a, and...
+2025-02-26 01:09:25,751 - DEBUG - Label 'Phishing and Social Engineering' top words: the, to, of, and, a...
+2025-02-26 01:09:25,752 - DEBUG - Label 'Network and Infrastructure Attacks' top words: the, of, to, a, and...
+2025-02-26 01:09:25,752 - DEBUG - Label 'Linux and Cross-Platform Malware' top words: the, to, of, is, and...
+2025-02-26 01:09:25,752 - DEBUG - Label 'Corporate and Financial Espionage' top words: the, a, to, of, and...
+2025-02-26 01:09:46,015 - INFO - Coherence (c_v): 0.3662
+2025-02-26 01:10:03,837 - INFO - Coherence (c_uci): -0.7332
+2025-02-26 01:10:21,860 - INFO - Coherence (c_npmi): -0.0374
+2025-02-26 01:10:21,863 - INFO - Computing overlap quality metrics...
+2025-02-26 01:10:21,864 - INFO - Average labels per document: 3.35
+2025-02-26 01:10:21,864 - DEBUG - Computing full distance matrix...
+2025-02-26 01:10:21,865 - INFO - Average similarity between docs sharing labels: 0.0773
+2025-02-26 01:10:21,865 - INFO - Average similarity between docs with different labels: 0.0779
+2025-02-26 01:10:21,866 - INFO - Overlap quality index: -0.0005
+2025-02-26 01:10:21,866 - INFO - Computing topic distinctiveness...
+2025-02-26 01:10:21,878 - DEBUG - Label 'Advanced Persistent Threats (APT)': processed 28572 words
+2025-02-26 01:10:21,889 - DEBUG - Label 'Cyber Espionage': processed 30006 words
+2025-02-26 01:10:21,901 - DEBUG - Label 'Malware Analysis': processed 36019 words
+2025-02-26 01:10:21,906 - DEBUG - Label 'State-Sponsored Attacks': processed 16762 words
+2025-02-26 01:10:21,924 - DEBUG - Label 'Command and Control (C&C)': processed 58164 words
+2025-02-26 01:10:21,927 - DEBUG - Label 'Phishing and Social Engineering': processed 8327 words
+2025-02-26 01:10:21,936 - DEBUG - Label 'Network and Infrastructure Attacks': processed 29070 words
+2025-02-26 01:10:21,941 - DEBUG - Label 'Linux and Cross-Platform Malware': processed 17822 words
+2025-02-26 01:10:21,945 - DEBUG - Label 'Corporate and Financial Espionage': processed 10566 words
+2025-02-26 01:10:21,963 - DEBUG - Label 'Corporate and Financial Espionage' distinctiveness: 0.2048
+2025-02-26 01:10:21,981 - DEBUG - Label 'Corporate and Financial Espionage' distinctiveness: 0.1940
+2025-02-26 01:10:22,001 - DEBUG - Label 'Corporate and Financial Espionage' distinctiveness: 0.2077
+2025-02-26 01:10:22,016 - DEBUG - Label 'Corporate and Financial Espionage' distinctiveness: 0.2629
+2025-02-26 01:10:22,036 - DEBUG - Label 'Corporate and Financial Espionage' distinctiveness: 0.1587
+2025-02-26 01:10:22,048 - DEBUG - Label 'Corporate and Financial Espionage' distinctiveness: 0.3061
+2025-02-26 01:10:22,064 - DEBUG - Label 'Corporate and Financial Espionage' distinctiveness: 0.2183
+2025-02-26 01:10:22,078 - DEBUG - Label 'Corporate and Financial Espionage' distinctiveness: 0.2694
+2025-02-26 01:10:22,091 - DEBUG - Label 'Corporate and Financial Espionage' distinctiveness: 0.2959
+2025-02-26 01:10:22,091 - INFO - Overall topic distinctiveness: 0.2959
+2025-02-26 01:10:22,092 - INFO - Computing label balance metrics...
+2025-02-26 01:10:22,092 - DEBUG - Label sizes: {'Advanced Persistent Threats (APT)': 9, 'Cyber Espionage': 7, 'Malware Analysis': 8, 'State-Sponsored Attacks': 5, 'Command and Control (C&C)': 14, 'Phishing and Social Engineering': 3, 'Network and Infrastructure Attacks': 6, 'Linux and Cross-Platform Malware': 3, 'Corporate and Financial Espionage': 2}
+2025-02-26 01:10:22,094 - INFO - Total labels: 9
+2025-02-26 01:10:22,094 - INFO - Total unique documents: 17
+2025-02-26 01:10:22,094 - INFO - Label distribution entropy: 2.9537
+2025-02-26 01:10:22,094 - INFO - Average labels per document: 3.35
+2025-02-26 01:10:22,094 - INFO - Saving results to DS2_APT/llm_3_evaluation_results.json
+2025-02-26 01:10:22,095 - INFO - Evaluation complete.
+2025-02-26 01:10:22,095 - INFO - 
+==== SUMMARY OF KEY METRICS ====
+2025-02-26 01:10:22,095 - INFO - Overall Label Density: 0.0839
+2025-02-26 01:10:22,096 - INFO - Topic Coherence (C_V): 0.3662
+2025-02-26 01:10:22,096 - INFO - Overlap Quality Index: -0.0005
+2025-02-26 01:10:22,096 - INFO - Topic Distinctiveness: 0.2959
+2025-02-26 01:10:22,096 - INFO - Label Entropy: 2.9537
+2025-02-26 01:10:22,096 - INFO - Avg Labels per Doc: 3.35
+2025-02-26 01:10:22,096 - INFO - ==============================

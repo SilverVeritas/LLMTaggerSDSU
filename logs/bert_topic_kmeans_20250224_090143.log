@@ -1,0 +1,3 @@
+2025-02-24 09:01:43,082 - INFO - Found 10 PDF files in C:\Users\Pat\Documents\VsCode\python\Tagger\DS1_Paper\pdfs
+2025-02-24 09:01:48,843 - INFO - Loading sentence-transformer model: all-MiniLM-L6-v2
+2025-02-24 09:01:52,960 - INFO - Encoding documents...

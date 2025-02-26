@@ -1,0 +1,12 @@
+{
+  "silhouette_score": -0.04620873356688583,
+  "intra_label_similarity": {
+    "0": 0.08147976479617924,
+    "1": 0.13449776741104522,
+    "2": 0.04570569357755083,
+    "3": NaN
+  },
+  "overall_avg_intra_label_similarity": 0.08722774192825844,
+  "topic_coherence": 0.3347176445227703,
+  "nmi_kmeans": 0.34763757986539934
+}

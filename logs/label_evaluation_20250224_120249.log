@@ -1,0 +1,379 @@
+2025-02-24 12:02:49,650 - INFO - Starting label evaluation script...
+2025-02-24 12:02:49,650 - INFO - Loading labels from DS3_APT2\generated_labels.json
+2025-02-24 12:02:49,650 - DEBUG - Loaded labels: {
+  "Advanced Persistent Threats (APTs)": [
+    "APT29 attacks Embassies using CVE-2023-38831 - report en.pdf",
+    "Chinese APT Targeting Cambodian Government.pdf",
+    "Dark Pink APT unleashes malware for deeper and more sinister intrusions in the Asia-Pacific and Europe _ Group-IB Blog.pdf",
+    "Flax Typhoon using legitimate software to quietly access Taiwanese organizations _ Microsoft Security Blog.pdf",
+    "From Albania to the Middle East_ The Scarred Manticore is Listening - Check Point Research.pdf",
+    "Intellexa and Cytrox_ From fixer-upper to Intel Agency-grade spyware.pdf",
+    "INTRINSEC - Emotet returns and deploys loaders.pdf",
+    "Israel-Hamas War Spotlight_ Shaking the Rust Off SysJoker - Check Point Research.pdf",
+    "Modern Asia APT groups TTPs _ Securelist.pdf",
+    "New ShroudedSnooper actor targets telecommunications firms in the Middle East with novel Implants.pdf",
+    "New SugarGh0st RAT targets Uzbekistan government and South Korea.pdf",
+    "Operation Triangulation_ The last (hardware) mystery _ Securelist.pdf",
+    "Seedworm_ Iranian Hackers Target Telecoms Orgs in North and East Africa _ Symantec Enterprise Blogs.pdf",
+    "StripedFly_ Perennially flying under the radar _ Securelist.pdf",
+    "Void Rabisu Targets Female Political Leaders with New Slimmed-Down ROMCOM Variant.pdf",
+    "Volt Typhoon targets US critical infrastructure with living-off-the-land techniques _ Microsoft Security Blog.pdf",
+    "Welcome to Goot Camp_ Tracking the Evolution of GOOTLOADER Operations _ Mandiant.pdf",
+    "WildCard_ The APT Behind SysJoker Targets Critical Sectors in Israel.pdf"
+  ],
+  "Cyber Espionage": [
+    "APT29 attacks Embassies using CVE-2023-38831 - report en.pdf",
+    "Chinese APT Targeting Cambodian Government.pdf",
+    "Dark Pink APT unleashes malware for deeper and more sinister intrusions in the Asia-Pacific and Europe _ Group-IB Blog.pdf",
+    "Flax Typhoon using legitimate software to quietly access Taiwanese organizations _ Microsoft Security Blog.pdf",
+    "From Albania to the Middle East_ The Scarred Manticore is Listening - Check Point Research.pdf",
+    "Intellexa and Cytrox_ From fixer-upper to Intel Agency-grade spyware.pdf",
+    "Israel-Hamas War Spotlight_ Shaking the Rust Off SysJoker - Check Point Research.pdf",
+    "Seedworm_ Iranian Hackers Target Telecoms Orgs in North and East Africa _ Symantec Enterprise Blogs.pdf",
+    "Void Rabisu Targets Female Political Leaders with New Slimmed-Down ROMCOM Variant.pdf",
+    "Volt Typhoon targets US critical infrastructure with living-off-the-land techniques _ Microsoft Security Blog.pdf",
+    "WildCard_ The APT Behind SysJoker Targets Critical Sectors in Israel.pdf"
+  ],
+  "Geopolitical Implications": [
+    "APT29 attacks Embassies using CVE-2023-38831 - report en.pdf",
+    "Chinese APT Targeting Cambodian Government.pdf",
+    "From Albania to the Middle East_ The Scarred Manticore is Listening - Check Point Research.pdf",
+    "Israel-Hamas War Spotlight_ Shaking the Rust Off SysJoker - Check Point Research.pdf",
+    "Seedworm_ Iranian Hackers Target Telecoms Orgs in North and East Africa _ Symantec Enterprise Blogs.pdf",
+    "Void Rabisu Targets Female Political Leaders with New Slimmed-Down ROMCOM Variant.pdf",
+    "Volt Typhoon targets US critical infrastructure with living-off-the-land techniques _ Microsoft Security Blog.pdf",
+    "WildCard_ The APT Behind SysJoker Targets Critical Sectors in Israel.pdf"
+  ],
+  "Cybersecurity Techniques and Tools": [
+    "APT29 attacks Embassies using CVE-2023-38831 - report en.pdf",
+    "Chinese APT Targeting Cambodian Government.pdf",
+    "Dark Pink APT unleashes malware for deeper and more sinister intrusions in the Asia-Pacific and Europe _ Group-IB Blog.pdf",
+    "Flax Typhoon using legitimate software to quietly access Taiwanese organizations _ Microsoft Security Blog.pdf",
+    "From Albania to the Middle East_ The Scarred Manticore is Listening - Check Point Research.pdf",
+    "INTRINSEC - Emotet returns and deploys loaders.pdf",
+    "Modern Asia APT groups TTPs _ Securelist.pdf",
+    "New ShroudedSnooper actor targets telecommunications firms in the Middle East with novel Implants.pdf",
+    "New SugarGh0st RAT targets Uzbekistan government and South Korea.pdf",
+    "Operation Triangulation_ The last (hardware) mystery _ Securelist.pdf",
+    "StripedFly_ Perennially flying under the radar _ Securelist.pdf",
+    "Volt Typhoon targets US critical infrastructure with living-off-the-land techniques _ Microsoft Security Blog.pdf",
+    "Welcome to Goot Camp_ Tracking the Evolution of GOOTLOADER Operations _ Mandiant.pdf",
+    "WildCard_ The APT Behind SysJoker Targets Critical Sectors in Israel.pdf"
+  ],
+  "Indicators of Compromise (IOCs)": [
+    "APT29 attacks Embassies using CVE-2023-38831 - report en.pdf",
+    "Chinese APT Targeting Cambodian Government.pdf",
+    "Dark Pink APT unleashes malware for deeper and more sinister intrusions in the Asia-Pacific and Europe _ Group-IB Blog.pdf",
+    "Flax Typhoon using legitimate software to quietly access Taiwanese organizations _ Microsoft Security Blog.pdf",
+    "From Albania to the Middle East_ The Scarred Manticore is Listening - Check Point Research.pdf",
+    "Intellexa and Cytrox_ From fixer-upper to Intel Agency-grade spyware.pdf",
+    "INTRINSEC - Emotet returns and deploys loaders.pdf",
+    "Israel-Hamas War Spotlight_ Shaking the Rust Off SysJoker - Check Point Research.pdf",
+    "New ShroudedSnooper actor targets telecommunications firms in the Middle East with novel Implants.pdf",
+    "New SugarGh0st RAT targets Uzbekistan government and South Korea.pdf",
+    "Seedworm_ Iranian Hackers Target Telecoms Orgs in North and East Africa _ Symantec Enterprise Blogs.pdf",
+    "StripedFly_ Perennially flying under the radar _ Securelist.pdf",
+    "Void Rabisu Targets Female Political Leaders with New Slimmed-Down ROMCOM Variant.pdf",
+    "Volt Typhoon targets US critical infrastructure with living-off-the-land techniques _ Microsoft Security Blog.pdf",
+    "Welcome to Goot Camp_ Tracking the Evolution of GOOTLOADER Operations _ Mandiant.pdf",
+    "WildCard_ The APT Behind SysJoker Targets Critical Sectors in Israel.pdf"
+  ],
+  "Malware and Exploits": [
+    "Dark Pink APT unleashes malware for deeper and more sinister intrusions in the Asia-Pacific and Europe _ Group-IB Blog.pdf",
+    "Flax Typhoon using legitimate software to quietly access Taiwanese organizations _ Microsoft Security Blog.pdf",
+    "From Albania to the Middle East_ The Scarred Manticore is Listening - Check Point Research.pdf",
+    "Intellexa and Cytrox_ From fixer-upper to Intel Agency-grade spyware.pdf",
+    "INTRINSEC - Emotet returns and deploys loaders.pdf",
+    "Israel-Hamas War Spotlight_ Shaking the Rust Off SysJoker - Check Point Research.pdf",
+    "Operation Triangulation_ The last (hardware) mystery _ Securelist.pdf",
+    "StripedFly_ Perennially flying under the radar _ Securelist.pdf",
+    "Void Rabisu Targets Female Political Leaders with New Slimmed-Down ROMCOM Variant.pdf",
+    "Welcome to Goot Camp_ Tracking the Evolution of GOOTLOADER Operations _ Mandiant.pdf",
+    "WildCard_ The APT Behind SysJoker Targets Critical Sectors in Israel.pdf"
+  ]
+}
+2025-02-24 12:02:49,650 - INFO - Found 18 PDF files in DS3_APT2\APT.
+2025-02-24 12:02:49,651 - INFO - Extracting text from PDF: DS3_APT2\APT\APT29 attacks Embassies using CVE-2023-38831 - report en.pdf
+2025-02-24 12:02:49,652 - DEBUG - DS3_APT2\APT\APT29 attacks Embassies using CVE-2023-38831 - report en.pdf: PDF has 10 pages.
+2025-02-24 12:02:49,653 - DEBUG - DS3_APT2\APT\APT29 attacks Embassies using CVE-2023-38831 - report en.pdf: Extracted text length from page 1: 0 chars
+2025-02-24 12:02:49,674 - DEBUG - DS3_APT2\APT\APT29 attacks Embassies using CVE-2023-38831 - report en.pdf: Extracted text length from page 2: 1118 chars
+2025-02-24 12:02:49,686 - DEBUG - DS3_APT2\APT\APT29 attacks Embassies using CVE-2023-38831 - report en.pdf: Extracted text length from page 3: 656 chars
+2025-02-24 12:02:49,709 - DEBUG - DS3_APT2\APT\APT29 attacks Embassies using CVE-2023-38831 - report en.pdf: Extracted text length from page 4: 1505 chars
+2025-02-24 12:02:49,731 - DEBUG - DS3_APT2\APT\APT29 attacks Embassies using CVE-2023-38831 - report en.pdf: Extracted text length from page 5: 1330 chars
+2025-02-24 12:02:49,766 - DEBUG - DS3_APT2\APT\APT29 attacks Embassies using CVE-2023-38831 - report en.pdf: Extracted text length from page 6: 978 chars
+2025-02-24 12:02:49,790 - DEBUG - DS3_APT2\APT\APT29 attacks Embassies using CVE-2023-38831 - report en.pdf: Extracted text length from page 7: 1508 chars
+2025-02-24 12:02:49,807 - DEBUG - DS3_APT2\APT\APT29 attacks Embassies using CVE-2023-38831 - report en.pdf: Extracted text length from page 8: 1142 chars
+2025-02-24 12:02:49,825 - DEBUG - DS3_APT2\APT\APT29 attacks Embassies using CVE-2023-38831 - report en.pdf: Extracted text length from page 9: 1269 chars
+2025-02-24 12:02:49,829 - DEBUG - DS3_APT2\APT\APT29 attacks Embassies using CVE-2023-38831 - report en.pdf: Extracted text length from page 10: 777 chars
+2025-02-24 12:02:49,829 - INFO - Finished extracting text from DS3_APT2\APT\APT29 attacks Embassies using CVE-2023-38831 - report en.pdf. Total length: 10292 characters.
+2025-02-24 12:02:49,829 - INFO - Extracting text from PDF: DS3_APT2\APT\Chinese APT Targeting Cambodian Government.pdf
+2025-02-24 12:02:49,831 - DEBUG - DS3_APT2\APT\Chinese APT Targeting Cambodian Government.pdf: PDF has 9 pages.
+2025-02-24 12:02:49,844 - DEBUG - DS3_APT2\APT\Chinese APT Targeting Cambodian Government.pdf: Extracted text length from page 1: 1295 chars
+2025-02-24 12:02:49,851 - DEBUG - DS3_APT2\APT\Chinese APT Targeting Cambodian Government.pdf: Extracted text length from page 2: 1739 chars
+2025-02-24 12:02:49,857 - DEBUG - DS3_APT2\APT\Chinese APT Targeting Cambodian Government.pdf: Extracted text length from page 3: 799 chars
+2025-02-24 12:02:49,860 - DEBUG - DS3_APT2\APT\Chinese APT Targeting Cambodian Government.pdf: Extracted text length from page 4: 460 chars
+2025-02-24 12:02:49,869 - DEBUG - DS3_APT2\APT\Chinese APT Targeting Cambodian Government.pdf: Extracted text length from page 5: 1854 chars
+2025-02-24 12:02:49,874 - DEBUG - DS3_APT2\APT\Chinese APT Targeting Cambodian Government.pdf: Extracted text length from page 6: 1393 chars
+2025-02-24 12:02:49,880 - DEBUG - DS3_APT2\APT\Chinese APT Targeting Cambodian Government.pdf: Extracted text length from page 7: 1932 chars
+2025-02-24 12:02:49,890 - DEBUG - DS3_APT2\APT\Chinese APT Targeting Cambodian Government.pdf: Extracted text length from page 8: 1956 chars
+2025-02-24 12:02:49,897 - DEBUG - DS3_APT2\APT\Chinese APT Targeting Cambodian Government.pdf: Extracted text length from page 9: 551 chars
+2025-02-24 12:02:49,897 - INFO - Finished extracting text from DS3_APT2\APT\Chinese APT Targeting Cambodian Government.pdf. Total length: 11987 characters.
+2025-02-24 12:02:49,898 - INFO - Extracting text from PDF: DS3_APT2\APT\Dark Pink APT unleashes malware for deeper and more sinister intrusions in the Asia-Pacific and Europe _ Group-IB Blog.pdf
+2025-02-24 12:02:49,900 - DEBUG - DS3_APT2\APT\Dark Pink APT unleashes malware for deeper and more sinister intrusions in the Asia-Pacific and Europe _ Group-IB Blog.pdf: PDF has 22 pages.
+2025-02-24 12:02:49,911 - DEBUG - DS3_APT2\APT\Dark Pink APT unleashes malware for deeper and more sinister intrusions in the Asia-Pacific and Europe _ Group-IB Blog.pdf: Extracted text length from page 1: 2817 chars
+2025-02-24 12:02:49,923 - DEBUG - DS3_APT2\APT\Dark Pink APT unleashes malware for deeper and more sinister intrusions in the Asia-Pacific and Europe _ Group-IB Blog.pdf: Extracted text length from page 2: 3058 chars
+2025-02-24 12:02:49,934 - DEBUG - DS3_APT2\APT\Dark Pink APT unleashes malware for deeper and more sinister intrusions in the Asia-Pacific and Europe _ Group-IB Blog.pdf: Extracted text length from page 3: 3101 chars
+2025-02-24 12:02:49,942 - DEBUG - DS3_APT2\APT\Dark Pink APT unleashes malware for deeper and more sinister intrusions in the Asia-Pacific and Europe _ Group-IB Blog.pdf: Extracted text length from page 4: 2739 chars
+2025-02-24 12:02:49,951 - DEBUG - DS3_APT2\APT\Dark Pink APT unleashes malware for deeper and more sinister intrusions in the Asia-Pacific and Europe _ Group-IB Blog.pdf: Extracted text length from page 5: 3270 chars
+2025-02-24 12:02:49,961 - DEBUG - DS3_APT2\APT\Dark Pink APT unleashes malware for deeper and more sinister intrusions in the Asia-Pacific and Europe _ Group-IB Blog.pdf: Extracted text length from page 6: 2806 chars
+2025-02-24 12:02:49,969 - DEBUG - DS3_APT2\APT\Dark Pink APT unleashes malware for deeper and more sinister intrusions in the Asia-Pacific and Europe _ Group-IB Blog.pdf: Extracted text length from page 7: 3024 chars
+2025-02-24 12:02:49,977 - DEBUG - DS3_APT2\APT\Dark Pink APT unleashes malware for deeper and more sinister intrusions in the Asia-Pacific and Europe _ Group-IB Blog.pdf: Extracted text length from page 8: 2835 chars
+2025-02-24 12:02:49,985 - DEBUG - DS3_APT2\APT\Dark Pink APT unleashes malware for deeper and more sinister intrusions in the Asia-Pacific and Europe _ Group-IB Blog.pdf: Extracted text length from page 9: 3125 chars
+2025-02-24 12:02:49,997 - DEBUG - DS3_APT2\APT\Dark Pink APT unleashes malware for deeper and more sinister intrusions in the Asia-Pacific and Europe _ Group-IB Blog.pdf: Extracted text length from page 10: 2541 chars
+2025-02-24 12:02:50,036 - DEBUG - DS3_APT2\APT\Dark Pink APT unleashes malware for deeper and more sinister intrusions in the Asia-Pacific and Europe _ Group-IB Blog.pdf: Extracted text length from page 11: 2712 chars
+2025-02-24 12:02:50,046 - DEBUG - DS3_APT2\APT\Dark Pink APT unleashes malware for deeper and more sinister intrusions in the Asia-Pacific and Europe _ Group-IB Blog.pdf: Extracted text length from page 12: 2162 chars
+2025-02-24 12:02:50,053 - DEBUG - DS3_APT2\APT\Dark Pink APT unleashes malware for deeper and more sinister intrusions in the Asia-Pacific and Europe _ Group-IB Blog.pdf: Extracted text length from page 13: 2649 chars
+2025-02-24 12:02:50,063 - DEBUG - DS3_APT2\APT\Dark Pink APT unleashes malware for deeper and more sinister intrusions in the Asia-Pacific and Europe _ Group-IB Blog.pdf: Extracted text length from page 14: 2576 chars
+2025-02-24 12:02:50,079 - DEBUG - DS3_APT2\APT\Dark Pink APT unleashes malware for deeper and more sinister intrusions in the Asia-Pacific and Europe _ Group-IB Blog.pdf: Extracted text length from page 15: 2438 chars
+2025-02-24 12:02:50,087 - DEBUG - DS3_APT2\APT\Dark Pink APT unleashes malware for deeper and more sinister intrusions in the Asia-Pacific and Europe _ Group-IB Blog.pdf: Extracted text length from page 16: 2819 chars
+2025-02-24 12:02:50,093 - DEBUG - DS3_APT2\APT\Dark Pink APT unleashes malware for deeper and more sinister intrusions in the Asia-Pacific and Europe _ Group-IB Blog.pdf: Extracted text length from page 17: 1810 chars
+2025-02-24 12:02:50,098 - DEBUG - DS3_APT2\APT\Dark Pink APT unleashes malware for deeper and more sinister intrusions in the Asia-Pacific and Europe _ Group-IB Blog.pdf: Extracted text length from page 18: 1853 chars
+2025-02-24 12:02:50,121 - DEBUG - DS3_APT2\APT\Dark Pink APT unleashes malware for deeper and more sinister intrusions in the Asia-Pacific and Europe _ Group-IB Blog.pdf: Extracted text length from page 19: 2079 chars
+2025-02-24 12:02:50,140 - DEBUG - DS3_APT2\APT\Dark Pink APT unleashes malware for deeper and more sinister intrusions in the Asia-Pacific and Europe _ Group-IB Blog.pdf: Extracted text length from page 20: 1751 chars
+2025-02-24 12:02:50,157 - DEBUG - DS3_APT2\APT\Dark Pink APT unleashes malware for deeper and more sinister intrusions in the Asia-Pacific and Europe _ Group-IB Blog.pdf: Extracted text length from page 21: 1525 chars
+2025-02-24 12:02:50,174 - DEBUG - DS3_APT2\APT\Dark Pink APT unleashes malware for deeper and more sinister intrusions in the Asia-Pacific and Europe _ Group-IB Blog.pdf: Extracted text length from page 22: 1701 chars
+2025-02-24 12:02:50,174 - INFO - Finished extracting text from DS3_APT2\APT\Dark Pink APT unleashes malware for deeper and more sinister intrusions in the Asia-Pacific and Europe _ Group-IB Blog.pdf. Total length: 55412 characters.
+2025-02-24 12:02:50,174 - INFO - Extracting text from PDF: DS3_APT2\APT\Flax Typhoon using legitimate software to quietly access Taiwanese organizations _ Microsoft Security Blog.pdf
+2025-02-24 12:02:50,177 - DEBUG - DS3_APT2\APT\Flax Typhoon using legitimate software to quietly access Taiwanese organizations _ Microsoft Security Blog.pdf: PDF has 12 pages.
+2025-02-24 12:02:50,188 - DEBUG - DS3_APT2\APT\Flax Typhoon using legitimate software to quietly access Taiwanese organizations _ Microsoft Security Blog.pdf: Extracted text length from page 1: 2752 chars
+2025-02-24 12:02:50,198 - DEBUG - DS3_APT2\APT\Flax Typhoon using legitimate software to quietly access Taiwanese organizations _ Microsoft Security Blog.pdf: Extracted text length from page 2: 2328 chars
+2025-02-24 12:02:50,209 - DEBUG - DS3_APT2\APT\Flax Typhoon using legitimate software to quietly access Taiwanese organizations _ Microsoft Security Blog.pdf: Extracted text length from page 3: 2860 chars
+2025-02-24 12:02:50,219 - DEBUG - DS3_APT2\APT\Flax Typhoon using legitimate software to quietly access Taiwanese organizations _ Microsoft Security Blog.pdf: Extracted text length from page 4: 3037 chars
+2025-02-24 12:02:50,228 - DEBUG - DS3_APT2\APT\Flax Typhoon using legitimate software to quietly access Taiwanese organizations _ Microsoft Security Blog.pdf: Extracted text length from page 5: 2500 chars
+2025-02-24 12:02:50,241 - DEBUG - DS3_APT2\APT\Flax Typhoon using legitimate software to quietly access Taiwanese organizations _ Microsoft Security Blog.pdf: Extracted text length from page 6: 3160 chars
+2025-02-24 12:02:50,251 - DEBUG - DS3_APT2\APT\Flax Typhoon using legitimate software to quietly access Taiwanese organizations _ Microsoft Security Blog.pdf: Extracted text length from page 7: 1554 chars
+2025-02-24 12:02:50,258 - DEBUG - DS3_APT2\APT\Flax Typhoon using legitimate software to quietly access Taiwanese organizations _ Microsoft Security Blog.pdf: Extracted text length from page 8: 1611 chars
+2025-02-24 12:02:50,264 - DEBUG - DS3_APT2\APT\Flax Typhoon using legitimate software to quietly access Taiwanese organizations _ Microsoft Security Blog.pdf: Extracted text length from page 9: 1409 chars
+2025-02-24 12:02:50,297 - DEBUG - DS3_APT2\APT\Flax Typhoon using legitimate software to quietly access Taiwanese organizations _ Microsoft Security Blog.pdf: Extracted text length from page 10: 1994 chars
+2025-02-24 12:02:50,308 - DEBUG - DS3_APT2\APT\Flax Typhoon using legitimate software to quietly access Taiwanese organizations _ Microsoft Security Blog.pdf: Extracted text length from page 11: 1957 chars
+2025-02-24 12:02:50,316 - DEBUG - DS3_APT2\APT\Flax Typhoon using legitimate software to quietly access Taiwanese organizations _ Microsoft Security Blog.pdf: Extracted text length from page 12: 847 chars
+2025-02-24 12:02:50,316 - INFO - Finished extracting text from DS3_APT2\APT\Flax Typhoon using legitimate software to quietly access Taiwanese organizations _ Microsoft Security Blog.pdf. Total length: 26020 characters.
+2025-02-24 12:02:50,316 - INFO - Extracting text from PDF: DS3_APT2\APT\From Albania to the Middle East_ The Scarred Manticore is Listening - Check Point Research.pdf
+2025-02-24 12:02:50,319 - DEBUG - DS3_APT2\APT\From Albania to the Middle East_ The Scarred Manticore is Listening - Check Point Research.pdf: PDF has 21 pages.
+2025-02-24 12:02:50,333 - DEBUG - DS3_APT2\APT\From Albania to the Middle East_ The Scarred Manticore is Listening - Check Point Research.pdf: Extracted text length from page 1: 2868 chars
+2025-02-24 12:02:50,342 - DEBUG - DS3_APT2\APT\From Albania to the Middle East_ The Scarred Manticore is Listening - Check Point Research.pdf: Extracted text length from page 2: 3014 chars
+2025-02-24 12:02:50,350 - DEBUG - DS3_APT2\APT\From Albania to the Middle East_ The Scarred Manticore is Listening - Check Point Research.pdf: Extracted text length from page 3: 1630 chars
+2025-02-24 12:02:50,358 - DEBUG - DS3_APT2\APT\From Albania to the Middle East_ The Scarred Manticore is Listening - Check Point Research.pdf: Extracted text length from page 4: 2262 chars
+2025-02-24 12:02:50,367 - DEBUG - DS3_APT2\APT\From Albania to the Middle East_ The Scarred Manticore is Listening - Check Point Research.pdf: Extracted text length from page 5: 2733 chars
+2025-02-24 12:02:50,373 - DEBUG - DS3_APT2\APT\From Albania to the Middle East_ The Scarred Manticore is Listening - Check Point Research.pdf: Extracted text length from page 6: 1036 chars
+2025-02-24 12:02:50,380 - DEBUG - DS3_APT2\APT\From Albania to the Middle East_ The Scarred Manticore is Listening - Check Point Research.pdf: Extracted text length from page 7: 1360 chars
+2025-02-24 12:02:50,387 - DEBUG - DS3_APT2\APT\From Albania to the Middle East_ The Scarred Manticore is Listening - Check Point Research.pdf: Extracted text length from page 8: 1814 chars
+2025-02-24 12:02:50,394 - DEBUG - DS3_APT2\APT\From Albania to the Middle East_ The Scarred Manticore is Listening - Check Point Research.pdf: Extracted text length from page 9: 1538 chars
+2025-02-24 12:02:50,404 - DEBUG - DS3_APT2\APT\From Albania to the Middle East_ The Scarred Manticore is Listening - Check Point Research.pdf: Extracted text length from page 10: 1916 chars
+2025-02-24 12:02:50,411 - DEBUG - DS3_APT2\APT\From Albania to the Middle East_ The Scarred Manticore is Listening - Check Point Research.pdf: Extracted text length from page 11: 1534 chars
+2025-02-24 12:02:50,418 - DEBUG - DS3_APT2\APT\From Albania to the Middle East_ The Scarred Manticore is Listening - Check Point Research.pdf: Extracted text length from page 12: 2141 chars
+2025-02-24 12:02:50,423 - DEBUG - DS3_APT2\APT\From Albania to the Middle East_ The Scarred Manticore is Listening - Check Point Research.pdf: Extracted text length from page 13: 1002 chars
+2025-02-24 12:02:50,434 - DEBUG - DS3_APT2\APT\From Albania to the Middle East_ The Scarred Manticore is Listening - Check Point Research.pdf: Extracted text length from page 14: 2362 chars
+2025-02-24 12:02:50,442 - DEBUG - DS3_APT2\APT\From Albania to the Middle East_ The Scarred Manticore is Listening - Check Point Research.pdf: Extracted text length from page 15: 2267 chars
+2025-02-24 12:02:50,450 - DEBUG - DS3_APT2\APT\From Albania to the Middle East_ The Scarred Manticore is Listening - Check Point Research.pdf: Extracted text length from page 16: 2302 chars
+2025-02-24 12:02:50,458 - DEBUG - DS3_APT2\APT\From Albania to the Middle East_ The Scarred Manticore is Listening - Check Point Research.pdf: Extracted text length from page 17: 2271 chars
+2025-02-24 12:02:50,466 - DEBUG - DS3_APT2\APT\From Albania to the Middle East_ The Scarred Manticore is Listening - Check Point Research.pdf: Extracted text length from page 18: 2159 chars
+2025-02-24 12:02:50,475 - DEBUG - DS3_APT2\APT\From Albania to the Middle East_ The Scarred Manticore is Listening - Check Point Research.pdf: Extracted text length from page 19: 2690 chars
+2025-02-24 12:02:50,481 - DEBUG - DS3_APT2\APT\From Albania to the Middle East_ The Scarred Manticore is Listening - Check Point Research.pdf: Extracted text length from page 20: 2026 chars
+2025-02-24 12:02:50,497 - DEBUG - DS3_APT2\APT\From Albania to the Middle East_ The Scarred Manticore is Listening - Check Point Research.pdf: Extracted text length from page 21: 1429 chars
+2025-02-24 12:02:50,497 - INFO - Finished extracting text from DS3_APT2\APT\From Albania to the Middle East_ The Scarred Manticore is Listening - Check Point Research.pdf. Total length: 42374 characters.
+2025-02-24 12:02:50,498 - INFO - Extracting text from PDF: DS3_APT2\APT\Intellexa and Cytrox_ From fixer-upper to Intel Agency-grade spyware.pdf
+2025-02-24 12:02:50,499 - DEBUG - DS3_APT2\APT\Intellexa and Cytrox_ From fixer-upper to Intel Agency-grade spyware.pdf: PDF has 12 pages.
+2025-02-24 12:02:50,509 - DEBUG - DS3_APT2\APT\Intellexa and Cytrox_ From fixer-upper to Intel Agency-grade spyware.pdf: Extracted text length from page 1: 1193 chars
+2025-02-24 12:02:50,520 - DEBUG - DS3_APT2\APT\Intellexa and Cytrox_ From fixer-upper to Intel Agency-grade spyware.pdf: Extracted text length from page 2: 2925 chars
+2025-02-24 12:02:50,525 - DEBUG - DS3_APT2\APT\Intellexa and Cytrox_ From fixer-upper to Intel Agency-grade spyware.pdf: Extracted text length from page 3: 1759 chars
+2025-02-24 12:02:50,529 - DEBUG - DS3_APT2\APT\Intellexa and Cytrox_ From fixer-upper to Intel Agency-grade spyware.pdf: Extracted text length from page 4: 545 chars
+2025-02-24 12:02:50,534 - DEBUG - DS3_APT2\APT\Intellexa and Cytrox_ From fixer-upper to Intel Agency-grade spyware.pdf: Extracted text length from page 5: 937 chars
+2025-02-24 12:02:50,538 - DEBUG - DS3_APT2\APT\Intellexa and Cytrox_ From fixer-upper to Intel Agency-grade spyware.pdf: Extracted text length from page 6: 974 chars
+2025-02-24 12:02:50,544 - DEBUG - DS3_APT2\APT\Intellexa and Cytrox_ From fixer-upper to Intel Agency-grade spyware.pdf: Extracted text length from page 7: 1558 chars
+2025-02-24 12:02:50,549 - DEBUG - DS3_APT2\APT\Intellexa and Cytrox_ From fixer-upper to Intel Agency-grade spyware.pdf: Extracted text length from page 8: 1617 chars
+2025-02-24 12:02:50,553 - DEBUG - DS3_APT2\APT\Intellexa and Cytrox_ From fixer-upper to Intel Agency-grade spyware.pdf: Extracted text length from page 9: 1177 chars
+2025-02-24 12:02:50,559 - DEBUG - DS3_APT2\APT\Intellexa and Cytrox_ From fixer-upper to Intel Agency-grade spyware.pdf: Extracted text length from page 10: 1914 chars
+2025-02-24 12:02:50,566 - DEBUG - DS3_APT2\APT\Intellexa and Cytrox_ From fixer-upper to Intel Agency-grade spyware.pdf: Extracted text length from page 11: 3122 chars
+2025-02-24 12:02:50,570 - DEBUG - DS3_APT2\APT\Intellexa and Cytrox_ From fixer-upper to Intel Agency-grade spyware.pdf: Extracted text length from page 12: 731 chars
+2025-02-24 12:02:50,570 - INFO - Finished extracting text from DS3_APT2\APT\Intellexa and Cytrox_ From fixer-upper to Intel Agency-grade spyware.pdf. Total length: 18463 characters.
+2025-02-24 12:02:50,570 - INFO - Extracting text from PDF: DS3_APT2\APT\INTRINSEC - Emotet returns and deploys loaders.pdf
+2025-02-24 12:02:50,571 - DEBUG - DS3_APT2\APT\INTRINSEC - Emotet returns and deploys loaders.pdf: PDF has 6 pages.
+2025-02-24 12:02:50,610 - DEBUG - DS3_APT2\APT\INTRINSEC - Emotet returns and deploys loaders.pdf: Extracted text length from page 1: 5641 chars
+2025-02-24 12:02:50,621 - DEBUG - DS3_APT2\APT\INTRINSEC - Emotet returns and deploys loaders.pdf: Extracted text length from page 2: 4717 chars
+2025-02-24 12:02:50,631 - DEBUG - DS3_APT2\APT\INTRINSEC - Emotet returns and deploys loaders.pdf: Extracted text length from page 3: 4327 chars
+2025-02-24 12:02:50,643 - DEBUG - DS3_APT2\APT\INTRINSEC - Emotet returns and deploys loaders.pdf: Extracted text length from page 4: 3686 chars
+2025-02-24 12:02:50,652 - DEBUG - DS3_APT2\APT\INTRINSEC - Emotet returns and deploys loaders.pdf: Extracted text length from page 5: 4206 chars
+2025-02-24 12:02:50,661 - DEBUG - DS3_APT2\APT\INTRINSEC - Emotet returns and deploys loaders.pdf: Extracted text length from page 6: 4458 chars
+2025-02-24 12:02:50,661 - INFO - Finished extracting text from DS3_APT2\APT\INTRINSEC - Emotet returns and deploys loaders.pdf. Total length: 27040 characters.
+2025-02-24 12:02:50,662 - INFO - Extracting text from PDF: DS3_APT2\APT\Israel-Hamas War Spotlight_ Shaking the Rust Off SysJoker - Check Point Research.pdf
+2025-02-24 12:02:50,663 - DEBUG - DS3_APT2\APT\Israel-Hamas War Spotlight_ Shaking the Rust Off SysJoker - Check Point Research.pdf: PDF has 8 pages.
+2025-02-24 12:02:50,676 - DEBUG - DS3_APT2\APT\Israel-Hamas War Spotlight_ Shaking the Rust Off SysJoker - Check Point Research.pdf: Extracted text length from page 1: 3402 chars
+2025-02-24 12:02:50,688 - DEBUG - DS3_APT2\APT\Israel-Hamas War Spotlight_ Shaking the Rust Off SysJoker - Check Point Research.pdf: Extracted text length from page 2: 3072 chars
+2025-02-24 12:02:50,703 - DEBUG - DS3_APT2\APT\Israel-Hamas War Spotlight_ Shaking the Rust Off SysJoker - Check Point Research.pdf: Extracted text length from page 3: 4512 chars
+2025-02-24 12:02:50,715 - DEBUG - DS3_APT2\APT\Israel-Hamas War Spotlight_ Shaking the Rust Off SysJoker - Check Point Research.pdf: Extracted text length from page 4: 4126 chars
+2025-02-24 12:02:50,729 - DEBUG - DS3_APT2\APT\Israel-Hamas War Spotlight_ Shaking the Rust Off SysJoker - Check Point Research.pdf: Extracted text length from page 5: 3751 chars
+2025-02-24 12:02:50,738 - DEBUG - DS3_APT2\APT\Israel-Hamas War Spotlight_ Shaking the Rust Off SysJoker - Check Point Research.pdf: Extracted text length from page 6: 3021 chars
+2025-02-24 12:02:50,741 - DEBUG - DS3_APT2\APT\Israel-Hamas War Spotlight_ Shaking the Rust Off SysJoker - Check Point Research.pdf: Extracted text length from page 7: 268 chars
+2025-02-24 12:02:50,745 - DEBUG - DS3_APT2\APT\Israel-Hamas War Spotlight_ Shaking the Rust Off SysJoker - Check Point Research.pdf: Extracted text length from page 8: 546 chars
+2025-02-24 12:02:50,745 - INFO - Finished extracting text from DS3_APT2\APT\Israel-Hamas War Spotlight_ Shaking the Rust Off SysJoker - Check Point Research.pdf. Total length: 22705 characters.
+2025-02-24 12:02:50,746 - INFO - Extracting text from PDF: DS3_APT2\APT\Modern Asia APT groups TTPs _ Securelist.pdf
+2025-02-24 12:02:50,748 - DEBUG - DS3_APT2\APT\Modern Asia APT groups TTPs _ Securelist.pdf: PDF has 7 pages.
+2025-02-24 12:02:50,757 - DEBUG - DS3_APT2\APT\Modern Asia APT groups TTPs _ Securelist.pdf: Extracted text length from page 1: 1022 chars
+2025-02-24 12:02:50,766 - DEBUG - DS3_APT2\APT\Modern Asia APT groups TTPs _ Securelist.pdf: Extracted text length from page 2: 2500 chars
+2025-02-24 12:02:50,775 - DEBUG - DS3_APT2\APT\Modern Asia APT groups TTPs _ Securelist.pdf: Extracted text length from page 3: 1898 chars
+2025-02-24 12:02:50,781 - DEBUG - DS3_APT2\APT\Modern Asia APT groups TTPs _ Securelist.pdf: Extracted text length from page 4: 819 chars
+2025-02-24 12:02:50,787 - DEBUG - DS3_APT2\APT\Modern Asia APT groups TTPs _ Securelist.pdf: Extracted text length from page 5: 372 chars
+2025-02-24 12:02:50,791 - DEBUG - DS3_APT2\APT\Modern Asia APT groups TTPs _ Securelist.pdf: Extracted text length from page 6: 1093 chars
+2025-02-24 12:02:50,792 - DEBUG - DS3_APT2\APT\Modern Asia APT groups TTPs _ Securelist.pdf: Extracted text length from page 7: 120 chars
+2025-02-24 12:02:50,792 - INFO - Finished extracting text from DS3_APT2\APT\Modern Asia APT groups TTPs _ Securelist.pdf. Total length: 7830 characters.
+2025-02-24 12:02:50,793 - INFO - Extracting text from PDF: DS3_APT2\APT\New ShroudedSnooper actor targets telecommunications firms in the Middle East with novel Implants.pdf
+2025-02-24 12:02:50,794 - DEBUG - DS3_APT2\APT\New ShroudedSnooper actor targets telecommunications firms in the Middle East with novel Implants.pdf: PDF has 12 pages.
+2025-02-24 12:02:50,802 - DEBUG - DS3_APT2\APT\New ShroudedSnooper actor targets telecommunications firms in the Middle East with novel Implants.pdf: Extracted text length from page 1: 1076 chars
+2025-02-24 12:02:50,811 - DEBUG - DS3_APT2\APT\New ShroudedSnooper actor targets telecommunications firms in the Middle East with novel Implants.pdf: Extracted text length from page 2: 2994 chars
+2025-02-24 12:02:50,818 - DEBUG - DS3_APT2\APT\New ShroudedSnooper actor targets telecommunications firms in the Middle East with novel Implants.pdf: Extracted text length from page 3: 2148 chars
+2025-02-24 12:02:50,826 - DEBUG - DS3_APT2\APT\New ShroudedSnooper actor targets telecommunications firms in the Middle East with novel Implants.pdf: Extracted text length from page 4: 2200 chars
+2025-02-24 12:02:50,834 - DEBUG - DS3_APT2\APT\New ShroudedSnooper actor targets telecommunications firms in the Middle East with novel Implants.pdf: Extracted text length from page 5: 2838 chars
+2025-02-24 12:02:50,838 - DEBUG - DS3_APT2\APT\New ShroudedSnooper actor targets telecommunications firms in the Middle East with novel Implants.pdf: Extracted text length from page 6: 641 chars
+2025-02-24 12:02:50,844 - DEBUG - DS3_APT2\APT\New ShroudedSnooper actor targets telecommunications firms in the Middle East with novel Implants.pdf: Extracted text length from page 7: 2271 chars
+2025-02-24 12:02:50,846 - DEBUG - DS3_APT2\APT\New ShroudedSnooper actor targets telecommunications firms in the Middle East with novel Implants.pdf: Extracted text length from page 8: 185 chars
+2025-02-24 12:02:50,851 - DEBUG - DS3_APT2\APT\New ShroudedSnooper actor targets telecommunications firms in the Middle East with novel Implants.pdf: Extracted text length from page 9: 992 chars
+2025-02-24 12:02:50,855 - DEBUG - DS3_APT2\APT\New ShroudedSnooper actor targets telecommunications firms in the Middle East with novel Implants.pdf: Extracted text length from page 10: 778 chars
+2025-02-24 12:02:50,862 - DEBUG - DS3_APT2\APT\New ShroudedSnooper actor targets telecommunications firms in the Middle East with novel Implants.pdf: Extracted text length from page 11: 1893 chars
+2025-02-24 12:02:50,865 - DEBUG - DS3_APT2\APT\New ShroudedSnooper actor targets telecommunications firms in the Middle East with novel Implants.pdf: Extracted text length from page 12: 386 chars
+2025-02-24 12:02:50,865 - INFO - Finished extracting text from DS3_APT2\APT\New ShroudedSnooper actor targets telecommunications firms in the Middle East with novel Implants.pdf. Total length: 18413 characters.
+2025-02-24 12:02:50,865 - INFO - Extracting text from PDF: DS3_APT2\APT\New SugarGh0st RAT targets Uzbekistan government and South Korea.pdf
+2025-02-24 12:02:50,868 - DEBUG - DS3_APT2\APT\New SugarGh0st RAT targets Uzbekistan government and South Korea.pdf: PDF has 19 pages.
+2025-02-24 12:02:50,876 - DEBUG - DS3_APT2\APT\New SugarGh0st RAT targets Uzbekistan government and South Korea.pdf: Extracted text length from page 1: 1210 chars
+2025-02-24 12:02:50,882 - DEBUG - DS3_APT2\APT\New SugarGh0st RAT targets Uzbekistan government and South Korea.pdf: Extracted text length from page 2: 1403 chars
+2025-02-24 12:02:50,895 - DEBUG - DS3_APT2\APT\New SugarGh0st RAT targets Uzbekistan government and South Korea.pdf: Extracted text length from page 3: 1442 chars
+2025-02-24 12:02:50,903 - DEBUG - DS3_APT2\APT\New SugarGh0st RAT targets Uzbekistan government and South Korea.pdf: Extracted text length from page 4: 2889 chars
+2025-02-24 12:02:50,907 - DEBUG - DS3_APT2\APT\New SugarGh0st RAT targets Uzbekistan government and South Korea.pdf: Extracted text length from page 5: 901 chars
+2025-02-24 12:02:50,911 - DEBUG - DS3_APT2\APT\New SugarGh0st RAT targets Uzbekistan government and South Korea.pdf: Extracted text length from page 6: 852 chars
+2025-02-24 12:02:50,915 - DEBUG - DS3_APT2\APT\New SugarGh0st RAT targets Uzbekistan government and South Korea.pdf: Extracted text length from page 7: 821 chars
+2025-02-24 12:02:50,919 - DEBUG - DS3_APT2\APT\New SugarGh0st RAT targets Uzbekistan government and South Korea.pdf: Extracted text length from page 8: 1000 chars
+2025-02-24 12:02:50,925 - DEBUG - DS3_APT2\APT\New SugarGh0st RAT targets Uzbekistan government and South Korea.pdf: Extracted text length from page 9: 1774 chars
+2025-02-24 12:02:50,929 - DEBUG - DS3_APT2\APT\New SugarGh0st RAT targets Uzbekistan government and South Korea.pdf: Extracted text length from page 10: 1012 chars
+2025-02-24 12:02:50,932 - DEBUG - DS3_APT2\APT\New SugarGh0st RAT targets Uzbekistan government and South Korea.pdf: Extracted text length from page 11: 444 chars
+2025-02-24 12:02:50,938 - DEBUG - DS3_APT2\APT\New SugarGh0st RAT targets Uzbekistan government and South Korea.pdf: Extracted text length from page 12: 834 chars
+2025-02-24 12:02:50,942 - DEBUG - DS3_APT2\APT\New SugarGh0st RAT targets Uzbekistan government and South Korea.pdf: Extracted text length from page 13: 849 chars
+2025-02-24 12:02:50,945 - DEBUG - DS3_APT2\APT\New SugarGh0st RAT targets Uzbekistan government and South Korea.pdf: Extracted text length from page 14: 680 chars
+2025-02-24 12:02:50,949 - DEBUG - DS3_APT2\APT\New SugarGh0st RAT targets Uzbekistan government and South Korea.pdf: Extracted text length from page 15: 828 chars
+2025-02-24 12:02:50,954 - DEBUG - DS3_APT2\APT\New SugarGh0st RAT targets Uzbekistan government and South Korea.pdf: Extracted text length from page 16: 921 chars
+2025-02-24 12:02:50,958 - DEBUG - DS3_APT2\APT\New SugarGh0st RAT targets Uzbekistan government and South Korea.pdf: Extracted text length from page 17: 1038 chars
+2025-02-24 12:02:50,990 - DEBUG - DS3_APT2\APT\New SugarGh0st RAT targets Uzbekistan government and South Korea.pdf: Extracted text length from page 18: 1895 chars
+2025-02-24 12:02:50,996 - DEBUG - DS3_APT2\APT\New SugarGh0st RAT targets Uzbekistan government and South Korea.pdf: Extracted text length from page 19: 859 chars
+2025-02-24 12:02:50,996 - INFO - Finished extracting text from DS3_APT2\APT\New SugarGh0st RAT targets Uzbekistan government and South Korea.pdf. Total length: 21670 characters.
+2025-02-24 12:02:50,996 - INFO - Extracting text from PDF: DS3_APT2\APT\Operation Triangulation_ The last (hardware) mystery _ Securelist.pdf
+2025-02-24 12:02:51,000 - DEBUG - DS3_APT2\APT\Operation Triangulation_ The last (hardware) mystery _ Securelist.pdf: PDF has 20 pages.
+2025-02-24 12:02:51,009 - DEBUG - DS3_APT2\APT\Operation Triangulation_ The last (hardware) mystery _ Securelist.pdf: Extracted text length from page 1: 1519 chars
+2025-02-24 12:02:51,020 - DEBUG - DS3_APT2\APT\Operation Triangulation_ The last (hardware) mystery _ Securelist.pdf: Extracted text length from page 2: 2949 chars
+2025-02-24 12:02:51,026 - DEBUG - DS3_APT2\APT\Operation Triangulation_ The last (hardware) mystery _ Securelist.pdf: Extracted text length from page 3: 1707 chars
+2025-02-24 12:02:51,032 - DEBUG - DS3_APT2\APT\Operation Triangulation_ The last (hardware) mystery _ Securelist.pdf: Extracted text length from page 4: 2104 chars
+2025-02-24 12:02:51,037 - DEBUG - DS3_APT2\APT\Operation Triangulation_ The last (hardware) mystery _ Securelist.pdf: Extracted text length from page 5: 1109 chars
+2025-02-24 12:02:51,047 - DEBUG - DS3_APT2\APT\Operation Triangulation_ The last (hardware) mystery _ Securelist.pdf: Extracted text length from page 6: 994 chars
+2025-02-24 12:02:51,053 - DEBUG - DS3_APT2\APT\Operation Triangulation_ The last (hardware) mystery _ Securelist.pdf: Extracted text length from page 7: 1882 chars
+2025-02-24 12:02:51,063 - DEBUG - DS3_APT2\APT\Operation Triangulation_ The last (hardware) mystery _ Securelist.pdf: Extracted text length from page 8: 845 chars
+2025-02-24 12:02:51,068 - DEBUG - DS3_APT2\APT\Operation Triangulation_ The last (hardware) mystery _ Securelist.pdf: Extracted text length from page 9: 1893 chars
+2025-02-24 12:02:51,079 - DEBUG - DS3_APT2\APT\Operation Triangulation_ The last (hardware) mystery _ Securelist.pdf: Extracted text length from page 10: 851 chars
+2025-02-24 12:02:51,087 - DEBUG - DS3_APT2\APT\Operation Triangulation_ The last (hardware) mystery _ Securelist.pdf: Extracted text length from page 11: 1004 chars
+2025-02-24 12:02:51,090 - DEBUG - DS3_APT2\APT\Operation Triangulation_ The last (hardware) mystery _ Securelist.pdf: Extracted text length from page 12: 655 chars
+2025-02-24 12:02:51,100 - DEBUG - DS3_APT2\APT\Operation Triangulation_ The last (hardware) mystery _ Securelist.pdf: Extracted text length from page 13: 884 chars
+2025-02-24 12:02:51,109 - DEBUG - DS3_APT2\APT\Operation Triangulation_ The last (hardware) mystery _ Securelist.pdf: Extracted text length from page 14: 1798 chars
+2025-02-24 12:02:51,135 - DEBUG - DS3_APT2\APT\Operation Triangulation_ The last (hardware) mystery _ Securelist.pdf: Extracted text length from page 15: 1940 chars
+2025-02-24 12:02:51,150 - DEBUG - DS3_APT2\APT\Operation Triangulation_ The last (hardware) mystery _ Securelist.pdf: Extracted text length from page 16: 1476 chars
+2025-02-24 12:02:51,157 - DEBUG - DS3_APT2\APT\Operation Triangulation_ The last (hardware) mystery _ Securelist.pdf: Extracted text length from page 17: 1688 chars
+2025-02-24 12:02:51,161 - DEBUG - DS3_APT2\APT\Operation Triangulation_ The last (hardware) mystery _ Securelist.pdf: Extracted text length from page 18: 1593 chars
+2025-02-24 12:02:51,169 - DEBUG - DS3_APT2\APT\Operation Triangulation_ The last (hardware) mystery _ Securelist.pdf: Extracted text length from page 19: 2604 chars
+2025-02-24 12:02:51,172 - DEBUG - DS3_APT2\APT\Operation Triangulation_ The last (hardware) mystery _ Securelist.pdf: Extracted text length from page 20: 318 chars
+2025-02-24 12:02:51,173 - INFO - Finished extracting text from DS3_APT2\APT\Operation Triangulation_ The last (hardware) mystery _ Securelist.pdf. Total length: 29832 characters.
+2025-02-24 12:02:51,173 - INFO - Extracting text from PDF: DS3_APT2\APT\Seedworm_ Iranian Hackers Target Telecoms Orgs in North and East Africa _ Symantec Enterprise Blogs.pdf
+2025-02-24 12:02:51,174 - DEBUG - DS3_APT2\APT\Seedworm_ Iranian Hackers Target Telecoms Orgs in North and East Africa _ Symantec Enterprise Blogs.pdf: PDF has 6 pages.
+2025-02-24 12:02:51,181 - DEBUG - DS3_APT2\APT\Seedworm_ Iranian Hackers Target Telecoms Orgs in North and East Africa _ Symantec Enterprise Blogs.pdf: Extracted text length from page 1: 1253 chars
+2025-02-24 12:02:51,190 - DEBUG - DS3_APT2\APT\Seedworm_ Iranian Hackers Target Telecoms Orgs in North and East Africa _ Symantec Enterprise Blogs.pdf: Extracted text length from page 2: 2482 chars
+2025-02-24 12:02:51,200 - DEBUG - DS3_APT2\APT\Seedworm_ Iranian Hackers Target Telecoms Orgs in North and East Africa _ Symantec Enterprise Blogs.pdf: Extracted text length from page 3: 2382 chars
+2025-02-24 12:02:51,232 - DEBUG - DS3_APT2\APT\Seedworm_ Iranian Hackers Target Telecoms Orgs in North and East Africa _ Symantec Enterprise Blogs.pdf: Extracted text length from page 4: 3103 chars
+2025-02-24 12:02:51,239 - DEBUG - DS3_APT2\APT\Seedworm_ Iranian Hackers Target Telecoms Orgs in North and East Africa _ Symantec Enterprise Blogs.pdf: Extracted text length from page 5: 2437 chars
+2025-02-24 12:02:51,244 - DEBUG - DS3_APT2\APT\Seedworm_ Iranian Hackers Target Telecoms Orgs in North and East Africa _ Symantec Enterprise Blogs.pdf: Extracted text length from page 6: 913 chars
+2025-02-24 12:02:51,244 - INFO - Finished extracting text from DS3_APT2\APT\Seedworm_ Iranian Hackers Target Telecoms Orgs in North and East Africa _ Symantec Enterprise Blogs.pdf. Total length: 12575 characters.
+2025-02-24 12:02:51,244 - INFO - Extracting text from PDF: DS3_APT2\APT\StripedFly_ Perennially flying under the radar _ Securelist.pdf
+2025-02-24 12:02:51,246 - DEBUG - DS3_APT2\APT\StripedFly_ Perennially flying under the radar _ Securelist.pdf: PDF has 15 pages.
+2025-02-24 12:02:51,254 - DEBUG - DS3_APT2\APT\StripedFly_ Perennially flying under the radar _ Securelist.pdf: Extracted text length from page 1: 1166 chars
+2025-02-24 12:02:51,260 - DEBUG - DS3_APT2\APT\StripedFly_ Perennially flying under the radar _ Securelist.pdf: Extracted text length from page 2: 2213 chars
+2025-02-24 12:02:51,266 - DEBUG - DS3_APT2\APT\StripedFly_ Perennially flying under the radar _ Securelist.pdf: Extracted text length from page 3: 1553 chars
+2025-02-24 12:02:51,272 - DEBUG - DS3_APT2\APT\StripedFly_ Perennially flying under the radar _ Securelist.pdf: Extracted text length from page 4: 1481 chars
+2025-02-24 12:02:51,276 - DEBUG - DS3_APT2\APT\StripedFly_ Perennially flying under the radar _ Securelist.pdf: Extracted text length from page 5: 442 chars
+2025-02-24 12:02:51,284 - DEBUG - DS3_APT2\APT\StripedFly_ Perennially flying under the radar _ Securelist.pdf: Extracted text length from page 6: 3020 chars
+2025-02-24 12:02:51,291 - DEBUG - DS3_APT2\APT\StripedFly_ Perennially flying under the radar _ Securelist.pdf: Extracted text length from page 7: 2255 chars
+2025-02-24 12:02:51,298 - DEBUG - DS3_APT2\APT\StripedFly_ Perennially flying under the radar _ Securelist.pdf: Extracted text length from page 8: 2298 chars
+2025-02-24 12:02:51,305 - DEBUG - DS3_APT2\APT\StripedFly_ Perennially flying under the radar _ Securelist.pdf: Extracted text length from page 9: 2968 chars
+2025-02-24 12:02:51,314 - DEBUG - DS3_APT2\APT\StripedFly_ Perennially flying under the radar _ Securelist.pdf: Extracted text length from page 10: 2861 chars
+2025-02-24 12:02:51,319 - DEBUG - DS3_APT2\APT\StripedFly_ Perennially flying under the radar _ Securelist.pdf: Extracted text length from page 11: 1634 chars
+2025-02-24 12:02:51,325 - DEBUG - DS3_APT2\APT\StripedFly_ Perennially flying under the radar _ Securelist.pdf: Extracted text length from page 12: 1138 chars
+2025-02-24 12:02:51,332 - DEBUG - DS3_APT2\APT\StripedFly_ Perennially flying under the radar _ Securelist.pdf: Extracted text length from page 13: 2360 chars
+2025-02-24 12:02:51,338 - DEBUG - DS3_APT2\APT\StripedFly_ Perennially flying under the radar _ Securelist.pdf: Extracted text length from page 14: 1180 chars
+2025-02-24 12:02:51,341 - DEBUG - DS3_APT2\APT\StripedFly_ Perennially flying under the radar _ Securelist.pdf: Extracted text length from page 15: 295 chars
+2025-02-24 12:02:51,341 - INFO - Finished extracting text from DS3_APT2\APT\StripedFly_ Perennially flying under the radar _ Securelist.pdf. Total length: 26878 characters.
+2025-02-24 12:02:51,342 - INFO - Extracting text from PDF: DS3_APT2\APT\Void Rabisu Targets Female Political Leaders with New Slimmed-Down ROMCOM Variant.pdf
+2025-02-24 12:02:51,344 - DEBUG - DS3_APT2\APT\Void Rabisu Targets Female Political Leaders with New Slimmed-Down ROMCOM Variant.pdf: PDF has 11 pages.
+2025-02-24 12:02:51,354 - DEBUG - DS3_APT2\APT\Void Rabisu Targets Female Political Leaders with New Slimmed-Down ROMCOM Variant.pdf: Extracted text length from page 1: 2689 chars
+2025-02-24 12:02:51,364 - DEBUG - DS3_APT2\APT\Void Rabisu Targets Female Political Leaders with New Slimmed-Down ROMCOM Variant.pdf: Extracted text length from page 2: 2853 chars
+2025-02-24 12:02:51,369 - DEBUG - DS3_APT2\APT\Void Rabisu Targets Female Political Leaders with New Slimmed-Down ROMCOM Variant.pdf: Extracted text length from page 3: 1170 chars
+2025-02-24 12:02:51,373 - DEBUG - DS3_APT2\APT\Void Rabisu Targets Female Political Leaders with New Slimmed-Down ROMCOM Variant.pdf: Extracted text length from page 4: 268 chars
+2025-02-24 12:02:51,378 - DEBUG - DS3_APT2\APT\Void Rabisu Targets Female Political Leaders with New Slimmed-Down ROMCOM Variant.pdf: Extracted text length from page 5: 982 chars
+2025-02-24 12:02:51,385 - DEBUG - DS3_APT2\APT\Void Rabisu Targets Female Political Leaders with New Slimmed-Down ROMCOM Variant.pdf: Extracted text length from page 6: 1749 chars
+2025-02-24 12:02:51,394 - DEBUG - DS3_APT2\APT\Void Rabisu Targets Female Political Leaders with New Slimmed-Down ROMCOM Variant.pdf: Extracted text length from page 7: 2237 chars
+2025-02-24 12:02:51,400 - DEBUG - DS3_APT2\APT\Void Rabisu Targets Female Political Leaders with New Slimmed-Down ROMCOM Variant.pdf: Extracted text length from page 8: 1513 chars
+2025-02-24 12:02:51,408 - DEBUG - DS3_APT2\APT\Void Rabisu Targets Female Political Leaders with New Slimmed-Down ROMCOM Variant.pdf: Extracted text length from page 9: 1538 chars
+2025-02-24 12:02:51,416 - DEBUG - DS3_APT2\APT\Void Rabisu Targets Female Political Leaders with New Slimmed-Down ROMCOM Variant.pdf: Extracted text length from page 10: 2444 chars
+2025-02-24 12:02:51,420 - DEBUG - DS3_APT2\APT\Void Rabisu Targets Female Political Leaders with New Slimmed-Down ROMCOM Variant.pdf: Extracted text length from page 11: 755 chars
+2025-02-24 12:02:51,420 - INFO - Finished extracting text from DS3_APT2\APT\Void Rabisu Targets Female Political Leaders with New Slimmed-Down ROMCOM Variant.pdf. Total length: 18208 characters.
+2025-02-24 12:02:51,420 - INFO - Extracting text from PDF: DS3_APT2\APT\Volt Typhoon targets US critical infrastructure with living-off-the-land techniques _ Microsoft Security Blog.pdf
+2025-02-24 12:02:51,422 - DEBUG - DS3_APT2\APT\Volt Typhoon targets US critical infrastructure with living-off-the-land techniques _ Microsoft Security Blog.pdf: PDF has 10 pages.
+2025-02-24 12:02:51,431 - DEBUG - DS3_APT2\APT\Volt Typhoon targets US critical infrastructure with living-off-the-land techniques _ Microsoft Security Blog.pdf: Extracted text length from page 1: 1547 chars
+2025-02-24 12:02:51,439 - DEBUG - DS3_APT2\APT\Volt Typhoon targets US critical infrastructure with living-off-the-land techniques _ Microsoft Security Blog.pdf: Extracted text length from page 2: 2780 chars
+2025-02-24 12:02:51,446 - DEBUG - DS3_APT2\APT\Volt Typhoon targets US critical infrastructure with living-off-the-land techniques _ Microsoft Security Blog.pdf: Extracted text length from page 3: 2043 chars
+2025-02-24 12:02:51,454 - DEBUG - DS3_APT2\APT\Volt Typhoon targets US critical infrastructure with living-off-the-land techniques _ Microsoft Security Blog.pdf: Extracted text length from page 4: 2014 chars
+2025-02-24 12:02:51,462 - DEBUG - DS3_APT2\APT\Volt Typhoon targets US critical infrastructure with living-off-the-land techniques _ Microsoft Security Blog.pdf: Extracted text length from page 5: 2221 chars
+2025-02-24 12:02:51,473 - DEBUG - DS3_APT2\APT\Volt Typhoon targets US critical infrastructure with living-off-the-land techniques _ Microsoft Security Blog.pdf: Extracted text length from page 6: 2752 chars
+2025-02-24 12:02:51,481 - DEBUG - DS3_APT2\APT\Volt Typhoon targets US critical infrastructure with living-off-the-land techniques _ Microsoft Security Blog.pdf: Extracted text length from page 7: 1655 chars
+2025-02-24 12:02:51,487 - DEBUG - DS3_APT2\APT\Volt Typhoon targets US critical infrastructure with living-off-the-land techniques _ Microsoft Security Blog.pdf: Extracted text length from page 8: 1773 chars
+2025-02-24 12:02:51,498 - DEBUG - DS3_APT2\APT\Volt Typhoon targets US critical infrastructure with living-off-the-land techniques _ Microsoft Security Blog.pdf: Extracted text length from page 9: 2500 chars
+2025-02-24 12:02:51,502 - DEBUG - DS3_APT2\APT\Volt Typhoon targets US critical infrastructure with living-off-the-land techniques _ Microsoft Security Blog.pdf: Extracted text length from page 10: 273 chars
+2025-02-24 12:02:51,502 - INFO - Finished extracting text from DS3_APT2\APT\Volt Typhoon targets US critical infrastructure with living-off-the-land techniques _ Microsoft Security Blog.pdf. Total length: 19567 characters.
+2025-02-24 12:02:51,502 - INFO - Extracting text from PDF: DS3_APT2\APT\Welcome to Goot Camp_ Tracking the Evolution of GOOTLOADER Operations _ Mandiant.pdf
+2025-02-24 12:02:51,504 - DEBUG - DS3_APT2\APT\Welcome to Goot Camp_ Tracking the Evolution of GOOTLOADER Operations _ Mandiant.pdf: PDF has 15 pages.
+2025-02-24 12:02:51,517 - DEBUG - DS3_APT2\APT\Welcome to Goot Camp_ Tracking the Evolution of GOOTLOADER Operations _ Mandiant.pdf: Extracted text length from page 1: 4370 chars
+2025-02-24 12:02:51,526 - DEBUG - DS3_APT2\APT\Welcome to Goot Camp_ Tracking the Evolution of GOOTLOADER Operations _ Mandiant.pdf: Extracted text length from page 2: 2638 chars
+2025-02-24 12:02:51,554 - DEBUG - DS3_APT2\APT\Welcome to Goot Camp_ Tracking the Evolution of GOOTLOADER Operations _ Mandiant.pdf: Extracted text length from page 3: 1745 chars
+2025-02-24 12:02:51,569 - DEBUG - DS3_APT2\APT\Welcome to Goot Camp_ Tracking the Evolution of GOOTLOADER Operations _ Mandiant.pdf: Extracted text length from page 4: 2058 chars
+2025-02-24 12:02:51,583 - DEBUG - DS3_APT2\APT\Welcome to Goot Camp_ Tracking the Evolution of GOOTLOADER Operations _ Mandiant.pdf: Extracted text length from page 5: 2565 chars
+2025-02-24 12:02:51,588 - DEBUG - DS3_APT2\APT\Welcome to Goot Camp_ Tracking the Evolution of GOOTLOADER Operations _ Mandiant.pdf: Extracted text length from page 6: 1303 chars
+2025-02-24 12:02:51,593 - DEBUG - DS3_APT2\APT\Welcome to Goot Camp_ Tracking the Evolution of GOOTLOADER Operations _ Mandiant.pdf: Extracted text length from page 7: 765 chars
+2025-02-24 12:02:51,600 - DEBUG - DS3_APT2\APT\Welcome to Goot Camp_ Tracking the Evolution of GOOTLOADER Operations _ Mandiant.pdf: Extracted text length from page 8: 2195 chars
+2025-02-24 12:02:51,607 - DEBUG - DS3_APT2\APT\Welcome to Goot Camp_ Tracking the Evolution of GOOTLOADER Operations _ Mandiant.pdf: Extracted text length from page 9: 2026 chars
+2025-02-24 12:02:51,616 - DEBUG - DS3_APT2\APT\Welcome to Goot Camp_ Tracking the Evolution of GOOTLOADER Operations _ Mandiant.pdf: Extracted text length from page 10: 2424 chars
+2025-02-24 12:02:51,630 - DEBUG - DS3_APT2\APT\Welcome to Goot Camp_ Tracking the Evolution of GOOTLOADER Operations _ Mandiant.pdf: Extracted text length from page 11: 1946 chars
+2025-02-24 12:02:51,641 - DEBUG - DS3_APT2\APT\Welcome to Goot Camp_ Tracking the Evolution of GOOTLOADER Operations _ Mandiant.pdf: Extracted text length from page 12: 1601 chars
+2025-02-24 12:02:51,652 - DEBUG - DS3_APT2\APT\Welcome to Goot Camp_ Tracking the Evolution of GOOTLOADER Operations _ Mandiant.pdf: Extracted text length from page 13: 1463 chars
+2025-02-24 12:02:51,667 - DEBUG - DS3_APT2\APT\Welcome to Goot Camp_ Tracking the Evolution of GOOTLOADER Operations _ Mandiant.pdf: Extracted text length from page 14: 2428 chars
+2025-02-24 12:02:51,671 - DEBUG - DS3_APT2\APT\Welcome to Goot Camp_ Tracking the Evolution of GOOTLOADER Operations _ Mandiant.pdf: Extracted text length from page 15: 1226 chars
+2025-02-24 12:02:51,671 - INFO - Finished extracting text from DS3_APT2\APT\Welcome to Goot Camp_ Tracking the Evolution of GOOTLOADER Operations _ Mandiant.pdf. Total length: 30767 characters.
+2025-02-24 12:02:51,672 - INFO - Extracting text from PDF: DS3_APT2\APT\WildCard_ The APT Behind SysJoker Targets Critical Sectors in Israel.pdf
+2025-02-24 12:02:51,673 - DEBUG - DS3_APT2\APT\WildCard_ The APT Behind SysJoker Targets Critical Sectors in Israel.pdf: PDF has 9 pages.
+2025-02-24 12:02:51,683 - DEBUG - DS3_APT2\APT\WildCard_ The APT Behind SysJoker Targets Critical Sectors in Israel.pdf: Extracted text length from page 1: 2936 chars
+2025-02-24 12:02:51,691 - DEBUG - DS3_APT2\APT\WildCard_ The APT Behind SysJoker Targets Critical Sectors in Israel.pdf: Extracted text length from page 2: 1787 chars
+2025-02-24 12:02:51,697 - DEBUG - DS3_APT2\APT\WildCard_ The APT Behind SysJoker Targets Critical Sectors in Israel.pdf: Extracted text length from page 3: 1507 chars
+2025-02-24 12:02:51,705 - DEBUG - DS3_APT2\APT\WildCard_ The APT Behind SysJoker Targets Critical Sectors in Israel.pdf: Extracted text length from page 4: 1955 chars
+2025-02-24 12:02:51,714 - DEBUG - DS3_APT2\APT\WildCard_ The APT Behind SysJoker Targets Critical Sectors in Israel.pdf: Extracted text length from page 5: 2222 chars
+2025-02-24 12:02:51,721 - DEBUG - DS3_APT2\APT\WildCard_ The APT Behind SysJoker Targets Critical Sectors in Israel.pdf: Extracted text length from page 6: 2183 chars
+2025-02-24 12:02:51,729 - DEBUG - DS3_APT2\APT\WildCard_ The APT Behind SysJoker Targets Critical Sectors in Israel.pdf: Extracted text length from page 7: 2963 chars
+2025-02-24 12:02:51,737 - DEBUG - DS3_APT2\APT\WildCard_ The APT Behind SysJoker Targets Critical Sectors in Israel.pdf: Extracted text length from page 8: 4057 chars
+2025-02-24 12:02:51,741 - DEBUG - DS3_APT2\APT\WildCard_ The APT Behind SysJoker Targets Critical Sectors in Israel.pdf: Extracted text length from page 9: 506 chars
+2025-02-24 12:02:51,741 - INFO - Finished extracting text from DS3_APT2\APT\WildCard_ The APT Behind SysJoker Targets Critical Sectors in Israel.pdf. Total length: 20124 characters.
+2025-02-24 12:02:51,741 - INFO - Vectorizing 18 documents with TfidfVectorizer...
+2025-02-24 12:02:51,770 - INFO - TF–IDF matrix shape: (18, 5000) (rows, columns)
+2025-02-24 12:02:51,771 - DEBUG - Feature names (up to first 20): ['00' '000' '0000f81fe221' '001' '002' '003' '005' '008'
+ '00c9fd9371791e9160a3adaade0b4aa2' '00pm' '01' '010'
+ '0123456789abcdefghijklmnopqrstuvwxyzabcdefghilmnopqrstuvmxyz' '0193'
+ '02' '0200' '03' '0311t2' '04' '0451615']

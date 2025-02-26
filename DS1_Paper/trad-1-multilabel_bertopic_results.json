@@ -1,0 +1,76 @@
+{
+  "Topic 0: cluster, risk, counterfactual": {
+    "papers": [
+      "Counterfactual Explanations for k-means and Gaussian Clustering.pdf",
+      "Detection of AI Deepfake and Fraud in Online Payments Using GAN-Based.pdf",
+      "Hybrid Deep Learning Model for epileptic seizure.pdf",
+      "MechIR A Mechanistic Interpretability Framework.pdf",
+      "Modelling Activity Scheduling Behaviour with Deep.pdf",
+      "SEANN A Domain-Informed Neural Network for.pdf"
+    ],
+    "top_words": [
+      "cluster",
+      "risk",
+      "counterfactual",
+      "supply",
+      "data"
+    ]
+  },
+  "Topic 1: test, fuzzing, sandboxfuzz": {
+    "papers": [
+      "Grey-Box Fuzzing in Constrained Ultra-Large Systems Lessons.pdf",
+      "The Distributed Multi-User Point Function.pdf"
+    ],
+    "top_words": [
+      "test",
+      "fuzzing",
+      "sandboxfuzz",
+      "inputs",
+      "function"
+    ]
+  },
+  "Topic 2: activity, model, eeg": {
+    "papers": [
+      "Hybrid Deep Learning Model for epileptic seizure.pdf",
+      "MechIR A Mechanistic Interpretability Framework.pdf",
+      "Modelling Activity Scheduling Behaviour with Deep.pdf",
+      "SEANN A Domain-Informed Neural Network for.pdf"
+    ],
+    "top_words": [
+      "activity",
+      "model",
+      "eeg",
+      "schedules",
+      "av"
+    ]
+  },
+  "Topic 3: arxiv, language, text": {
+    "papers": [
+      "Mapping the Increasing Use of LLMs in Scientific Papers.pdf",
+      "The_Evolution_of_Large_Language_Model_Models_Applications_and_Challenges.pdf"
+    ],
+    "top_words": [
+      "arxiv",
+      "language",
+      "text",
+      "llm",
+      "et"
+    ]
+  },
+  "Topic 4: ir, mechir, interpretability": {
+    "papers": [
+      "Counterfactual Explanations for k-means and Gaussian Clustering.pdf",
+      "Hybrid Deep Learning Model for epileptic seizure.pdf",
+      "MechIR A Mechanistic Interpretability Framework.pdf",
+      "Modelling Activity Scheduling Behaviour with Deep.pdf",
+      "SEANN A Domain-Informed Neural Network for.pdf"
+    ],
+    "top_words": [
+      "ir",
+      "mechir",
+      "interpretability",
+      "mechanistic",
+      "model"
+    ]
+  }
+}

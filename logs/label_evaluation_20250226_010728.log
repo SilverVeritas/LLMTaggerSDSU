@@ -1,0 +1,30 @@
+2025-02-26 01:07:28,589 - INFO - Loaded labels from DS3_APT2/llm_2_generated_labels.json
+2025-02-26 01:07:28,589 - INFO - Found 7 labels
+2025-02-26 01:07:28,590 - INFO - Found 18 PDF files
+2025-02-26 01:07:30,776 - INFO - Extracted text from 18 PDFs
+2025-02-26 01:07:30,810 - INFO - TF–IDF matrix shape: (18, 5000)
+2025-02-26 01:07:30,811 - INFO - Computing multi-label density metrics...
+2025-02-26 01:07:30,812 - DEBUG - Label 'Advanced Persistent Threats (APTs)' density: 0.0758
+2025-02-26 01:07:30,813 - DEBUG - Label 'Cyber Espionage' density: 0.0885
+2025-02-26 01:07:30,813 - DEBUG - Label 'Nation-State Sponsored Threats' density: 0.0916
+2025-02-26 01:07:30,814 - DEBUG - Label 'Cybersecurity Techniques and Tools' density: 0.0773
+2025-02-26 01:07:30,815 - DEBUG - Label 'Indicators of Compromise (IOCs)' density: 0.0780
+2025-02-26 01:07:30,816 - DEBUG - Label 'Malware and Exploits' density: 0.0829
+2025-02-26 01:07:30,816 - DEBUG - Label 'Geopolitical Implications' density: 0.0932
+2025-02-26 01:07:30,816 - INFO - Overall average density: 0.0839
+2025-02-26 01:07:30,817 - INFO - Computing multiple coherence metrics...
+2025-02-26 01:07:30,830 - DEBUG - Label 'Advanced Persistent Threats (APTs)': extracted 63061 tokens
+2025-02-26 01:07:30,840 - DEBUG - Label 'Cyber Espionage': extracted 42714 tokens
+2025-02-26 01:07:30,843 - DEBUG - Label 'Nation-State Sponsored Threats': extracted 17008 tokens
+2025-02-26 01:07:30,853 - DEBUG - Label 'Cybersecurity Techniques and Tools': extracted 45263 tokens
+2025-02-26 01:07:30,862 - DEBUG - Label 'Indicators of Compromise (IOCs)': extracted 42576 tokens
+2025-02-26 01:07:30,873 - DEBUG - Label 'Malware and Exploits': extracted 48806 tokens
+2025-02-26 01:07:30,878 - DEBUG - Label 'Geopolitical Implications': extracted 26550 tokens
+2025-02-26 01:07:30,943 - DEBUG - Created dictionary with 6972 unique tokens
+2025-02-26 01:07:30,985 - DEBUG - Label 'Advanced Persistent Threats (APTs)' top words: the, to, and, of, a...
+2025-02-26 01:07:30,985 - DEBUG - Label 'Cyber Espionage' top words: the, to, and, of, a...
+2025-02-26 01:07:30,986 - DEBUG - Label 'Nation-State Sponsored Threats' top words: the, to, and, of, in...
+2025-02-26 01:07:30,987 - DEBUG - Label 'Cybersecurity Techniques and Tools' top words: the, to, and, of, a...
+2025-02-26 01:07:30,987 - DEBUG - Label 'Indicators of Compromise (IOCs)' top words: the, to, and, of, a...
+2025-02-26 01:07:30,988 - DEBUG - Label 'Malware and Exploits' top words: the, to, and, of, a...
+2025-02-26 01:07:30,988 - DEBUG - Label 'Geopolitical Implications' top words: the, to, and, of, in...

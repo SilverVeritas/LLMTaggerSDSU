@@ -1,0 +1,67 @@
+2025-02-24 12:47:04,477 - INFO - Loaded labels from DS3_APT2/generated_labels.json
+2025-02-24 12:47:04,478 - INFO - Found 6 labels
+2025-02-24 12:47:04,478 - INFO - Found 18 PDF files
+2025-02-24 12:47:06,468 - INFO - Extracted text from 18 PDFs
+2025-02-24 12:47:06,496 - INFO - TF–IDF matrix shape: (18, 5000)
+2025-02-24 12:47:06,497 - INFO - Computing multi-label density metrics...
+2025-02-24 12:47:06,499 - DEBUG - Label 'Advanced Persistent Threats (APTs)' density: 0.0758
+2025-02-24 12:47:06,499 - DEBUG - Label 'Cyber Espionage' density: 0.0808
+2025-02-24 12:47:06,500 - DEBUG - Label 'Geopolitical Implications' density: 0.0843
+2025-02-24 12:47:06,501 - DEBUG - Label 'Cybersecurity Techniques and Tools' density: 0.0784
+2025-02-24 12:47:06,502 - DEBUG - Label 'Indicators of Compromise (IOCs)' density: 0.0791
+2025-02-24 12:47:06,502 - DEBUG - Label 'Malware and Exploits' density: 0.0829
+2025-02-24 12:47:06,503 - INFO - Overall average density: 0.0802
+2025-02-24 12:47:06,503 - INFO - Computing multiple coherence metrics...
+2025-02-24 12:47:06,515 - DEBUG - Label 'Advanced Persistent Threats (APTs)': extracted 63061 tokens
+2025-02-24 12:47:06,522 - DEBUG - Label 'Cyber Espionage': extracted 38175 tokens
+2025-02-24 12:47:06,527 - DEBUG - Label 'Geopolitical Implications': extracted 22726 tokens
+2025-02-24 12:47:06,536 - DEBUG - Label 'Cybersecurity Techniques and Tools': extracted 51671 tokens
+2025-02-24 12:47:06,546 - DEBUG - Label 'Indicators of Compromise (IOCs)': extracted 57221 tokens
+2025-02-24 12:47:06,555 - DEBUG - Label 'Malware and Exploits': extracted 48806 tokens
+2025-02-24 12:47:06,608 - DEBUG - Created dictionary with 6972 unique tokens
+2025-02-24 12:47:06,642 - DEBUG - Label 'Advanced Persistent Threats (APTs)' top words: the, to, and, of, a...
+2025-02-24 12:47:06,642 - DEBUG - Label 'Cyber Espionage' top words: the, to, and, of, in...
+2025-02-24 12:47:06,642 - DEBUG - Label 'Geopolitical Implications' top words: the, to, and, of, in...
+2025-02-24 12:47:06,643 - DEBUG - Label 'Cybersecurity Techniques and Tools' top words: the, to, and, of, a...
+2025-02-24 12:47:06,643 - DEBUG - Label 'Indicators of Compromise (IOCs)' top words: the, to, and, of, a...
+2025-02-24 12:47:06,644 - DEBUG - Label 'Malware and Exploits' top words: the, to, and, of, a...
+2025-02-24 12:47:24,768 - INFO - Coherence (c_v): 0.2980
+2025-02-24 12:47:42,202 - INFO - Coherence (c_uci): -0.6091
+2025-02-24 12:47:59,579 - INFO - Coherence (c_npmi): -0.0539
+2025-02-24 12:47:59,582 - INFO - Computing overlap quality metrics...
+2025-02-24 12:47:59,582 - INFO - Average labels per document: 4.33
+2025-02-24 12:47:59,582 - DEBUG - Computing full distance matrix...
+2025-02-24 12:47:59,583 - INFO - Average similarity between docs sharing labels: 0.0758
+2025-02-24 12:47:59,584 - INFO - Average similarity between docs with different labels: 0.0000
+2025-02-24 12:47:59,584 - INFO - Overlap quality index: 0.0758
+2025-02-24 12:47:59,584 - INFO - Computing topic distinctiveness...
+2025-02-24 12:47:59,606 - DEBUG - Label 'Advanced Persistent Threats (APTs)': processed 63061 words
+2025-02-24 12:47:59,619 - DEBUG - Label 'Cyber Espionage': processed 38175 words
+2025-02-24 12:47:59,626 - DEBUG - Label 'Geopolitical Implications': processed 22726 words
+2025-02-24 12:47:59,642 - DEBUG - Label 'Cybersecurity Techniques and Tools': processed 51671 words
+2025-02-24 12:47:59,661 - DEBUG - Label 'Indicators of Compromise (IOCs)': processed 57221 words
+2025-02-24 12:47:59,676 - DEBUG - Label 'Malware and Exploits': processed 48806 words
+2025-02-24 12:47:59,692 - DEBUG - Label 'Malware and Exploits' distinctiveness: 0.0468
+2025-02-24 12:47:59,705 - DEBUG - Label 'Malware and Exploits' distinctiveness: 0.0680
+2025-02-24 12:47:59,717 - DEBUG - Label 'Malware and Exploits' distinctiveness: 0.1201
+2025-02-24 12:47:59,731 - DEBUG - Label 'Malware and Exploits' distinctiveness: 0.0698
+2025-02-24 12:47:59,745 - DEBUG - Label 'Malware and Exploits' distinctiveness: 0.0482
+2025-02-24 12:47:59,758 - DEBUG - Label 'Malware and Exploits' distinctiveness: 0.0676
+2025-02-24 12:47:59,759 - INFO - Overall topic distinctiveness: 0.0676
+2025-02-24 12:47:59,760 - INFO - Computing label balance metrics...
+2025-02-24 12:47:59,760 - DEBUG - Label sizes: {'Advanced Persistent Threats (APTs)': 18, 'Cyber Espionage': 11, 'Geopolitical Implications': 8, 'Cybersecurity Techniques and Tools': 14, 'Indicators of Compromise (IOCs)': 16, 'Malware and Exploits': 11}
+2025-02-24 12:47:59,761 - INFO - Total labels: 6
+2025-02-24 12:47:59,761 - INFO - Total unique documents: 18
+2025-02-24 12:47:59,761 - INFO - Label distribution entropy: 2.5358
+2025-02-24 12:47:59,761 - INFO - Average labels per document: 4.33
+2025-02-24 12:47:59,761 - INFO - Saving results to DS3_APT2/llm-evaluation_results.json
+2025-02-24 12:47:59,762 - INFO - Evaluation complete.
+2025-02-24 12:47:59,762 - INFO - 
+==== SUMMARY OF KEY METRICS ====
+2025-02-24 12:47:59,762 - INFO - Overall Label Density: 0.0802
+2025-02-24 12:47:59,762 - INFO - Topic Coherence (C_V): 0.2980
+2025-02-24 12:47:59,762 - INFO - Overlap Quality Index: 0.0758
+2025-02-24 12:47:59,763 - INFO - Topic Distinctiveness: 0.0676
+2025-02-24 12:47:59,763 - INFO - Label Entropy: 2.5358
+2025-02-24 12:47:59,763 - INFO - Avg Labels per Doc: 4.33
+2025-02-24 12:47:59,763 - INFO - ==============================

@@ -1,0 +1,2 @@
+2025-02-06 16:25:08,840 - ERROR - PDF read error DS2_APT\APT2015\DTL-06282015-01.pdf: EOF marker not found
+2025-02-06 16:25:09,419 - INFO - TF–IDF matrix shape: (18, 5000)

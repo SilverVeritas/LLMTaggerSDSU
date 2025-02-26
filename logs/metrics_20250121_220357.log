@@ -1,0 +1,2 @@
+2025-01-21 22:04:25,308 - INFO - NMI vs KMeans(5): 0.5455
+2025-01-21 22:04:25,311 - INFO - Metrics saved to evaluation_metrics.json

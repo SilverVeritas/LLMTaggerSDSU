@@ -1,0 +1,63 @@
+2025-02-26 00:34:31,231 - INFO - Loading multi-label model results from DS2_APT/trad-1-multilabel_bertopic_results.json
+2025-02-26 00:34:31,238 - INFO - Loaded labels from DS2_APT/trad-1-multilabel_bertopic_results.json
+2025-02-26 00:34:31,238 - INFO - Found 5 labels
+2025-02-26 00:34:31,238 - INFO - Found 17 PDF files
+2025-02-26 00:34:37,061 - INFO - Extracted text from 17 PDFs
+2025-02-26 00:34:37,115 - INFO - TF–IDF matrix shape: (17, 5000)
+2025-02-26 00:34:37,116 - INFO - Computing multi-label density metrics...
+2025-02-26 00:34:37,117 - DEBUG - Label 'cloudduke, ch, version' density: 0.0776
+2025-02-26 00:34:37,118 - DEBUG - Label 'attack, apt, module' density: 0.0745
+2025-02-26 00:34:37,118 - DEBUG - Label 'attackers, butterfly, cluster' density: 0.1014
+2025-02-26 00:34:37,119 - DEBUG - Label 'configuration, cozyduke, server' density: 0.0632
+2025-02-26 00:34:37,120 - DEBUG - Label 'domain, malware, backdoor' density: 0.0813
+2025-02-26 00:34:37,120 - INFO - Overall average density: 0.0796
+2025-02-26 00:34:37,120 - INFO - Computing multiple coherence metrics...
+2025-02-26 00:34:37,129 - DEBUG - Label 'cloudduke, ch, version': extracted 42845 tokens
+2025-02-26 00:34:37,133 - DEBUG - Label 'attack, apt, module': extracted 16702 tokens
+2025-02-26 00:34:37,141 - DEBUG - Label 'attackers, butterfly, cluster': extracted 36972 tokens
+2025-02-26 00:34:37,147 - DEBUG - Label 'configuration, cozyduke, server': extracted 30884 tokens
+2025-02-26 00:34:37,160 - DEBUG - Label 'domain, malware, backdoor': extracted 58783 tokens
+2025-02-26 00:34:37,207 - DEBUG - Created dictionary with 7989 unique tokens
+2025-02-26 00:34:37,232 - DEBUG - Label 'cloudduke, ch, version' top words: the, to, of, a, and...
+2025-02-26 00:34:37,232 - DEBUG - Label 'attack, apt, module' top words: the, of, a, to, and...
+2025-02-26 00:34:37,233 - DEBUG - Label 'attackers, butterfly, cluster' top words: the, of, to, a, and...
+2025-02-26 00:34:37,233 - DEBUG - Label 'configuration, cozyduke, server' top words: the, to, of, a, and...
+2025-02-26 00:34:37,234 - DEBUG - Label 'domain, malware, backdoor' top words: the, to, of, a, and...
+2025-02-26 00:34:55,672 - INFO - Coherence (c_v): 0.3640
+2025-02-26 00:35:13,525 - INFO - Coherence (c_uci): -0.8452
+2025-02-26 00:35:30,451 - INFO - Coherence (c_npmi): -0.0394
+2025-02-26 00:35:30,453 - INFO - Computing overlap quality metrics...
+2025-02-26 00:35:30,453 - INFO - Average labels per document: 3.00
+2025-02-26 00:35:30,453 - DEBUG - Computing full distance matrix...
+2025-02-26 00:35:30,454 - INFO - Average similarity between docs sharing labels: 0.0795
+2025-02-26 00:35:30,455 - INFO - Average similarity between docs with different labels: 0.0000
+2025-02-26 00:35:30,455 - INFO - Overlap quality index: 0.0795
+2025-02-26 00:35:30,455 - INFO - Computing topic distinctiveness...
+2025-02-26 00:35:30,470 - DEBUG - Label 'cloudduke, ch, version': processed 42845 words
+2025-02-26 00:35:30,476 - DEBUG - Label 'attack, apt, module': processed 16702 words
+2025-02-26 00:35:30,488 - DEBUG - Label 'attackers, butterfly, cluster': processed 36972 words
+2025-02-26 00:35:30,498 - DEBUG - Label 'configuration, cozyduke, server': processed 30884 words
+2025-02-26 00:35:30,516 - DEBUG - Label 'domain, malware, backdoor': processed 58783 words
+2025-02-26 00:35:30,529 - DEBUG - Label 'domain, malware, backdoor' distinctiveness: 0.1431
+2025-02-26 00:35:30,539 - DEBUG - Label 'domain, malware, backdoor' distinctiveness: 0.2247
+2025-02-26 00:35:30,551 - DEBUG - Label 'domain, malware, backdoor' distinctiveness: 0.1449
+2025-02-26 00:35:30,562 - DEBUG - Label 'domain, malware, backdoor' distinctiveness: 0.1824
+2025-02-26 00:35:30,574 - DEBUG - Label 'domain, malware, backdoor' distinctiveness: 0.0976
+2025-02-26 00:35:30,574 - INFO - Overall topic distinctiveness: 0.0976
+2025-02-26 00:35:30,575 - INFO - Computing label balance metrics...
+2025-02-26 00:35:30,575 - DEBUG - Label sizes: {'cloudduke, ch, version': 11, 'attack, apt, module': 4, 'attackers, butterfly, cluster': 10, 'configuration, cozyduke, server': 8, 'domain, malware, backdoor': 15}
+2025-02-26 00:35:30,576 - INFO - Total labels: 5
+2025-02-26 00:35:30,576 - INFO - Total unique documents: 16
+2025-02-26 00:35:30,577 - INFO - Label distribution entropy: 2.2125
+2025-02-26 00:35:30,577 - INFO - Average labels per document: 3.00
+2025-02-26 00:35:30,577 - INFO - Saving results to DS2_APT/trad-2-evaluation_results.json
+2025-02-26 00:35:30,577 - INFO - Evaluation complete.
+2025-02-26 00:35:30,578 - INFO - 
+==== SUMMARY OF KEY METRICS ====
+2025-02-26 00:35:30,578 - INFO - Overall Label Density: 0.0796
+2025-02-26 00:35:30,578 - INFO - Topic Coherence (C_V): 0.3640
+2025-02-26 00:35:30,578 - INFO - Overlap Quality Index: 0.0795
+2025-02-26 00:35:30,578 - INFO - Topic Distinctiveness: 0.0976
+2025-02-26 00:35:30,578 - INFO - Label Entropy: 2.2125
+2025-02-26 00:35:30,578 - INFO - Avg Labels per Doc: 3.00
+2025-02-26 00:35:30,578 - INFO - ==============================

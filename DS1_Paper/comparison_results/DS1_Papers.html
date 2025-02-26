@@ -1,0 +1,232 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Model Comparison Report</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+            h1, h2, h3 { color: #333; }
+            .container { max-width: 1200px; margin: 0 auto; }
+            table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .better { font-weight: bold; color: green; }
+            .worse { color: #666; }
+            .images { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin: 20px 0; }
+            .image-container { text-align: center; }
+            .summary { background-color: #f0f8ff; padding: 15px; border-radius: 5px; margin-bottom: 20px; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Model Comparison Report: LLM vs. Traditional Approach</h1>
+            
+            <div class="summary">
+                <h2>Executive Summary</h2>
+    
+                <p>Based on 7 comparative metrics:</p>
+                <ul>
+                    <li>LLM approach wins on 3 metrics</li>
+                    <li>Traditional approach wins on 4 metrics</li>
+                    <li>Overall recommendation: <strong>Traditional</strong></li>
+                </ul>
+            </div>
+            
+            <h2>Key Metrics Comparison</h2>
+            <table>
+                <tr>
+                    <th>Metric</th>
+                    <th>LLM</th>
+                    <th>Traditional</th>
+                    <th>Difference</th>
+                    <th>Better Model</th>
+                </tr>
+    
+                <tr>
+                    <td>Overall Density</td>
+                    <td class="worse">0.1249</td>
+                    <td class="better">0.1652</td>
+                    <td>-0.0403</td>
+                    <td>Traditional</td>
+                </tr>
+            
+                <tr>
+                    <td>Overall Distinctiveness</td>
+                    <td class="better">0.4182</td>
+                    <td class="worse">0.2124</td>
+                    <td>0.2057</td>
+                    <td>LLM</td>
+                </tr>
+            
+                <tr>
+                    <td>Coherence C V</td>
+                    <td class="worse">0.3298</td>
+                    <td class="better">0.3317</td>
+                    <td>-0.0018</td>
+                    <td>Traditional</td>
+                </tr>
+            
+                <tr>
+                    <td>Coherence C Uci</td>
+                    <td class="worse">-0.4346</td>
+                    <td class="better">-0.1743</td>
+                    <td>-0.2603</td>
+                    <td>Traditional</td>
+                </tr>
+            
+                <tr>
+                    <td>Coherence C Npmi</td>
+                    <td class="worse">-0.0240</td>
+                    <td class="better">-0.0195</td>
+                    <td>-0.0045</td>
+                    <td>Traditional</td>
+                </tr>
+            
+                <tr>
+                    <td>Overlap Quality Index</td>
+                    <td class="better">0.0497</td>
+                    <td class="worse">0.0279</td>
+                    <td>0.0218</td>
+                    <td>LLM</td>
+                </tr>
+            
+                <tr>
+                    <td>Label Entropy</td>
+                    <td class="better">2.7539</td>
+                    <td class="worse">2.1890</td>
+                    <td>0.5649</td>
+                    <td>LLM</td>
+                </tr>
+            
+                <tr>
+                    <td>Avg Labels Per Doc</td>
+                    <td>2.1000</td>
+                    <td>1.9000</td>
+                    <td>0.2000</td>
+                    <td>More labels is not necessarily better, depends on use case</td>
+                </tr>
+            
+            </table>
+            
+            <h2>Label and Document Counts</h2>
+            <table>
+                <tr>
+                    <th>Metric</th>
+                    <th>LLM</th>
+                    <th>Traditional</th>
+                    <th>Difference</th>
+                </tr>
+    
+            <tr>
+                <td>Label Count</td>
+                <td>8</td>
+                <td>5</td>
+                <td>3</td>
+            </tr>
+        
+            <tr>
+                <td>Doc Count</td>
+                <td>10</td>
+                <td>10</td>
+                <td>0</td>
+            </tr>
+        
+            </table>
+            
+            <h2>Label Quality Analysis</h2>
+            <table>
+                <tr>
+                    <th>Metric</th>
+                    <th>LLM</th>
+                    <th>Traditional</th>
+                    <th>Better Model</th>
+                </tr>
+    
+            <tr>
+                <td>Avg Label Density</td>
+                <td class="worse">0.1249</td>
+                <td class="better">0.1652</td>
+                <td>Traditional</td>
+            </tr>
+        
+            <tr>
+                <td>Avg Label Distinctiveness</td>
+                <td class="better">0.4182</td>
+                <td class="worse">0.2124</td>
+                <td>LLM</td>
+            </tr>
+        
+            <tr>
+                <td>Unique Top Words Count</td>
+                <td class="better">7.0000</td>
+                <td class="worse">6.0000</td>
+                <td>LLM</td>
+            </tr>
+        
+            </table>
+            
+            <h2>Visualizations</h2>
+            <div class="images">
+                <div class="image-container">
+                    <img src="metrics_comparison.png" alt="Metrics Comparison" width="600">
+                    <p>Comparison of Key Metrics</p>
+                </div>
+                <div class="image-container">
+                    <img src="radar_comparison.png" alt="Radar Comparison" width="500">
+                    <p>Normalized Metrics Comparison</p>
+                </div>
+                <div class="image-container">
+                    <img src="wins_pie_chart.png" alt="Wins Distribution" width="400">
+                    <p>Distribution of Better Performance</p>
+                </div>
+            </div>
+            
+            <h2>Detailed Model Information</h2>
+            
+            <h3>LLM Model Labels</h3>
+            <ul>
+    
+            <li><strong>Explainable AI and Interpretability</strong> (20 documents) - Top words: the, of, a, and, to</li>
+        
+            <li><strong>Machine Learning and Neural Networks</strong> (20 documents) - Top words: the, of, and, a, to</li>
+        
+            <li><strong>Generative Models and GANs</strong> (20 documents) - Top words: the, 0, of, and, to</li>
+        
+            <li><strong>Security and Privacy</strong> (20 documents) - Top words: the, and, of, in, a</li>
+        
+            <li><strong>Large Language Models and NLP</strong> (20 documents) - Top words: the, and, of, in, to</li>
+        
+            <li><strong>Biomedical and Health Applications</strong> (20 documents) - Top words: the, of, and, a, to</li>
+        
+            <li><strong>Distributed Systems and Cloud Computing</strong> (20 documents) - Top words: the, and, of, in, a</li>
+        
+            <li><strong>Scientific Publishing and Research Analysis</strong> (20 documents) - Top words: the, and, of, to, in</li>
+        
+            </ul>
+            
+            <h3>Traditional Model Labels</h3>
+            <ul>
+    
+            <li><strong>cluster, risk, counterfactual</strong> (20 documents) - Top words: the, of, and, a, to</li>
+        
+            <li><strong>test, fuzzing, sandboxfuzz</strong> (20 documents) - Top words: the, and, of, in, a</li>
+        
+            <li><strong>activity, model, eeg</strong> (20 documents) - Top words: the, of, and, a, to</li>
+        
+            <li><strong>arxiv, language, text</strong> (20 documents) - Top words: the, and, of, in, to</li>
+        
+            <li><strong>ir, mechir, interpretability</strong> (20 documents) - Top words: the, of, and, a, to</li>
+        
+            </ul>
+            
+            <h2>Conclusion</h2>
+    
+            <p>The traditional BERTopic approach demonstrates superior performance overall, particularly in metrics related to 
+            cluster density and distinctiveness. This suggests that for this specific document set, 
+            the statistical approach to topic modeling is more effective at creating well-separated topic clusters.</p>
+        
+        </div>
+    </body>
+    </html>
+    

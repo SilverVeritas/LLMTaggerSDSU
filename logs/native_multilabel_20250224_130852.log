@@ -1,0 +1,4 @@
+2025-02-24 13:08:52,946 - INFO - Found 18 PDF files in DS3_APT2\APT
+2025-02-24 13:08:55,069 - INFO - Loading sentence-transformer model: all-MiniLM-L6-v2
+2025-02-24 13:08:56,363 - INFO - Encoding documents...
+2025-02-24 13:08:56,696 - INFO - Fitting BERTopic with GaussianMixtureClustering

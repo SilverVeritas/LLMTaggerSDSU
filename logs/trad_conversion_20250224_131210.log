@@ -1,0 +1,4 @@
+2025-02-24 13:12:10,294 - INFO - Starting conversion of traditional metrics to multi-label format
+2025-02-24 13:12:10,294 - INFO - Loading traditional model results from DS3_APT2	rad-multilabel_bertopic_results.json
+2025-02-24 13:12:10,295 - ERROR - Error loading traditional model results: [Errno 22] Invalid argument: 'DS3_APT2\trad-multilabel_bertopic_results.json'
+2025-02-24 13:12:10,295 - ERROR - Failed to load or convert traditional model results

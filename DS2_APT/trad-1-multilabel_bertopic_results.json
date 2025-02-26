@@ -1,0 +1,105 @@
+{
+  "Topic 0: cloudduke, ch, version": {
+    "papers": [
+      "Agent.BTZ_to_ComRAT.pdf",
+      "Anthem_hack_all_roads_lead_to_China.pdf",
+      "apt29-hammertoss-stealthy-tactics-define-a.pdf",
+      "Backdoor.Winnti_Trojan.Skelky.pdf",
+      "CozyDuke.pdf",
+      "cto-tib-20150223-01a.pdf",
+      "Cylance SPEAR Team_ A Threat Actor Resurfaces.pdf",
+      "dino.pdf",
+      "Dissecting-LinuxMoose.pdf",
+      "Dissecting-the-Kraken.pdf",
+      "Duke_cloud_Linux.pdf"
+    ],
+    "top_words": [
+      "cloudduke",
+      "ch",
+      "version",
+      "malware",
+      "duke"
+    ]
+  },
+  "Topic 1: attack, apt, module": {
+    "papers": [
+      "ANALYSIS-ON-APT-TO-BE-ATTACK-THAT-FOCUSING-ON-CHINAS-GOVERNMENT-AGENCY-.pdf",
+      "butterfly-corporate-spies-out-for-financial-gain.pdf",
+      "China_Peace_Palace.pdf",
+      "DTL-12012015-01.pdf"
+    ],
+    "top_words": [
+      "attack",
+      "apt",
+      "module",
+      "analysis",
+      "cobalt"
+    ]
+  },
+  "Topic 2: attackers, butterfly, cluster": {
+    "papers": [
+      "ANALYSIS-ON-APT-TO-BE-ATTACK-THAT-FOCUSING-ON-CHINAS-GOVERNMENT-AGENCY-.pdf",
+      "Anthem_hack_all_roads_lead_to_China.pdf",
+      "Attacks against Israeli & Palestinian interests - Cyber security updates.pdf",
+      "butterfly-corporate-spies-out-for-financial-gain.pdf",
+      "China_Peace_Palace.pdf",
+      "cto-tib-20150223-01a.pdf",
+      "Cylance SPEAR Team_ A Threat Actor Resurfaces.pdf",
+      "dino.pdf",
+      "Dissecting-the-Kraken.pdf",
+      "DTL-12012015-01.pdf"
+    ],
+    "top_words": [
+      "attackers",
+      "butterfly",
+      "cluster",
+      "security",
+      "na"
+    ]
+  },
+  "Topic 3: configuration, cozyduke, server": {
+    "papers": [
+      "Agent.BTZ_to_ComRAT.pdf",
+      "apt29-hammertoss-stealthy-tactics-define-a.pdf",
+      "Attacks against Israeli & Palestinian interests - Cyber security updates.pdf",
+      "Backdoor.Winnti_Trojan.Skelky.pdf",
+      "CozyDuke.pdf",
+      "dino.pdf",
+      "Dissecting-LinuxMoose.pdf",
+      "Duke_cloud_Linux.pdf"
+    ],
+    "top_words": [
+      "configuration",
+      "cozyduke",
+      "server",
+      "cc",
+      "ip"
+    ]
+  },
+  "Topic 4: domain, malware, backdoor": {
+    "papers": [
+      "Agent.BTZ_to_ComRAT.pdf",
+      "ANALYSIS-ON-APT-TO-BE-ATTACK-THAT-FOCUSING-ON-CHINAS-GOVERNMENT-AGENCY-.pdf",
+      "Anthem_hack_all_roads_lead_to_China.pdf",
+      "apt29-hammertoss-stealthy-tactics-define-a.pdf",
+      "Attacks against Israeli & Palestinian interests - Cyber security updates.pdf",
+      "Backdoor.Winnti_Trojan.Skelky.pdf",
+      "butterfly-corporate-spies-out-for-financial-gain.pdf",
+      "China_Peace_Palace.pdf",
+      "CozyDuke.pdf",
+      "cto-tib-20150223-01a.pdf",
+      "Cylance SPEAR Team_ A Threat Actor Resurfaces.pdf",
+      "Dissecting-LinuxMoose.pdf",
+      "Dissecting-the-Kraken.pdf",
+      "DTL-12012015-01.pdf",
+      "Duke_cloud_Linux.pdf"
+    ],
+    "top_words": [
+      "domain",
+      "malware",
+      "backdoor",
+      "key",
+      "file"
+    ]
+  }
+}

@@ -1,0 +1,356 @@
+2025-02-24 13:18:11,533 - INFO - Starting PDF/TXT extraction process (no streaming)
+2025-02-24 13:18:11,533 - INFO - Starting folder processing: DS3_APT2\APT
+2025-02-24 13:18:11,534 - INFO - Found 18 files (PDF or TXT) to process.
+2025-02-24 13:18:11,534 - INFO - 
+Processing file: APT29 attacks Embassies using CVE-2023-38831 - report en.pdf
+2025-02-24 13:18:11,534 - INFO - Starting text extraction from PDF: DS3_APT2\APT\APT29 attacks Embassies using CVE-2023-38831 - report en.pdf
+2025-02-24 13:18:11,535 - INFO - PDF has 10 pages
+2025-02-24 13:18:11,535 - DEBUG - Processing page 1/10
+2025-02-24 13:18:11,537 - DEBUG - Processing page 2/10
+2025-02-24 13:18:11,558 - DEBUG - Processing page 3/10
+2025-02-24 13:18:11,570 - DEBUG - Processing page 4/10
+2025-02-24 13:18:11,594 - DEBUG - Processing page 5/10
+2025-02-24 13:18:11,617 - DEBUG - Processing page 6/10
+2025-02-24 13:18:11,632 - DEBUG - Processing page 7/10
+2025-02-24 13:18:11,657 - DEBUG - Processing page 8/10
+2025-02-24 13:18:11,675 - DEBUG - Processing page 9/10
+2025-02-24 13:18:11,704 - DEBUG - Processing page 10/10
+2025-02-24 13:18:11,709 - INFO - Successfully extracted 10293 characters from PDF
+2025-02-24 13:18:11,923 - INFO - Getting LLM response
+2025-02-24 13:18:23,591 - INFO - Completed processing APT29 attacks Embassies using CVE-2023-38831 - report en.pdf
+2025-02-24 13:18:23,591 - INFO - 
+Processing file: Chinese APT Targeting Cambodian Government.pdf
+2025-02-24 13:18:23,591 - INFO - Starting text extraction from PDF: DS3_APT2\APT\Chinese APT Targeting Cambodian Government.pdf
+2025-02-24 13:18:23,593 - INFO - PDF has 9 pages
+2025-02-24 13:18:23,593 - DEBUG - Processing page 1/9
+2025-02-24 13:18:23,604 - DEBUG - Processing page 2/9
+2025-02-24 13:18:23,611 - DEBUG - Processing page 3/9
+2025-02-24 13:18:23,617 - DEBUG - Processing page 4/9
+2025-02-24 13:18:23,622 - DEBUG - Processing page 5/9
+2025-02-24 13:18:23,636 - DEBUG - Processing page 6/9
+2025-02-24 13:18:23,642 - DEBUG - Processing page 7/9
+2025-02-24 13:18:23,653 - DEBUG - Processing page 8/9
+2025-02-24 13:18:23,663 - DEBUG - Processing page 9/9
+2025-02-24 13:18:23,670 - INFO - Successfully extracted 11988 characters from PDF
+2025-02-24 13:18:23,844 - INFO - Getting LLM response
+2025-02-24 13:18:26,579 - INFO - Completed processing Chinese APT Targeting Cambodian Government.pdf
+2025-02-24 13:18:26,580 - INFO - 
+Processing file: Dark Pink APT unleashes malware for deeper and more sinister intrusions in the Asia-Pacific and Europe _ Group-IB Blog.pdf
+2025-02-24 13:18:26,580 - INFO - Starting text extraction from PDF: DS3_APT2\APT\Dark Pink APT unleashes malware for deeper and more sinister intrusions in the Asia-Pacific and Europe _ Group-IB Blog.pdf
+2025-02-24 13:18:26,588 - INFO - PDF has 22 pages
+2025-02-24 13:18:26,588 - DEBUG - Processing page 1/22
+2025-02-24 13:18:26,601 - DEBUG - Processing page 2/22
+2025-02-24 13:18:26,613 - DEBUG - Processing page 3/22
+2025-02-24 13:18:26,624 - DEBUG - Processing page 4/22
+2025-02-24 13:18:26,634 - DEBUG - Processing page 5/22
+2025-02-24 13:18:26,643 - DEBUG - Processing page 6/22
+2025-02-24 13:18:26,654 - DEBUG - Processing page 7/22
+2025-02-24 13:18:26,663 - DEBUG - Processing page 8/22
+2025-02-24 13:18:26,673 - DEBUG - Processing page 9/22
+2025-02-24 13:18:26,682 - DEBUG - Processing page 10/22
+2025-02-24 13:18:26,695 - DEBUG - Processing page 11/22
+2025-02-24 13:18:26,717 - DEBUG - Processing page 12/22
+2025-02-24 13:18:26,726 - DEBUG - Processing page 13/22
+2025-02-24 13:18:26,734 - DEBUG - Processing page 14/22
+2025-02-24 13:18:26,745 - DEBUG - Processing page 15/22
+2025-02-24 13:18:26,774 - DEBUG - Processing page 16/22
+2025-02-24 13:18:26,783 - DEBUG - Processing page 17/22
+2025-02-24 13:18:26,789 - DEBUG - Processing page 18/22
+2025-02-24 13:18:26,795 - DEBUG - Processing page 19/22
+2025-02-24 13:18:26,819 - DEBUG - Processing page 20/22
+2025-02-24 13:18:26,840 - DEBUG - Processing page 21/22
+2025-02-24 13:18:26,857 - DEBUG - Processing page 22/22
+2025-02-24 13:18:26,876 - INFO - Successfully extracted 55413 characters from PDF
+2025-02-24 13:18:27,046 - INFO - Getting LLM response
+2025-02-24 13:18:36,177 - INFO - Completed processing Dark Pink APT unleashes malware for deeper and more sinister intrusions in the Asia-Pacific and Europe _ Group-IB Blog.pdf
+2025-02-24 13:18:36,177 - INFO - 
+Processing file: Flax Typhoon using legitimate software to quietly access Taiwanese organizations _ Microsoft Security Blog.pdf
+2025-02-24 13:18:36,177 - INFO - Starting text extraction from PDF: DS3_APT2\APT\Flax Typhoon using legitimate software to quietly access Taiwanese organizations _ Microsoft Security Blog.pdf
+2025-02-24 13:18:36,183 - INFO - PDF has 12 pages
+2025-02-24 13:18:36,184 - DEBUG - Processing page 1/12
+2025-02-24 13:18:36,195 - DEBUG - Processing page 2/12
+2025-02-24 13:18:36,205 - DEBUG - Processing page 3/12
+2025-02-24 13:18:36,215 - DEBUG - Processing page 4/12
+2025-02-24 13:18:36,225 - DEBUG - Processing page 5/12
+2025-02-24 13:18:36,234 - DEBUG - Processing page 6/12
+2025-02-24 13:18:36,247 - DEBUG - Processing page 7/12
+2025-02-24 13:18:36,257 - DEBUG - Processing page 8/12
+2025-02-24 13:18:36,264 - DEBUG - Processing page 9/12
+2025-02-24 13:18:36,271 - DEBUG - Processing page 10/12
+2025-02-24 13:18:36,278 - DEBUG - Processing page 11/12
+2025-02-24 13:18:36,290 - DEBUG - Processing page 12/12
+2025-02-24 13:18:36,298 - INFO - Successfully extracted 26021 characters from PDF
+2025-02-24 13:18:36,480 - INFO - Getting LLM response
+2025-02-24 13:18:41,516 - INFO - Completed processing Flax Typhoon using legitimate software to quietly access Taiwanese organizations _ Microsoft Security Blog.pdf
+2025-02-24 13:18:41,517 - INFO - 
+Processing file: From Albania to the Middle East_ The Scarred Manticore is Listening - Check Point Research.pdf
+2025-02-24 13:18:41,517 - INFO - Starting text extraction from PDF: DS3_APT2\APT\From Albania to the Middle East_ The Scarred Manticore is Listening - Check Point Research.pdf
+2025-02-24 13:18:41,526 - INFO - PDF has 21 pages
+2025-02-24 13:18:41,526 - DEBUG - Processing page 1/21
+2025-02-24 13:18:41,539 - DEBUG - Processing page 2/21
+2025-02-24 13:18:41,560 - DEBUG - Processing page 3/21
+2025-02-24 13:18:41,568 - DEBUG - Processing page 4/21
+2025-02-24 13:18:41,576 - DEBUG - Processing page 5/21
+2025-02-24 13:18:41,587 - DEBUG - Processing page 6/21
+2025-02-24 13:18:41,594 - DEBUG - Processing page 7/21
+2025-02-24 13:18:41,601 - DEBUG - Processing page 8/21
+2025-02-24 13:18:41,610 - DEBUG - Processing page 9/21
+2025-02-24 13:18:41,618 - DEBUG - Processing page 10/21
+2025-02-24 13:18:41,630 - DEBUG - Processing page 11/21
+2025-02-24 13:18:41,638 - DEBUG - Processing page 12/21
+2025-02-24 13:18:41,646 - DEBUG - Processing page 13/21
+2025-02-24 13:18:41,651 - DEBUG - Processing page 14/21
+2025-02-24 13:18:41,660 - DEBUG - Processing page 15/21
+2025-02-24 13:18:41,668 - DEBUG - Processing page 16/21
+2025-02-24 13:18:41,677 - DEBUG - Processing page 17/21
+2025-02-24 13:18:41,686 - DEBUG - Processing page 18/21
+2025-02-24 13:18:41,694 - DEBUG - Processing page 19/21
+2025-02-24 13:18:41,704 - DEBUG - Processing page 20/21
+2025-02-24 13:18:41,710 - DEBUG - Processing page 21/21
+2025-02-24 13:18:41,728 - INFO - Successfully extracted 42375 characters from PDF
+2025-02-24 13:18:41,907 - INFO - Getting LLM response
+2025-02-24 13:18:57,806 - INFO - Completed processing From Albania to the Middle East_ The Scarred Manticore is Listening - Check Point Research.pdf
+2025-02-24 13:18:57,806 - INFO - 
+Processing file: Intellexa and Cytrox_ From fixer-upper to Intel Agency-grade spyware.pdf
+2025-02-24 13:18:57,806 - INFO - Starting text extraction from PDF: DS3_APT2\APT\Intellexa and Cytrox_ From fixer-upper to Intel Agency-grade spyware.pdf
+2025-02-24 13:18:57,809 - INFO - PDF has 12 pages
+2025-02-24 13:18:57,810 - DEBUG - Processing page 1/12
+2025-02-24 13:18:57,821 - DEBUG - Processing page 2/12
+2025-02-24 13:18:57,833 - DEBUG - Processing page 3/12
+2025-02-24 13:18:57,841 - DEBUG - Processing page 4/12
+2025-02-24 13:18:57,846 - DEBUG - Processing page 5/12
+2025-02-24 13:18:57,854 - DEBUG - Processing page 6/12
+2025-02-24 13:18:57,860 - DEBUG - Processing page 7/12
+2025-02-24 13:18:57,866 - DEBUG - Processing page 8/12
+2025-02-24 13:18:57,872 - DEBUG - Processing page 9/12
+2025-02-24 13:18:57,879 - DEBUG - Processing page 10/12
+2025-02-24 13:18:57,885 - DEBUG - Processing page 11/12
+2025-02-24 13:18:57,894 - DEBUG - Processing page 12/12
+2025-02-24 13:18:57,899 - INFO - Successfully extracted 18464 characters from PDF
+2025-02-24 13:18:58,095 - INFO - Getting LLM response
+2025-02-24 13:19:03,103 - INFO - Completed processing Intellexa and Cytrox_ From fixer-upper to Intel Agency-grade spyware.pdf
+2025-02-24 13:19:03,103 - INFO - 
+Processing file: INTRINSEC - Emotet returns and deploys loaders.pdf
+2025-02-24 13:19:03,104 - INFO - Starting text extraction from PDF: DS3_APT2\APT\INTRINSEC - Emotet returns and deploys loaders.pdf
+2025-02-24 13:19:03,106 - INFO - PDF has 6 pages
+2025-02-24 13:19:03,107 - DEBUG - Processing page 1/6
+2025-02-24 13:19:03,125 - DEBUG - Processing page 2/6
+2025-02-24 13:19:03,139 - DEBUG - Processing page 3/6
+2025-02-24 13:19:03,152 - DEBUG - Processing page 4/6
+2025-02-24 13:19:03,166 - DEBUG - Processing page 5/6
+2025-02-24 13:19:03,176 - DEBUG - Processing page 6/6
+2025-02-24 13:19:03,188 - INFO - Successfully extracted 27041 characters from PDF
+2025-02-24 13:19:03,373 - INFO - Getting LLM response
+2025-02-24 13:19:13,235 - INFO - Completed processing INTRINSEC - Emotet returns and deploys loaders.pdf
+2025-02-24 13:19:13,235 - INFO - 
+Processing file: Israel-Hamas War Spotlight_ Shaking the Rust Off SysJoker - Check Point Research.pdf
+2025-02-24 13:19:13,235 - INFO - Starting text extraction from PDF: DS3_APT2\APT\Israel-Hamas War Spotlight_ Shaking the Rust Off SysJoker - Check Point Research.pdf
+2025-02-24 13:19:13,255 - INFO - PDF has 8 pages
+2025-02-24 13:19:13,255 - DEBUG - Processing page 1/8
+2025-02-24 13:19:13,270 - DEBUG - Processing page 2/8
+2025-02-24 13:19:13,282 - DEBUG - Processing page 3/8
+2025-02-24 13:19:13,299 - DEBUG - Processing page 4/8
+2025-02-24 13:19:13,314 - DEBUG - Processing page 5/8
+2025-02-24 13:19:13,330 - DEBUG - Processing page 6/8
+2025-02-24 13:19:13,341 - DEBUG - Processing page 7/8
+2025-02-24 13:19:13,345 - DEBUG - Processing page 8/8
+2025-02-24 13:19:13,349 - INFO - Successfully extracted 22706 characters from PDF
+2025-02-24 13:19:13,546 - INFO - Getting LLM response
+2025-02-24 13:19:18,110 - INFO - Completed processing Israel-Hamas War Spotlight_ Shaking the Rust Off SysJoker - Check Point Research.pdf
+2025-02-24 13:19:18,110 - INFO - 
+Processing file: Modern Asia APT groups TTPs _ Securelist.pdf
+2025-02-24 13:19:18,110 - INFO - Starting text extraction from PDF: DS3_APT2\APT\Modern Asia APT groups TTPs _ Securelist.pdf
+2025-02-24 13:19:18,114 - INFO - PDF has 7 pages
+2025-02-24 13:19:18,115 - DEBUG - Processing page 1/7
+2025-02-24 13:19:18,127 - DEBUG - Processing page 2/7
+2025-02-24 13:19:18,136 - DEBUG - Processing page 3/7
+2025-02-24 13:19:18,146 - DEBUG - Processing page 4/7
+2025-02-24 13:19:18,152 - DEBUG - Processing page 5/7
+2025-02-24 13:19:18,158 - DEBUG - Processing page 6/7
+2025-02-24 13:19:18,162 - DEBUG - Processing page 7/7
+2025-02-24 13:19:18,164 - INFO - Successfully extracted 7831 characters from PDF
+2025-02-24 13:19:18,337 - INFO - Getting LLM response
+2025-02-24 13:19:25,958 - INFO - Completed processing Modern Asia APT groups TTPs _ Securelist.pdf
+2025-02-24 13:19:25,958 - INFO - 
+Processing file: New ShroudedSnooper actor targets telecommunications firms in the Middle East with novel Implants.pdf
+2025-02-24 13:19:25,959 - INFO - Starting text extraction from PDF: DS3_APT2\APT\New ShroudedSnooper actor targets telecommunications firms in the Middle East with novel Implants.pdf
+2025-02-24 13:19:25,965 - INFO - PDF has 12 pages
+2025-02-24 13:19:25,965 - DEBUG - Processing page 1/12
+2025-02-24 13:19:25,973 - DEBUG - Processing page 2/12
+2025-02-24 13:19:25,983 - DEBUG - Processing page 3/12
+2025-02-24 13:19:25,991 - DEBUG - Processing page 4/12
+2025-02-24 13:19:26,000 - DEBUG - Processing page 5/12
+2025-02-24 13:19:26,009 - DEBUG - Processing page 6/12
+2025-02-24 13:19:26,014 - DEBUG - Processing page 7/12
+2025-02-24 13:19:26,021 - DEBUG - Processing page 8/12
+2025-02-24 13:19:26,023 - DEBUG - Processing page 9/12
+2025-02-24 13:19:26,028 - DEBUG - Processing page 10/12
+2025-02-24 13:19:26,033 - DEBUG - Processing page 11/12
+2025-02-24 13:19:26,040 - DEBUG - Processing page 12/12
+2025-02-24 13:19:26,044 - INFO - Successfully extracted 18414 characters from PDF
+2025-02-24 13:19:26,218 - INFO - Getting LLM response
+2025-02-24 13:19:33,852 - INFO - Completed processing New ShroudedSnooper actor targets telecommunications firms in the Middle East with novel Implants.pdf
+2025-02-24 13:19:33,852 - INFO - 
+Processing file: New SugarGh0st RAT targets Uzbekistan government and South Korea.pdf
+2025-02-24 13:19:33,852 - INFO - Starting text extraction from PDF: DS3_APT2\APT\New SugarGh0st RAT targets Uzbekistan government and South Korea.pdf
+2025-02-24 13:19:33,856 - INFO - PDF has 19 pages
+2025-02-24 13:19:33,856 - DEBUG - Processing page 1/19
+2025-02-24 13:19:33,869 - DEBUG - Processing page 2/19
+2025-02-24 13:19:33,876 - DEBUG - Processing page 3/19
+2025-02-24 13:19:33,889 - DEBUG - Processing page 4/19
+2025-02-24 13:19:33,898 - DEBUG - Processing page 5/19
+2025-02-24 13:19:33,903 - DEBUG - Processing page 6/19
+2025-02-24 13:19:33,908 - DEBUG - Processing page 7/19
+2025-02-24 13:19:33,912 - DEBUG - Processing page 8/19
+2025-02-24 13:19:33,917 - DEBUG - Processing page 9/19
+2025-02-24 13:19:33,924 - DEBUG - Processing page 10/19
+2025-02-24 13:19:33,929 - DEBUG - Processing page 11/19
+2025-02-24 13:19:33,932 - DEBUG - Processing page 12/19
+2025-02-24 13:19:33,939 - DEBUG - Processing page 13/19
+2025-02-24 13:19:33,943 - DEBUG - Processing page 14/19
+2025-02-24 13:19:33,947 - DEBUG - Processing page 15/19
+2025-02-24 13:19:33,952 - DEBUG - Processing page 16/19
+2025-02-24 13:19:33,957 - DEBUG - Processing page 17/19
+2025-02-24 13:19:33,963 - DEBUG - Processing page 18/19
+2025-02-24 13:19:33,972 - DEBUG - Processing page 19/19
+2025-02-24 13:19:33,978 - INFO - Successfully extracted 21671 characters from PDF
+2025-02-24 13:19:34,177 - INFO - Getting LLM response
+2025-02-24 13:19:41,231 - INFO - Completed processing New SugarGh0st RAT targets Uzbekistan government and South Korea.pdf
+2025-02-24 13:19:41,231 - INFO - 
+Processing file: Operation Triangulation_ The last (hardware) mystery _ Securelist.pdf
+2025-02-24 13:19:41,232 - INFO - Starting text extraction from PDF: DS3_APT2\APT\Operation Triangulation_ The last (hardware) mystery _ Securelist.pdf
+2025-02-24 13:19:41,256 - INFO - PDF has 20 pages
+2025-02-24 13:19:41,256 - DEBUG - Processing page 1/20
+2025-02-24 13:19:41,266 - DEBUG - Processing page 2/20
+2025-02-24 13:19:41,278 - DEBUG - Processing page 3/20
+2025-02-24 13:19:41,284 - DEBUG - Processing page 4/20
+2025-02-24 13:19:41,292 - DEBUG - Processing page 5/20
+2025-02-24 13:19:41,297 - DEBUG - Processing page 6/20
+2025-02-24 13:19:41,309 - DEBUG - Processing page 7/20
+2025-02-24 13:19:41,316 - DEBUG - Processing page 8/20
+2025-02-24 13:19:41,327 - DEBUG - Processing page 9/20
+2025-02-24 13:19:41,333 - DEBUG - Processing page 10/20
+2025-02-24 13:19:41,346 - DEBUG - Processing page 11/20
+2025-02-24 13:19:41,357 - DEBUG - Processing page 12/20
+2025-02-24 13:19:41,360 - DEBUG - Processing page 13/20
+2025-02-24 13:19:41,370 - DEBUG - Processing page 14/20
+2025-02-24 13:19:41,380 - DEBUG - Processing page 15/20
+2025-02-24 13:19:41,406 - DEBUG - Processing page 16/20
+2025-02-24 13:19:41,421 - DEBUG - Processing page 17/20
+2025-02-24 13:19:41,427 - DEBUG - Processing page 18/20
+2025-02-24 13:19:41,432 - DEBUG - Processing page 19/20
+2025-02-24 13:19:41,440 - DEBUG - Processing page 20/20
+2025-02-24 13:19:41,443 - INFO - Successfully extracted 29833 characters from PDF
+2025-02-24 13:19:41,613 - INFO - Getting LLM response
+2025-02-24 13:19:53,162 - INFO - Completed processing Operation Triangulation_ The last (hardware) mystery _ Securelist.pdf
+2025-02-24 13:19:53,162 - INFO - 
+Processing file: Seedworm_ Iranian Hackers Target Telecoms Orgs in North and East Africa _ Symantec Enterprise Blogs.pdf
+2025-02-24 13:19:53,163 - INFO - Starting text extraction from PDF: DS3_APT2\APT\Seedworm_ Iranian Hackers Target Telecoms Orgs in North and East Africa _ Symantec Enterprise Blogs.pdf
+2025-02-24 13:19:53,168 - INFO - PDF has 6 pages
+2025-02-24 13:19:53,168 - DEBUG - Processing page 1/6
+2025-02-24 13:19:53,177 - DEBUG - Processing page 2/6
+2025-02-24 13:19:53,185 - DEBUG - Processing page 3/6
+2025-02-24 13:19:53,194 - DEBUG - Processing page 4/6
+2025-02-24 13:19:53,203 - DEBUG - Processing page 5/6
+2025-02-24 13:19:53,222 - DEBUG - Processing page 6/6
+2025-02-24 13:19:53,227 - INFO - Successfully extracted 12576 characters from PDF
+2025-02-24 13:19:53,405 - INFO - Getting LLM response
+2025-02-24 13:20:01,092 - INFO - Completed processing Seedworm_ Iranian Hackers Target Telecoms Orgs in North and East Africa _ Symantec Enterprise Blogs.pdf
+2025-02-24 13:20:01,093 - INFO - 
+Processing file: StripedFly_ Perennially flying under the radar _ Securelist.pdf
+2025-02-24 13:20:01,094 - INFO - Starting text extraction from PDF: DS3_APT2\APT\StripedFly_ Perennially flying under the radar _ Securelist.pdf
+2025-02-24 13:20:01,099 - INFO - PDF has 15 pages
+2025-02-24 13:20:01,099 - DEBUG - Processing page 1/15
+2025-02-24 13:20:01,107 - DEBUG - Processing page 2/15
+2025-02-24 13:20:01,115 - DEBUG - Processing page 3/15
+2025-02-24 13:20:01,122 - DEBUG - Processing page 4/15
+2025-02-24 13:20:01,130 - DEBUG - Processing page 5/15
+2025-02-24 13:20:01,134 - DEBUG - Processing page 6/15
+2025-02-24 13:20:01,142 - DEBUG - Processing page 7/15
+2025-02-24 13:20:01,150 - DEBUG - Processing page 8/15
+2025-02-24 13:20:01,157 - DEBUG - Processing page 9/15
+2025-02-24 13:20:01,165 - DEBUG - Processing page 10/15
+2025-02-24 13:20:01,173 - DEBUG - Processing page 11/15
+2025-02-24 13:20:01,179 - DEBUG - Processing page 12/15
+2025-02-24 13:20:01,185 - DEBUG - Processing page 13/15
+2025-02-24 13:20:01,193 - DEBUG - Processing page 14/15
+2025-02-24 13:20:01,200 - DEBUG - Processing page 15/15
+2025-02-24 13:20:01,203 - INFO - Successfully extracted 26879 characters from PDF
+2025-02-24 13:20:01,381 - INFO - Getting LLM response
+2025-02-24 13:20:19,140 - INFO - Completed processing StripedFly_ Perennially flying under the radar _ Securelist.pdf
+2025-02-24 13:20:19,141 - INFO - 
+Processing file: Void Rabisu Targets Female Political Leaders with New Slimmed-Down ROMCOM Variant.pdf
+2025-02-24 13:20:19,141 - INFO - Starting text extraction from PDF: DS3_APT2\APT\Void Rabisu Targets Female Political Leaders with New Slimmed-Down ROMCOM Variant.pdf
+2025-02-24 13:20:19,147 - INFO - PDF has 11 pages
+2025-02-24 13:20:19,147 - DEBUG - Processing page 1/11
+2025-02-24 13:20:19,158 - DEBUG - Processing page 2/11
+2025-02-24 13:20:19,167 - DEBUG - Processing page 3/11
+2025-02-24 13:20:19,173 - DEBUG - Processing page 4/11
+2025-02-24 13:20:19,176 - DEBUG - Processing page 5/11
+2025-02-24 13:20:19,181 - DEBUG - Processing page 6/11
+2025-02-24 13:20:19,189 - DEBUG - Processing page 7/11
+2025-02-24 13:20:19,198 - DEBUG - Processing page 8/11
+2025-02-24 13:20:19,205 - DEBUG - Processing page 9/11
+2025-02-24 13:20:19,213 - DEBUG - Processing page 10/11
+2025-02-24 13:20:19,221 - DEBUG - Processing page 11/11
+2025-02-24 13:20:19,225 - INFO - Successfully extracted 18209 characters from PDF
+2025-02-24 13:20:19,398 - INFO - Getting LLM response
+2025-02-24 13:20:24,699 - INFO - Completed processing Void Rabisu Targets Female Political Leaders with New Slimmed-Down ROMCOM Variant.pdf
+2025-02-24 13:20:24,700 - INFO - 
+Processing file: Volt Typhoon targets US critical infrastructure with living-off-the-land techniques _ Microsoft Security Blog.pdf
+2025-02-24 13:20:24,700 - INFO - Starting text extraction from PDF: DS3_APT2\APT\Volt Typhoon targets US critical infrastructure with living-off-the-land techniques _ Microsoft Security Blog.pdf
+2025-02-24 13:20:24,705 - INFO - PDF has 10 pages
+2025-02-24 13:20:24,705 - DEBUG - Processing page 1/10
+2025-02-24 13:20:24,715 - DEBUG - Processing page 2/10
+2025-02-24 13:20:24,724 - DEBUG - Processing page 3/10
+2025-02-24 13:20:24,732 - DEBUG - Processing page 4/10
+2025-02-24 13:20:24,740 - DEBUG - Processing page 5/10
+2025-02-24 13:20:24,748 - DEBUG - Processing page 6/10
+2025-02-24 13:20:24,760 - DEBUG - Processing page 7/10
+2025-02-24 13:20:24,769 - DEBUG - Processing page 8/10
+2025-02-24 13:20:24,776 - DEBUG - Processing page 9/10
+2025-02-24 13:20:24,789 - DEBUG - Processing page 10/10
+2025-02-24 13:20:24,793 - INFO - Successfully extracted 19568 characters from PDF
+2025-02-24 13:20:24,966 - INFO - Getting LLM response
+2025-02-24 13:20:38,383 - INFO - Completed processing Volt Typhoon targets US critical infrastructure with living-off-the-land techniques _ Microsoft Security Blog.pdf
+2025-02-24 13:20:38,383 - INFO - 
+Processing file: Welcome to Goot Camp_ Tracking the Evolution of GOOTLOADER Operations _ Mandiant.pdf
+2025-02-24 13:20:38,383 - INFO - Starting text extraction from PDF: DS3_APT2\APT\Welcome to Goot Camp_ Tracking the Evolution of GOOTLOADER Operations _ Mandiant.pdf
+2025-02-24 13:20:38,388 - INFO - PDF has 15 pages
+2025-02-24 13:20:38,388 - DEBUG - Processing page 1/15
+2025-02-24 13:20:38,401 - DEBUG - Processing page 2/15
+2025-02-24 13:20:38,410 - DEBUG - Processing page 3/15
+2025-02-24 13:20:38,417 - DEBUG - Processing page 4/15
+2025-02-24 13:20:38,448 - DEBUG - Processing page 5/15
+2025-02-24 13:20:38,465 - DEBUG - Processing page 6/15
+2025-02-24 13:20:38,471 - DEBUG - Processing page 7/15
+2025-02-24 13:20:38,476 - DEBUG - Processing page 8/15
+2025-02-24 13:20:38,484 - DEBUG - Processing page 9/15
+2025-02-24 13:20:38,492 - DEBUG - Processing page 10/15
+2025-02-24 13:20:38,502 - DEBUG - Processing page 11/15
+2025-02-24 13:20:38,517 - DEBUG - Processing page 12/15
+2025-02-24 13:20:38,528 - DEBUG - Processing page 13/15
+2025-02-24 13:20:38,538 - DEBUG - Processing page 14/15
+2025-02-24 13:20:38,554 - DEBUG - Processing page 15/15
+2025-02-24 13:20:38,559 - INFO - Successfully extracted 30768 characters from PDF
+2025-02-24 13:20:38,732 - INFO - Getting LLM response
+2025-02-24 13:20:51,164 - INFO - Completed processing Welcome to Goot Camp_ Tracking the Evolution of GOOTLOADER Operations _ Mandiant.pdf
+2025-02-24 13:20:51,165 - INFO - 
+Processing file: WildCard_ The APT Behind SysJoker Targets Critical Sectors in Israel.pdf
+2025-02-24 13:20:51,165 - INFO - Starting text extraction from PDF: DS3_APT2\APT\WildCard_ The APT Behind SysJoker Targets Critical Sectors in Israel.pdf
+2025-02-24 13:20:51,167 - INFO - PDF has 9 pages
+2025-02-24 13:20:51,168 - DEBUG - Processing page 1/9
+2025-02-24 13:20:51,181 - DEBUG - Processing page 2/9
+2025-02-24 13:20:51,189 - DEBUG - Processing page 3/9
+2025-02-24 13:20:51,195 - DEBUG - Processing page 4/9
+2025-02-24 13:20:51,206 - DEBUG - Processing page 5/9
+2025-02-24 13:20:51,216 - DEBUG - Processing page 6/9
+2025-02-24 13:20:51,224 - DEBUG - Processing page 7/9
+2025-02-24 13:20:51,232 - DEBUG - Processing page 8/9
+2025-02-24 13:20:51,240 - DEBUG - Processing page 9/9
+2025-02-24 13:20:51,244 - INFO - Successfully extracted 20125 characters from PDF
+2025-02-24 13:20:51,415 - INFO - Getting LLM response
+2025-02-24 13:21:02,830 - INFO - Completed processing WildCard_ The APT Behind SysJoker Targets Critical Sectors in Israel.pdf
+2025-02-24 13:21:02,831 - INFO - Saving results to: DS3_APT2\llm_1_extracted_keywords.json
+2025-02-24 13:21:02,832 - INFO - Successfully saved results
+2025-02-24 13:21:02,833 - INFO - Process completed successfully

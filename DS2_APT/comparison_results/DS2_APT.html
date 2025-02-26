@@ -1,0 +1,234 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Model Comparison Report</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+            h1, h2, h3 { color: #333; }
+            .container { max-width: 1200px; margin: 0 auto; }
+            table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .better { font-weight: bold; color: green; }
+            .worse { color: #666; }
+            .images { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin: 20px 0; }
+            .image-container { text-align: center; }
+            .summary { background-color: #f0f8ff; padding: 15px; border-radius: 5px; margin-bottom: 20px; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Model Comparison Report: LLM vs. Traditional Approach</h1>
+            
+            <div class="summary">
+                <h2>Executive Summary</h2>
+    
+                <p>Based on 7 comparative metrics:</p>
+                <ul>
+                    <li>LLM approach wins on 6 metrics</li>
+                    <li>Traditional approach wins on 1 metrics</li>
+                    <li>Overall recommendation: <strong>LLM</strong></li>
+                </ul>
+            </div>
+            
+            <h2>Key Metrics Comparison</h2>
+            <table>
+                <tr>
+                    <th>Metric</th>
+                    <th>LLM</th>
+                    <th>Traditional</th>
+                    <th>Difference</th>
+                    <th>Better Model</th>
+                </tr>
+    
+                <tr>
+                    <td>Overall Density</td>
+                    <td class="better">0.0839</td>
+                    <td class="worse">0.0796</td>
+                    <td>0.0043</td>
+                    <td>LLM</td>
+                </tr>
+            
+                <tr>
+                    <td>Overall Distinctiveness</td>
+                    <td class="better">0.2959</td>
+                    <td class="worse">0.0976</td>
+                    <td>0.1983</td>
+                    <td>LLM</td>
+                </tr>
+            
+                <tr>
+                    <td>Coherence C V</td>
+                    <td class="better">0.3662</td>
+                    <td class="worse">0.3640</td>
+                    <td>0.0022</td>
+                    <td>LLM</td>
+                </tr>
+            
+                <tr>
+                    <td>Coherence C Uci</td>
+                    <td class="better">-0.7332</td>
+                    <td class="worse">-0.8452</td>
+                    <td>0.1120</td>
+                    <td>LLM</td>
+                </tr>
+            
+                <tr>
+                    <td>Coherence C Npmi</td>
+                    <td class="better">-0.0374</td>
+                    <td class="worse">-0.0394</td>
+                    <td>0.0020</td>
+                    <td>LLM</td>
+                </tr>
+            
+                <tr>
+                    <td>Overlap Quality Index</td>
+                    <td class="worse">-0.0005</td>
+                    <td class="better">0.0795</td>
+                    <td>-0.0800</td>
+                    <td>Traditional</td>
+                </tr>
+            
+                <tr>
+                    <td>Label Entropy</td>
+                    <td class="better">2.9537</td>
+                    <td class="worse">2.2125</td>
+                    <td>0.7412</td>
+                    <td>LLM</td>
+                </tr>
+            
+                <tr>
+                    <td>Avg Labels Per Doc</td>
+                    <td>3.3529</td>
+                    <td>3.0000</td>
+                    <td>0.3529</td>
+                    <td>More labels is not necessarily better, depends on use case</td>
+                </tr>
+            
+            </table>
+            
+            <h2>Label and Document Counts</h2>
+            <table>
+                <tr>
+                    <th>Metric</th>
+                    <th>LLM</th>
+                    <th>Traditional</th>
+                    <th>Difference</th>
+                </tr>
+    
+            <tr>
+                <td>Label Count</td>
+                <td>9</td>
+                <td>5</td>
+                <td>4</td>
+            </tr>
+        
+            <tr>
+                <td>Doc Count</td>
+                <td>17</td>
+                <td>16</td>
+                <td>1</td>
+            </tr>
+        
+            </table>
+            
+            <h2>Label Quality Analysis</h2>
+            <table>
+                <tr>
+                    <th>Metric</th>
+                    <th>LLM</th>
+                    <th>Traditional</th>
+                    <th>Better Model</th>
+                </tr>
+    
+            <tr>
+                <td>Avg Label Density</td>
+                <td class="better">0.0839</td>
+                <td class="worse">0.0796</td>
+                <td>LLM</td>
+            </tr>
+        
+            <tr>
+                <td>Avg Label Distinctiveness</td>
+                <td class="better">0.2959</td>
+                <td class="worse">0.0976</td>
+                <td>LLM</td>
+            </tr>
+        
+            <tr>
+                <td>Unique Top Words Count</td>
+                <td class="better">6.0000</td>
+                <td class="worse">5.0000</td>
+                <td>LLM</td>
+            </tr>
+        
+            </table>
+            
+            <h2>Visualizations</h2>
+            <div class="images">
+                <div class="image-container">
+                    <img src="metrics_comparison.png" alt="Metrics Comparison" width="600">
+                    <p>Comparison of Key Metrics</p>
+                </div>
+                <div class="image-container">
+                    <img src="radar_comparison.png" alt="Radar Comparison" width="500">
+                    <p>Normalized Metrics Comparison</p>
+                </div>
+                <div class="image-container">
+                    <img src="wins_pie_chart.png" alt="Wins Distribution" width="400">
+                    <p>Distribution of Better Performance</p>
+                </div>
+            </div>
+            
+            <h2>Detailed Model Information</h2>
+            
+            <h3>LLM Model Labels</h3>
+            <ul>
+    
+            <li><strong>Advanced Persistent Threats (APT)</strong> (20 documents) - Top words: the, of, to, and, a</li>
+        
+            <li><strong>Cyber Espionage</strong> (20 documents) - Top words: the, of, to, a, and</li>
+        
+            <li><strong>Malware Analysis</strong> (20 documents) - Top words: the, to, of, a, is</li>
+        
+            <li><strong>State-Sponsored Attacks</strong> (20 documents) - Top words: the, of, to, a, and</li>
+        
+            <li><strong>Command and Control (C&C)</strong> (20 documents) - Top words: the, to, of, a, and</li>
+        
+            <li><strong>Phishing and Social Engineering</strong> (20 documents) - Top words: the, to, of, and, a</li>
+        
+            <li><strong>Network and Infrastructure Attacks</strong> (20 documents) - Top words: the, of, to, a, and</li>
+        
+            <li><strong>Linux and Cross-Platform Malware</strong> (20 documents) - Top words: the, to, of, is, and</li>
+        
+            <li><strong>Corporate and Financial Espionage</strong> (20 documents) - Top words: the, a, to, of, and</li>
+        
+            </ul>
+            
+            <h3>Traditional Model Labels</h3>
+            <ul>
+    
+            <li><strong>cloudduke, ch, version</strong> (20 documents) - Top words: the, to, of, a, and</li>
+        
+            <li><strong>attack, apt, module</strong> (20 documents) - Top words: the, of, a, to, and</li>
+        
+            <li><strong>attackers, butterfly, cluster</strong> (20 documents) - Top words: the, of, to, a, and</li>
+        
+            <li><strong>configuration, cozyduke, server</strong> (20 documents) - Top words: the, to, of, a, and</li>
+        
+            <li><strong>domain, malware, backdoor</strong> (20 documents) - Top words: the, to, of, a, and</li>
+        
+            </ul>
+            
+            <h2>Conclusion</h2>
+    
+            <p>The LLM-based approach demonstrates superior performance overall, particularly in metrics related to 
+            semantic coherence and quality of clustering. This suggests that for this specific document set, 
+            the language model's understanding of context and semantics provides more meaningful topic groupings.</p>
+        
+        </div>
+    </body>
+    </html>
+    

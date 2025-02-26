@@ -1,0 +1,26 @@
+2025-01-21 20:54:00,025 - INFO - Starting label evaluation script...
+2025-01-21 20:54:00,026 - INFO - Loaded labels from generated_labels.json.
+2025-01-21 20:54:00,026 - INFO - Found 10 PDF files in test_pdf.
+2025-01-21 20:54:00,027 - DEBUG - Extracting text from PDF: test_pdf\Counterfactual Explanations for k-means and Gaussian Clustering.pdf
+2025-01-21 20:54:00,701 - DEBUG - Extracting text from PDF: test_pdf\Detection of AI Deepfake and Fraud in Online Payments Using GAN-Based.pdf
+2025-01-21 20:54:00,948 - DEBUG - Extracting text from PDF: test_pdf\Grey-Box Fuzzing in Constrained Ultra-Large Systems Lessons.pdf
+2025-01-21 20:54:01,592 - DEBUG - Extracting text from PDF: test_pdf\Hybrid Deep Learning Model for epileptic seizure.pdf
+2025-01-21 20:54:01,804 - DEBUG - Extracting text from PDF: test_pdf\Mapping the Increasing Use of LLMs in Scientific Papers.pdf
+2025-01-21 20:54:04,516 - DEBUG - Extracting text from PDF: test_pdf\MechIR A Mechanistic Interpretability Framework.pdf
+2025-01-21 20:54:05,130 - DEBUG - Extracting text from PDF: test_pdf\Modelling Activity Scheduling Behaviour with Deep.pdf
+2025-01-21 20:54:05,467 - DEBUG - Extracting text from PDF: test_pdf\SEANN A Domain-Informed Neural Network for.pdf
+2025-01-21 20:54:05,799 - DEBUG - Extracting text from PDF: test_pdf\The Distributed Multi-User Point Function.pdf
+2025-01-21 20:54:06,162 - DEBUG - Extracting text from PDF: test_pdf\The_Evolution_of_Large_Language_Model_Models_Applications_and_Challenges.pdf
+2025-01-21 20:54:06,758 - INFO - Vectorizing documents with TF–IDF...
+2025-01-21 20:54:06,830 - INFO - Created TF–IDF matrix of shape (10, 5000)
+2025-01-21 20:54:06,832 - INFO - Silhouette Score (cosine): -0.0462
+2025-01-21 20:54:06,833 - INFO - Average Intra-Label Similarity (cosine): 0.0872
+2025-01-21 20:54:06,833 - INFO -   Label 0, average similarity = 0.0815
+2025-01-21 20:54:06,833 - INFO -   Label 1, average similarity = 0.1345
+2025-01-21 20:54:06,833 - INFO -   Label 2, average similarity = 0.0457
+2025-01-21 20:54:06,833 - INFO -   Label 3, average similarity = nan
+2025-01-21 20:54:06,834 - INFO - Computing topic coherence for each label using Gensim...
+2025-01-21 20:54:23,819 - INFO - Overall topic coherence (c_v): 0.3347
+2025-01-21 20:54:23,821 - INFO - Computing NMI between LLM labels and KMeans partition.
+2025-01-21 20:54:23,980 - INFO - NMI between LLM-based labels and KMeans: 0.3476
+2025-01-21 20:54:23,980 - INFO - Done with label evaluation.

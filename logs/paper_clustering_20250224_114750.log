@@ -1,0 +1,104 @@
+2025-02-24 11:47:50,165 - INFO - Starting paper grouping script.
+2025-02-24 11:47:50,165 - INFO - Loading extracted keywords from DS3_APT2\extracted_keywords.json
+2025-02-24 11:47:50,371 - INFO - Sending request to LLM for paper clustering...
+2025-02-24 11:48:44,628 - INFO - LLM response received.
+2025-02-24 11:48:44,628 - DEBUG - Raw LLM response:
+```json
+{
+  "Advanced Persistent Threats (APTs)": [
+    "APT29 attacks Embassies using CVE-2023-38831 - report en.pdf",
+    "Chinese APT Targeting Cambodian Government.pdf",
+    "Dark Pink APT unleashes malware for deeper and more sinister intrusions in the Asia-Pacific and Europe _ Group-IB Blog.pdf",
+    "Flax Typhoon using legitimate software to quietly access Taiwanese organizations _ Microsoft Security Blog.pdf",
+    "From Albania to the Middle East_ The Scarred Manticore is Listening - Check Point Research.pdf",
+    "Intellexa and Cytrox_ From fixer-upper to Intel Agency-grade spyware.pdf",
+    "INTRINSEC - Emotet returns and deploys loaders.pdf",
+    "Israel-Hamas War Spotlight_ Shaking the Rust Off SysJoker - Check Point Research.pdf",
+    "Modern Asia APT groups TTPs _ Securelist.pdf",
+    "New ShroudedSnooper actor targets telecommunications firms in the Middle East with novel Implants.pdf",
+    "New SugarGh0st RAT targets Uzbekistan government and South Korea.pdf",
+    "Operation Triangulation_ The last (hardware) mystery _ Securelist.pdf",
+    "Seedworm_ Iranian Hackers Target Telecoms Orgs in North and East Africa _ Symantec Enterprise Blogs.pdf",
+    "StripedFly_ Perennially flying under the radar _ Securelist.pdf",
+    "Void Rabisu Targets Female Political Leaders with New Slimmed-Down ROMCOM Variant.pdf",
+    "Volt Typhoon targets US critical infrastructure with living-off-the-land techniques _ Microsoft Security Blog.pdf",
+    "Welcome to Goot Camp_ Tracking the Evolution of GOOTLOADER Operations _ Mandiant.pdf",
+    "WildCard_ The APT Behind SysJoker Targets Critical Sectors in Israel.pdf"
+  ],
+  "Cyber Espionage": [
+    "APT29 attacks Embassies using CVE-2023-38831 - report en.pdf",
+    "Chinese APT Targeting Cambodian Government.pdf",
+    "Dark Pink APT unleashes malware for deeper and more sinister intrusions in the Asia-Pacific and Europe _ Group-IB Blog.pdf",
+    "Flax Typhoon using legitimate software to quietly access Taiwanese organizations _ Microsoft Security Blog.pdf",
+    "From Albania to the Middle East_ The Scarred Manticore is Listening - Check Point Research.pdf",
+    "Intellexa and Cytrox_ From fixer-upper to Intel Agency-grade spyware.pdf",
+    "Israel-Hamas War Spotlight_ Shaking the Rust Off SysJoker - Check Point Research.pdf",
+    "Seedworm_ Iranian Hackers Target Telecoms Orgs in North and East Africa _ Symantec Enterprise Blogs.pdf",
+    "Void Rabisu Targets Female Political Leaders with New Slimmed-Down ROMCOM Variant.pdf",
+    "Volt Typhoon targets US critical infrastructure with living-off-the-land techniques _ Microsoft Security Blog.pdf",
+    "WildCard_ The APT Behind SysJoker Targets Critical Sectors in Israel.pdf"
+  ],
+  "Geopolitical Implications": [
+    "APT29 attacks Embassies using CVE-2023-38831 - report en.pdf",
+    "Chinese APT Targeting Cambodian Government.pdf",
+    "From Albania to the Middle East_ The Scarred Manticore is Listening - Check Point Research.pdf",
+    "Israel-Hamas War Spotlight_ Shaking the Rust Off SysJoker - Check Point Research.pdf",
+    "Seedworm_ Iranian Hackers Target Telecoms Orgs in North and East Africa _ Symantec Enterprise Blogs.pdf",
+    "Void Rabisu Targets Female Political Leaders with New Slimmed-Down ROMCOM Variant.pdf",
+    "Volt Typhoon targets US critical infrastructure with living-off-the-land techniques _ Microsoft Security Blog.pdf",
+    "WildCard_ The APT Behind SysJoker Targets Critical Sectors in Israel.pdf"
+  ],
+  "Cybersecurity Techniques and Tools": [
+    "APT29 attacks Embassies using CVE-2023-38831 - report en.pdf",
+    "Chinese APT Targeting Cambodian Government.pdf",
+    "Dark Pink APT unleashes malware for deeper and more sinister intrusions in the Asia-Pacific and Europe _ Group-IB Blog.pdf",
+    "Flax Typhoon using legitimate software to quietly access Taiwanese organizations _ Microsoft Security Blog.pdf",
+    "From Albania to the Middle East_ The Scarred Manticore is Listening - Check Point Research.pdf",
+    "INTRINSEC - Emotet returns and deploys loaders.pdf",
+    "Modern Asia APT groups TTPs _ Securelist.pdf",
+    "New ShroudedSnooper actor targets telecommunications firms in the Middle East with novel Implants.pdf",
+    "New SugarGh0st RAT targets Uzbekistan government and South Korea.pdf",
+    "Operation Triangulation_ The last (hardware) mystery _ Securelist.pdf",
+    "StripedFly_ Perennially flying under the radar _ Securelist.pdf",
+    "Volt Typhoon targets US critical infrastructure with living-off-the-land techniques _ Microsoft Security Blog.pdf",
+    "Welcome to Goot Camp_ Tracking the Evolution of GOOTLOADER Operations _ Mandiant.pdf",
+    "WildCard_ The APT Behind SysJoker Targets Critical Sectors in Israel.pdf"
+  ],
+  "Indicators of Compromise (IOCs)": [
+    "APT29 attacks Embassies using CVE-2023-38831 - report en.pdf",
+    "Chinese APT Targeting Cambodian Government.pdf",
+    "Dark Pink APT unleashes malware for deeper and more sinister intrusions in the Asia-Pacific and Europe _ Group-IB Blog.pdf",
+    "Flax Typhoon using legitimate software to quietly access Taiwanese organizations _ Microsoft Security Blog.pdf",
+    "From Albania to the Middle East_ The Scarred Manticore is Listening - Check Point Research.pdf",
+    "Intellexa and Cytrox_ From fixer-upper to Intel Agency-grade spyware.pdf",
+    "INTRINSEC - Emotet returns and deploys loaders.pdf",
+    "Israel-Hamas War Spotlight_ Shaking the Rust Off SysJoker - Check Point Research.pdf",
+    "New ShroudedSnooper actor targets telecommunications firms in the Middle East with novel Implants.pdf",
+    "New SugarGh0st RAT targets Uzbekistan government and South Korea.pdf",
+    "Seedworm_ Iranian Hackers Target Telecoms Orgs in North and East Africa _ Symantec Enterprise Blogs.pdf",
+    "StripedFly_ Perennially flying under the radar _ Securelist.pdf",
+    "Void Rabisu Targets Female Political Leaders with New Slimmed-Down ROMCOM Variant.pdf",
+    "Volt Typhoon targets US critical infrastructure with living-off-the-land techniques _ Microsoft Security Blog.pdf",
+    "Welcome to Goot Camp_ Tracking the Evolution of GOOTLOADER Operations _ Mandiant.pdf",
+    "WildCard_ The APT Behind SysJoker Targets Critical Sectors in Israel.pdf"
+  ],
+  "Malware and Exploits": [
+    "Dark Pink APT unleashes malware for deeper and more sinister intrusions in the Asia-Pacific and Europe _ Group-IB Blog.pdf",
+    "Flax Typhoon using legitimate software to quietly access Taiwanese organizations _ Microsoft Security Blog.pdf",
+    "From Albania to the Middle East_ The Scarred Manticore is Listening - Check Point Research.pdf",
+    "Intellexa and Cytrox_ From fixer-upper to Intel Agency-grade spyware.pdf",
+    "INTRINSEC - Emotet returns and deploys loaders.pdf",
+    "Israel-Hamas War Spotlight_ Shaking the Rust Off SysJoker - Check Point Research.pdf",
+    "Operation Triangulation_ The last (hardware) mystery _ Securelist.pdf",
+    "StripedFly_ Perennially flying under the radar _ Securelist.pdf",
+    "Void Rabisu Targets Female Political Leaders with New Slimmed-Down ROMCOM Variant.pdf",
+    "Welcome to Goot Camp_ Tracking the Evolution of GOOTLOADER Operations _ Mandiant.pdf",
+    "WildCard_ The APT Behind SysJoker Targets Critical Sectors in Israel.pdf"
+  ]
+}
+```
+
+2025-02-24 11:48:44,629 - INFO - Successfully parsed LLM output as JSON.
+2025-02-24 11:48:44,629 - INFO - Saving grouped labels to DS3_APT2\generated_labels.json
+2025-02-24 11:48:44,630 - INFO - Labels successfully saved.
+2025-02-24 11:48:44,630 - INFO - Paper grouping process completed.

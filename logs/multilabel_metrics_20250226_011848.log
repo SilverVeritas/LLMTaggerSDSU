@@ -1,0 +1,63 @@
+2025-02-26 01:18:48,898 - INFO - Loading multi-label model results from DS1_Paper/trad-1-multilabel_bertopic_results.json
+2025-02-26 01:18:48,899 - INFO - Loaded labels from DS1_Paper/trad-1-multilabel_bertopic_results.json
+2025-02-26 01:18:48,899 - INFO - Found 5 labels
+2025-02-26 01:18:48,899 - INFO - Found 10 PDF files
+2025-02-26 01:18:53,354 - INFO - Extracted text from 10 PDFs
+2025-02-26 01:18:53,387 - INFO - TF–IDF matrix shape: (10, 5000)
+2025-02-26 01:18:53,387 - INFO - Computing multi-label density metrics...
+2025-02-26 01:18:53,388 - DEBUG - Label 'cluster, risk, counterfactual' density: 0.0985
+2025-02-26 01:18:53,389 - DEBUG - Label 'test, fuzzing, sandboxfuzz' density: 0.0457
+2025-02-26 01:18:53,390 - DEBUG - Label 'activity, model, eeg' density: 0.1165
+2025-02-26 01:18:53,390 - DEBUG - Label 'arxiv, language, text' density: 0.4699
+2025-02-26 01:18:53,391 - DEBUG - Label 'ir, mechir, interpretability' density: 0.0954
+2025-02-26 01:18:53,391 - INFO - Overall average density: 0.1652
+2025-02-26 01:18:53,391 - INFO - Computing multiple coherence metrics...
+2025-02-26 01:18:53,398 - DEBUG - Label 'cluster, risk, counterfactual': extracted 37047 tokens
+2025-02-26 01:18:53,401 - DEBUG - Label 'test, fuzzing, sandboxfuzz': extracted 16286 tokens
+2025-02-26 01:18:53,406 - DEBUG - Label 'activity, model, eeg': extracted 25283 tokens
+2025-02-26 01:18:53,409 - DEBUG - Label 'arxiv, language, text': extracted 16878 tokens
+2025-02-26 01:18:53,415 - DEBUG - Label 'ir, mechir, interpretability': extracted 33096 tokens
+2025-02-26 01:18:53,448 - DEBUG - Created dictionary with 9962 unique tokens
+2025-02-26 01:18:53,484 - DEBUG - Label 'cluster, risk, counterfactual' top words: the, of, and, a, to...
+2025-02-26 01:18:53,484 - DEBUG - Label 'test, fuzzing, sandboxfuzz' top words: the, and, of, in, a...
+2025-02-26 01:18:53,484 - DEBUG - Label 'activity, model, eeg' top words: the, of, and, a, to...
+2025-02-26 01:18:53,485 - DEBUG - Label 'arxiv, language, text' top words: the, and, of, in, to...
+2025-02-26 01:18:53,485 - DEBUG - Label 'ir, mechir, interpretability' top words: the, of, and, a, to...
+2025-02-26 01:19:11,608 - INFO - Coherence (c_v): 0.3317
+2025-02-26 01:19:29,587 - INFO - Coherence (c_uci): -0.1743
+2025-02-26 01:19:46,748 - INFO - Coherence (c_npmi): -0.0195
+2025-02-26 01:19:46,749 - INFO - Computing overlap quality metrics...
+2025-02-26 01:19:46,749 - INFO - Average labels per document: 1.90
+2025-02-26 01:19:46,749 - DEBUG - Computing full distance matrix...
+2025-02-26 01:19:46,751 - INFO - Average similarity between docs sharing labels: 0.1172
+2025-02-26 01:19:46,751 - INFO - Average similarity between docs with different labels: 0.0893
+2025-02-26 01:19:46,751 - INFO - Overlap quality index: 0.0279
+2025-02-26 01:19:46,751 - INFO - Computing topic distinctiveness...
+2025-02-26 01:19:46,763 - DEBUG - Label 'cluster, risk, counterfactual': processed 37047 words
+2025-02-26 01:19:46,768 - DEBUG - Label 'test, fuzzing, sandboxfuzz': processed 16286 words
+2025-02-26 01:19:46,777 - DEBUG - Label 'activity, model, eeg': processed 25283 words
+2025-02-26 01:19:46,782 - DEBUG - Label 'arxiv, language, text': processed 16878 words
+2025-02-26 01:19:46,792 - DEBUG - Label 'ir, mechir, interpretability': processed 33096 words
+2025-02-26 01:19:46,803 - DEBUG - Label 'ir, mechir, interpretability' distinctiveness: 0.2117
+2025-02-26 01:19:46,812 - DEBUG - Label 'ir, mechir, interpretability' distinctiveness: 0.4216
+2025-02-26 01:19:46,819 - DEBUG - Label 'ir, mechir, interpretability' distinctiveness: 0.2257
+2025-02-26 01:19:46,829 - DEBUG - Label 'ir, mechir, interpretability' distinctiveness: 0.3954
+2025-02-26 01:19:46,838 - DEBUG - Label 'ir, mechir, interpretability' distinctiveness: 0.2124
+2025-02-26 01:19:46,838 - INFO - Overall topic distinctiveness: 0.2124
+2025-02-26 01:19:46,839 - INFO - Computing label balance metrics...
+2025-02-26 01:19:46,839 - DEBUG - Label sizes: {'cluster, risk, counterfactual': 6, 'test, fuzzing, sandboxfuzz': 2, 'activity, model, eeg': 4, 'arxiv, language, text': 2, 'ir, mechir, interpretability': 5}
+2025-02-26 01:19:46,840 - INFO - Total labels: 5
+2025-02-26 01:19:46,840 - INFO - Total unique documents: 10
+2025-02-26 01:19:46,840 - INFO - Label distribution entropy: 2.1890
+2025-02-26 01:19:46,840 - INFO - Average labels per document: 1.90
+2025-02-26 01:19:46,840 - INFO - Saving results to DS1_Paper/trad-2-evaluation_results.json
+2025-02-26 01:19:46,840 - INFO - Evaluation complete.
+2025-02-26 01:19:46,840 - INFO - 
+==== SUMMARY OF KEY METRICS ====
+2025-02-26 01:19:46,841 - INFO - Overall Label Density: 0.1652
+2025-02-26 01:19:46,841 - INFO - Topic Coherence (C_V): 0.3317
+2025-02-26 01:19:46,841 - INFO - Overlap Quality Index: 0.0279
+2025-02-26 01:19:46,841 - INFO - Topic Distinctiveness: 0.2124
+2025-02-26 01:19:46,841 - INFO - Label Entropy: 2.1890
+2025-02-26 01:19:46,841 - INFO - Avg Labels per Doc: 1.90
+2025-02-26 01:19:46,841 - INFO - ==============================

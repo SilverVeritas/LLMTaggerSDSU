@@ -1,0 +1,3 @@
+2025-02-26 01:11:14,643 - INFO - Starting model comparison
+2025-02-26 01:11:14,651 - INFO - Loaded LLM evaluation results from DS2_APT\llm_3_evaluation_results.json
+2025-02-26 01:11:14,652 - ERROR - Error loading evaluation results: [Errno 22] Invalid argument: 'DS2_APT\trad-2-evaluation_results.json'

@@ -1,0 +1,51 @@
+2025-01-21 20:39:00,782 - INFO - Starting paper grouping script.
+2025-01-21 20:39:00,782 - INFO - Loading extracted keywords from extracted_keywords.json
+2025-01-21 20:39:00,829 - INFO - Sending request to LLM for paper clustering...
+2025-01-21 20:39:06,978 - INFO - LLM response received.
+2025-01-21 20:39:06,978 - DEBUG - Raw LLM response:
+```json
+{
+  "Explainable AI and Interpretability": [
+    "Counterfactual Explanations for k-means and Gaussian Clustering.pdf",
+    "MechIR A Mechanistic Interpretability Framework.pdf",
+    "SEANN A Domain-Informed Neural Network for.pdf"
+  ],
+  "Machine Learning and Neural Networks": [
+    "Counterfactual Explanations for k-means and Gaussian Clustering.pdf",
+    "Detection of AI Deepfake and Fraud in Online Payments Using GAN-Based.pdf",
+    "Hybrid Deep Learning Model for epileptic seizure.pdf",
+    "MechIR A Mechanistic Interpretability Framework.pdf",
+    "Modelling Activity Scheduling Behaviour with Deep.pdf",
+    "SEANN A Domain-Informed Neural Network for.pdf",
+    "The_Evolution_of_Large_Language_Model_Models_Applications_and_Challenges.pdf"
+  ],
+  "Generative Models and GANs": [
+    "Detection of AI Deepfake and Fraud in Online Payments Using GAN-Based.pdf",
+    "Modelling Activity Scheduling Behaviour with Deep.pdf"
+  ],
+  "Security and Privacy": [
+    "Grey-Box Fuzzing in Constrained Ultra-Large Systems Lessons.pdf",
+    "The Distributed Multi-User Point Function.pdf"
+  ],
+  "Biomedical and Healthcare Applications": [
+    "Hybrid Deep Learning Model for epileptic seizure.pdf",
+    "SEANN A Domain-Informed Neural Network for.pdf",
+    "The_Evolution_of_Large_Language_Model_Models_Applications_and_Challenges.pdf"
+  ],
+  "Large Language Models and NLP": [
+    "Mapping the Increasing Use of LLMs in Scientific Papers.pdf",
+    "The_Evolution_of_Large_Language_Model_Models_Applications_and_Challenges.pdf"
+  ],
+  "Scientific Publishing and Research Analysis": [
+    "Mapping the Increasing Use of LLMs in Scientific Papers.pdf"
+  ],
+  "Distributed Systems and Cloud Computing": [
+    "The Distributed Multi-User Point Function.pdf"
+  ]
+}
+```
+
+2025-01-21 20:39:06,979 - INFO - Successfully parsed LLM output as JSON.
+2025-01-21 20:39:06,979 - INFO - Saving grouped labels to generated_labels.json
+2025-01-21 20:39:06,980 - INFO - Labels successfully saved.
+2025-01-21 20:39:06,980 - INFO - Paper grouping process completed.

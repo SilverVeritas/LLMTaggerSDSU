@@ -1,0 +1,4 @@
+2025-02-24 08:48:03,783 - INFO - TF–IDF matrix shape: (10, 5000)
+2025-02-24 08:48:15,181 - INFO - NMI vs KMeans(4): 0.3476
+2025-02-24 08:48:15,182 - INFO - Evaluation complete.
+2025-02-24 08:48:15,182 - INFO - Saved results to evaluation_results.json

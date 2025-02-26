@@ -1,0 +1,29 @@
+2025-02-26 01:24:38,152 - INFO - Starting model comparison
+2025-02-26 01:24:38,161 - INFO - Loaded LLM evaluation results from DS1_Paper\llm_3_evaluation_results.json
+2025-02-26 01:24:38,174 - INFO - Loaded traditional model evaluation results from DS1_Paper\trad-2-evaluation_results.json
+2025-02-26 01:24:38,175 - INFO - 
+===== MODEL COMPARISON RESULTS =====
+2025-02-26 01:24:38,175 - INFO - LLM wins: 3 metrics
+2025-02-26 01:24:38,175 - INFO - Traditional wins: 4 metrics
+2025-02-26 01:24:38,175 - INFO - overall_density: LLM=0.1249, Traditional=0.1652, Better: Traditional
+2025-02-26 01:24:38,176 - INFO - overall_distinctiveness: LLM=0.4182, Traditional=0.2124, Better: LLM
+2025-02-26 01:24:38,176 - INFO - coherence_c_v: LLM=0.3298, Traditional=0.3317, Better: Traditional
+2025-02-26 01:24:38,176 - INFO - coherence_c_uci: LLM=-0.4346, Traditional=-0.1743, Better: Traditional
+2025-02-26 01:24:38,176 - INFO - coherence_c_npmi: LLM=-0.0240, Traditional=-0.0195, Better: Traditional
+2025-02-26 01:24:38,176 - INFO - overlap_quality_index: LLM=0.0497, Traditional=0.0279, Better: LLM
+2025-02-26 01:24:38,177 - INFO - label_entropy: LLM=2.7539, Traditional=2.1890, Better: LLM
+2025-02-26 01:24:38,177 - INFO - avg_labels_per_doc: LLM=2.1000, Traditional=1.9000, Note: More labels is not necessarily better, depends on use case
+2025-02-26 01:24:38,177 - INFO - 
+===== LABEL AND DOCUMENT COUNTS =====
+2025-02-26 01:24:38,177 - INFO - Number of labels: LLM=8, Traditional=5
+2025-02-26 01:24:38,177 - INFO - Number of documents: LLM=10, Traditional=10
+2025-02-26 01:24:38,178 - INFO - 
+===== LABEL QUALITY ANALYSIS =====
+2025-02-26 01:24:38,178 - INFO - Average label density: LLM=0.1249, Traditional=0.1652
+2025-02-26 01:24:38,178 - INFO - Average label distinctiveness: LLM=0.4182, Traditional=0.2124
+2025-02-26 01:24:38,178 - INFO - Unique top words count: LLM=7, Traditional=6
+2025-02-26 01:24:38,475 - INFO - Saved metrics comparison chart to DS1_Paper/comparison_results\metrics_comparison.png
+2025-02-26 01:24:38,611 - INFO - Saved radar comparison chart to DS1_Paper/comparison_results\radar_comparison.png
+2025-02-26 01:24:38,692 - INFO - Saved wins pie chart to DS1_Paper/comparison_results\wins_pie_chart.png
+2025-02-26 01:24:38,701 - INFO - Generated HTML report at DS1_Paper/comparison_results\model_comparison_report.html
+2025-02-26 01:24:38,701 - INFO - Comparison complete. HTML report available at: DS1_Paper/comparison_results\model_comparison_report.html

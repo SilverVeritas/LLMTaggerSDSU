@@ -1,0 +1,193 @@
+2025-02-26 00:36:26,189 - INFO - Starting PDF/TXT extraction process (no streaming)
+2025-02-26 00:36:26,190 - INFO - Starting folder processing: DS2_APT\APT2015
+2025-02-26 00:36:26,190 - INFO - Found 17 files (PDF or TXT) to process.
+2025-02-26 00:36:26,190 - INFO - 
+Processing file: Agent.BTZ_to_ComRAT.pdf
+2025-02-26 00:36:26,190 - INFO - Starting text extraction from PDF: DS2_APT\APT2015\Agent.BTZ_to_ComRAT.pdf
+2025-02-26 00:36:26,191 - INFO - PDF has 9 pages
+2025-02-26 00:36:26,192 - DEBUG - Processing page 1/9
+2025-02-26 00:36:26,216 - DEBUG - Processing page 2/9
+2025-02-26 00:36:26,234 - DEBUG - Processing page 3/9
+2025-02-26 00:36:26,241 - DEBUG - Processing page 4/9
+2025-02-26 00:36:26,250 - DEBUG - Processing page 5/9
+2025-02-26 00:36:26,264 - DEBUG - Processing page 6/9
+2025-02-26 00:36:26,278 - DEBUG - Processing page 7/9
+2025-02-26 00:36:26,292 - DEBUG - Processing page 8/9
+2025-02-26 00:36:26,304 - DEBUG - Processing page 9/9
+2025-02-26 00:36:26,308 - INFO - Successfully extracted 13936 characters from PDF
+2025-02-26 00:36:26,522 - INFO - Getting LLM response
+2025-02-26 00:36:32,301 - INFO - Completed processing Agent.BTZ_to_ComRAT.pdf
+2025-02-26 00:36:32,302 - INFO - 
+Processing file: ANALYSIS-ON-APT-TO-BE-ATTACK-THAT-FOCUSING-ON-CHINAS-GOVERNMENT-AGENCY-.pdf
+2025-02-26 00:36:32,302 - INFO - Starting text extraction from PDF: DS2_APT\APT2015\ANALYSIS-ON-APT-TO-BE-ATTACK-THAT-FOCUSING-ON-CHINAS-GOVERNMENT-AGENCY-.pdf
+2025-02-26 00:36:32,310 - INFO - PDF has 18 pages
+2025-02-26 00:36:32,310 - DEBUG - Processing page 1/18
+2025-02-26 00:36:32,315 - DEBUG - Processing page 2/18
+2025-02-26 00:36:32,329 - DEBUG - Processing page 3/18
+2025-02-26 00:36:32,349 - DEBUG - Processing page 4/18
+2025-02-26 00:36:32,373 - DEBUG - Processing page 5/18
+2025-02-26 00:36:32,379 - DEBUG - Processing page 6/18
+2025-02-26 00:36:32,383 - DEBUG - Processing page 7/18
+2025-02-26 00:36:32,387 - DEBUG - Processing page 8/18
+2025-02-26 00:36:32,395 - DEBUG - Processing page 9/18
+2025-02-26 00:36:32,402 - DEBUG - Processing page 10/18
+2025-02-26 00:36:32,409 - DEBUG - Processing page 11/18
+2025-02-26 00:36:32,417 - DEBUG - Processing page 12/18
+2025-02-26 00:36:32,422 - DEBUG - Processing page 13/18
+2025-02-26 00:36:32,430 - DEBUG - Processing page 14/18
+2025-02-26 00:36:32,449 - DEBUG - Processing page 15/18
+2025-02-26 00:36:32,468 - DEBUG - Processing page 16/18
+2025-02-26 00:36:32,481 - DEBUG - Processing page 17/18
+2025-02-26 00:36:32,487 - DEBUG - Processing page 18/18
+2025-02-26 00:36:32,493 - INFO - Successfully extracted 24638 characters from PDF
+2025-02-26 00:36:32,662 - INFO - Getting LLM response
+2025-02-26 00:36:41,838 - INFO - Completed processing ANALYSIS-ON-APT-TO-BE-ATTACK-THAT-FOCUSING-ON-CHINAS-GOVERNMENT-AGENCY-.pdf
+2025-02-26 00:36:41,839 - INFO - 
+Processing file: Anthem_hack_all_roads_lead_to_China.pdf
+2025-02-26 00:36:41,839 - INFO - Starting text extraction from PDF: DS2_APT\APT2015\Anthem_hack_all_roads_lead_to_China.pdf
+2025-02-26 00:36:41,845 - INFO - PDF has 33 pages
+2025-02-26 00:36:41,845 - DEBUG - Processing page 1/33
+2025-02-26 00:36:41,852 - DEBUG - Processing page 2/33
+2025-02-26 00:36:41,860 - DEBUG - Processing page 3/33
+2025-02-26 00:36:41,867 - DEBUG - Processing page 4/33
+2025-02-26 00:36:41,875 - DEBUG - Processing page 5/33
+2025-02-26 00:36:41,883 - DEBUG - Processing page 6/33
+2025-02-26 00:36:41,887 - DEBUG - Processing page 7/33
+2025-02-26 00:36:41,891 - DEBUG - Processing page 8/33
+2025-02-26 00:36:41,898 - DEBUG - Processing page 9/33
+2025-02-26 00:36:41,902 - DEBUG - Processing page 10/33
+2025-02-26 00:36:41,909 - DEBUG - Processing page 11/33
+2025-02-26 00:36:41,912 - DEBUG - Processing page 12/33
+2025-02-26 00:36:41,919 - DEBUG - Processing page 13/33
+2025-02-26 00:36:41,928 - DEBUG - Processing page 14/33
+2025-02-26 00:36:41,935 - DEBUG - Processing page 15/33
+2025-02-26 00:36:41,942 - DEBUG - Processing page 16/33
+2025-02-26 00:36:41,944 - DEBUG - Processing page 17/33
+2025-02-26 00:36:41,947 - DEBUG - Processing page 18/33
+2025-02-26 00:36:41,952 - DEBUG - Processing page 19/33
+2025-02-26 00:36:41,955 - DEBUG - Processing page 20/33
+2025-02-26 00:36:41,961 - DEBUG - Processing page 21/33
+2025-02-26 00:36:41,965 - DEBUG - Processing page 22/33
+2025-02-26 00:36:41,970 - DEBUG - Processing page 23/33
+2025-02-26 00:36:41,977 - DEBUG - Processing page 24/33
+2025-02-26 00:36:41,984 - DEBUG - Processing page 25/33
+2025-02-26 00:36:41,990 - DEBUG - Processing page 26/33
+2025-02-26 00:36:41,994 - DEBUG - Processing page 27/33
+2025-02-26 00:36:42,001 - DEBUG - Processing page 28/33
+2025-02-26 00:36:42,007 - DEBUG - Processing page 29/33
+2025-02-26 00:36:42,013 - DEBUG - Processing page 30/33
+2025-02-26 00:36:42,019 - DEBUG - Processing page 31/33
+2025-02-26 00:36:42,025 - DEBUG - Processing page 32/33
+2025-02-26 00:36:42,031 - DEBUG - Processing page 33/33
+2025-02-26 00:36:42,036 - INFO - Successfully extracted 36782 characters from PDF
+2025-02-26 00:36:42,206 - INFO - Getting LLM response
+2025-02-26 00:36:48,144 - INFO - Completed processing Anthem_hack_all_roads_lead_to_China.pdf
+2025-02-26 00:36:48,145 - INFO - 
+Processing file: apt29-hammertoss-stealthy-tactics-define-a.pdf
+2025-02-26 00:36:48,146 - INFO - Starting text extraction from PDF: DS2_APT\APT2015\apt29-hammertoss-stealthy-tactics-define-a.pdf
+2025-02-26 00:36:48,159 - INFO - PDF has 14 pages
+2025-02-26 00:36:48,160 - DEBUG - Processing page 1/14
+2025-02-26 00:36:48,482 - DEBUG - Processing page 2/14
+2025-02-26 00:36:48,489 - DEBUG - Processing page 3/14
+2025-02-26 00:36:48,500 - DEBUG - Processing page 4/14
+2025-02-26 00:36:48,718 - DEBUG - Processing page 5/14
+2025-02-26 00:36:49,026 - DEBUG - Processing page 6/14
+2025-02-26 00:36:49,207 - DEBUG - Processing page 7/14
+2025-02-26 00:36:49,226 - DEBUG - Processing page 8/14
+2025-02-26 00:36:49,397 - DEBUG - Processing page 9/14
+2025-02-26 00:36:49,409 - DEBUG - Processing page 10/14
+2025-02-26 00:36:49,420 - DEBUG - Processing page 11/14
+2025-02-26 00:36:49,589 - DEBUG - Processing page 12/14
+2025-02-26 00:36:49,733 - DEBUG - Processing page 13/14
+2025-02-26 00:36:49,741 - DEBUG - Processing page 14/14
+2025-02-26 00:36:49,745 - INFO - Successfully extracted 22164 characters from PDF
+2025-02-26 00:36:49,919 - INFO - Getting LLM response
+2025-02-26 00:36:52,269 - INFO - Completed processing apt29-hammertoss-stealthy-tactics-define-a.pdf
+2025-02-26 00:36:52,270 - INFO - 
+Processing file: Attacks against Israeli & Palestinian interests - Cyber security updates.pdf
+2025-02-26 00:36:52,270 - INFO - Starting text extraction from PDF: DS2_APT\APT2015\Attacks against Israeli & Palestinian interests - Cyber security updates.pdf
+2025-02-26 00:36:52,279 - INFO - PDF has 14 pages
+2025-02-26 00:36:52,279 - DEBUG - Processing page 1/14
+2025-02-26 00:36:52,307 - DEBUG - Processing page 2/14
+2025-02-26 00:36:52,351 - DEBUG - Processing page 3/14
+2025-02-26 00:36:52,378 - DEBUG - Processing page 4/14
+2025-02-26 00:36:52,388 - DEBUG - Processing page 5/14
+2025-02-26 00:36:52,395 - DEBUG - Processing page 6/14
+2025-02-26 00:36:52,417 - DEBUG - Processing page 7/14
+2025-02-26 00:36:52,434 - DEBUG - Processing page 8/14
+2025-02-26 00:36:52,466 - DEBUG - Processing page 9/14
+2025-02-26 00:36:52,516 - DEBUG - Processing page 10/14
+2025-02-26 00:36:52,556 - DEBUG - Processing page 11/14
+2025-02-26 00:36:52,569 - DEBUG - Processing page 12/14
+2025-02-26 00:36:52,586 - DEBUG - Processing page 13/14
+2025-02-26 00:36:52,614 - DEBUG - Processing page 14/14
+2025-02-26 00:36:52,648 - INFO - Successfully extracted 18077 characters from PDF
+2025-02-26 00:36:52,820 - INFO - Getting LLM response
+2025-02-26 00:36:59,149 - INFO - Completed processing Attacks against Israeli & Palestinian interests - Cyber security updates.pdf
+2025-02-26 00:36:59,150 - INFO - 
+Processing file: Backdoor.Winnti_Trojan.Skelky.pdf
+2025-02-26 00:36:59,151 - INFO - Starting text extraction from PDF: DS2_APT\APT2015\Backdoor.Winnti_Trojan.Skelky.pdf
+2025-02-26 00:36:59,154 - INFO - PDF has 3 pages
+2025-02-26 00:36:59,154 - DEBUG - Processing page 1/3
+2025-02-26 00:36:59,165 - DEBUG - Processing page 2/3
+2025-02-26 00:36:59,186 - DEBUG - Processing page 3/3
+2025-02-26 00:36:59,189 - INFO - Successfully extracted 4237 characters from PDF
+2025-02-26 00:36:59,365 - INFO - Getting LLM response
+2025-02-26 00:37:03,236 - INFO - Completed processing Backdoor.Winnti_Trojan.Skelky.pdf
+2025-02-26 00:37:03,236 - INFO - 
+Processing file: BlueTermite_Japan.pdf
+2025-02-26 00:37:03,236 - INFO - Starting text extraction from PDF: DS2_APT\APT2015\BlueTermite_Japan.pdf
+2025-02-26 00:37:03,239 - INFO - PDF has 13 pages
+2025-02-26 00:37:03,239 - DEBUG - Processing page 1/13
+2025-02-26 00:37:03,310 - DEBUG - Processing page 2/13
+2025-02-26 00:37:03,384 - DEBUG - Processing page 3/13
+2025-02-26 00:37:03,501 - DEBUG - Processing page 4/13
+2025-02-26 00:37:03,645 - DEBUG - Processing page 5/13
+2025-02-26 00:37:03,756 - DEBUG - Processing page 6/13
+2025-02-26 00:37:03,940 - DEBUG - Processing page 7/13
+2025-02-26 00:37:03,996 - DEBUG - Processing page 8/13
+2025-02-26 00:37:04,149 - DEBUG - Processing page 9/13
+2025-02-26 00:37:04,181 - DEBUG - Processing page 10/13
+2025-02-26 00:37:04,182 - DEBUG - Processing page 11/13
+2025-02-26 00:37:04,204 - DEBUG - Processing page 12/13
+2025-02-26 00:37:04,249 - DEBUG - Processing page 13/13
+2025-02-26 00:37:04,293 - INFO - Successfully extracted 13 characters from PDF
+2025-02-26 00:37:04,493 - INFO - Getting LLM response
+2025-02-26 00:37:05,119 - INFO - Completed processing BlueTermite_Japan.pdf
+2025-02-26 00:37:05,119 - INFO - 
+Processing file: butterfly-corporate-spies-out-for-financial-gain.pdf
+2025-02-26 00:37:05,119 - INFO - Starting text extraction from PDF: DS2_APT\APT2015\butterfly-corporate-spies-out-for-financial-gain.pdf
+2025-02-26 00:37:05,132 - INFO - PDF has 31 pages
+2025-02-26 00:37:05,132 - DEBUG - Processing page 1/31
+2025-02-26 00:37:05,151 - DEBUG - Processing page 2/31
+2025-02-26 00:37:05,161 - DEBUG - Processing page 3/31
+2025-02-26 00:37:05,167 - DEBUG - Processing page 4/31
+2025-02-26 00:37:05,172 - DEBUG - Processing page 5/31
+2025-02-26 00:37:05,177 - DEBUG - Processing page 6/31
+2025-02-26 00:37:05,185 - DEBUG - Processing page 7/31
+2025-02-26 00:37:05,191 - DEBUG - Processing page 8/31
+2025-02-26 00:37:05,200 - DEBUG - Processing page 9/31
+2025-02-26 00:37:05,207 - DEBUG - Processing page 10/31
+2025-02-26 00:37:05,213 - DEBUG - Processing page 11/31
+2025-02-26 00:37:05,220 - DEBUG - Processing page 12/31
+2025-02-26 00:37:05,226 - DEBUG - Processing page 13/31
+2025-02-26 00:37:05,231 - DEBUG - Processing page 14/31
+2025-02-26 00:37:05,244 - DEBUG - Processing page 15/31
+2025-02-26 00:37:05,250 - DEBUG - Processing page 16/31
+2025-02-26 00:37:05,254 - DEBUG - Processing page 17/31
+2025-02-26 00:37:05,260 - DEBUG - Processing page 18/31
+2025-02-26 00:37:05,264 - DEBUG - Processing page 19/31
+2025-02-26 00:37:05,277 - DEBUG - Processing page 20/31
+2025-02-26 00:37:05,291 - DEBUG - Processing page 21/31
+2025-02-26 00:37:05,303 - DEBUG - Processing page 22/31
+2025-02-26 00:37:05,315 - DEBUG - Processing page 23/31
+2025-02-26 00:37:05,327 - DEBUG - Processing page 24/31
+2025-02-26 00:37:05,340 - DEBUG - Processing page 25/31
+2025-02-26 00:37:05,350 - DEBUG - Processing page 26/31
+2025-02-26 00:37:05,373 - DEBUG - Processing page 27/31
+2025-02-26 00:37:05,381 - DEBUG - Processing page 28/31
+2025-02-26 00:37:05,395 - DEBUG - Processing page 29/31
+2025-02-26 00:37:05,415 - DEBUG - Processing page 30/31
+2025-02-26 00:37:05,423 - DEBUG - Processing page 31/31
+2025-02-26 00:37:05,440 - INFO - Successfully extracted 63931 characters from PDF
+2025-02-26 00:37:05,614 - INFO - Getting LLM response

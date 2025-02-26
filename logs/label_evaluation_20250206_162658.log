@@ -1,0 +1,5 @@
+2025-02-06 16:27:08,095 - ERROR - PDF read error DS2_APT\APT2015\DTL-06282015-01.pdf: EOF marker not found
+2025-02-06 16:27:08,652 - INFO - TF–IDF matrix shape: (18, 5000)
+2025-02-06 16:27:33,442 - INFO - NMI vs KMeans(3): 0.0579
+2025-02-06 16:27:33,443 - INFO - Evaluation complete.
+2025-02-06 16:27:33,443 - INFO - Saved results to DS2_APT\llm-evaluation_results.json

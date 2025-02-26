@@ -1,0 +1,8 @@
+2025-02-26 01:17:24,600 - INFO - Found 10 PDF files in DS1_Paper\pdfs
+2025-02-26 01:17:30,000 - INFO - Loading sentence-transformer model: all-MiniLM-L6-v2
+2025-02-26 01:17:31,365 - INFO - Encoding documents...
+2025-02-26 01:17:31,884 - INFO - Fitting BERTopic with KMeans (5 clusters)
+2025-02-26 01:17:39,894 - INFO - Creating multi-label assignments using document similarities
+2025-02-26 01:17:40,072 - INFO - Average topics per document: 1.90
+2025-02-26 01:17:40,073 - INFO - Saved multi-label results to DS1_Paper\trad-1-multilabel_bertopic_results.json
+2025-02-26 01:17:40,074 - INFO - Saved metadata to DS1_Paper\trad-1-multilabel_bertopic_results_metadata.json

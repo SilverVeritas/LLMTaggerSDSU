@@ -1,0 +1,67 @@
+{
+  "Topic 0: 0, activity, model, data": {
+    "papers": [
+      "Hybrid Deep Learning Model for epileptic seizure.pdf",
+      "Modelling Activity Scheduling Behaviour with Deep.pdf",
+      "SEANN A Domain-Informed Neural Network for.pdf"
+    ],
+    "top_words": [
+      "activity",
+      "model",
+      "data",
+      "eeg",
+      "schedules"
+    ]
+  },
+  "Topic 1: 1, cluster, counterfactual, clustering": {
+    "papers": [
+      "Counterfactual Explanations for k-means and Gaussian Clustering.pdf",
+      "MechIR A Mechanistic Interpretability Framework.pdf"
+    ],
+    "top_words": [
+      "cluster",
+      "counterfactual",
+      "clustering",
+      "counterfactuals",
+      "imm"
+    ]
+  },
+  "Topic 2: 2, test, fuzzing, sandboxfuzz": {
+    "papers": [
+      "Grey-Box Fuzzing in Constrained Ultra-Large Systems Lessons.pdf",
+      "The Distributed Multi-User Point Function.pdf"
+    ],
+    "top_words": [
+      "test",
+      "fuzzing",
+      "sandboxfuzz",
+      "inputs",
+      "function"
+    ]
+  },
+  "Topic 3: 3, arxiv, language, text": {
+    "papers": [
+      "Mapping the Increasing Use of LLMs in Scientific Papers.pdf",
+      "The_Evolution_of_Large_Language_Model_Models_Applications_and_Challenges.pdf"
+    ],
+    "top_words": [
+      "arxiv",
+      "language",
+      "text",
+      "llm",
+      "et"
+    ]
+  },
+  "Topic 4: 4, supply, risk, credit": {
+    "papers": [
+      "Detection of AI Deepfake and Fraud in Online Payments Using GAN-Based.pdf"
+    ],
+    "top_words": [
+      "supply",
+      "risk",
+      "credit",
+      "chain",
+      "gans"
+    ]
+  }
+}

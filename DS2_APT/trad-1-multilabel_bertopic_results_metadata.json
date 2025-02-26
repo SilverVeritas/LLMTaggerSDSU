@@ -1,0 +1,7 @@
+{
+  "similarity_threshold": 0.3,
+  "max_labels": 3,
+  "avg_topics_per_doc": 3.0,
+  "total_docs": 16,
+  "total_topics": 5
+}

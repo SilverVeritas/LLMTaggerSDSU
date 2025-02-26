@@ -1,0 +1,29 @@
+2025-02-26 01:11:28,804 - INFO - Starting model comparison
+2025-02-26 01:11:28,804 - INFO - Loaded LLM evaluation results from DS2_APT\llm_3_evaluation_results.json
+2025-02-26 01:11:28,806 - INFO - Loaded traditional model evaluation results from DS2_APT\trad-2-evaluation_results.json
+2025-02-26 01:11:28,807 - INFO - 
+===== MODEL COMPARISON RESULTS =====
+2025-02-26 01:11:28,807 - INFO - LLM wins: 6 metrics
+2025-02-26 01:11:28,807 - INFO - Traditional wins: 1 metrics
+2025-02-26 01:11:28,807 - INFO - overall_density: LLM=0.0839, Traditional=0.0796, Better: LLM
+2025-02-26 01:11:28,808 - INFO - overall_distinctiveness: LLM=0.2959, Traditional=0.0976, Better: LLM
+2025-02-26 01:11:28,808 - INFO - coherence_c_v: LLM=0.3662, Traditional=0.3640, Better: LLM
+2025-02-26 01:11:28,808 - INFO - coherence_c_uci: LLM=-0.7332, Traditional=-0.8452, Better: LLM
+2025-02-26 01:11:28,808 - INFO - coherence_c_npmi: LLM=-0.0374, Traditional=-0.0394, Better: LLM
+2025-02-26 01:11:28,808 - INFO - overlap_quality_index: LLM=-0.0005, Traditional=0.0795, Better: Traditional
+2025-02-26 01:11:28,808 - INFO - label_entropy: LLM=2.9537, Traditional=2.2125, Better: LLM
+2025-02-26 01:11:28,808 - INFO - avg_labels_per_doc: LLM=3.3529, Traditional=3.0000, Note: More labels is not necessarily better, depends on use case
+2025-02-26 01:11:28,808 - INFO - 
+===== LABEL AND DOCUMENT COUNTS =====
+2025-02-26 01:11:28,808 - INFO - Number of labels: LLM=9, Traditional=5
+2025-02-26 01:11:28,808 - INFO - Number of documents: LLM=17, Traditional=16
+2025-02-26 01:11:28,809 - INFO - 
+===== LABEL QUALITY ANALYSIS =====
+2025-02-26 01:11:28,809 - INFO - Average label density: LLM=0.0839, Traditional=0.0796
+2025-02-26 01:11:28,809 - INFO - Average label distinctiveness: LLM=0.2959, Traditional=0.0976
+2025-02-26 01:11:28,809 - INFO - Unique top words count: LLM=6, Traditional=5
+2025-02-26 01:11:29,131 - INFO - Saved metrics comparison chart to DS3_APT2/comparison_results\metrics_comparison.png
+2025-02-26 01:11:29,275 - INFO - Saved radar comparison chart to DS3_APT2/comparison_results\radar_comparison.png
+2025-02-26 01:11:29,363 - INFO - Saved wins pie chart to DS3_APT2/comparison_results\wins_pie_chart.png
+2025-02-26 01:11:29,373 - INFO - Generated HTML report at DS3_APT2/comparison_results\model_comparison_report.html
+2025-02-26 01:11:29,373 - INFO - Comparison complete. HTML report available at: DS3_APT2/comparison_results\model_comparison_report.html

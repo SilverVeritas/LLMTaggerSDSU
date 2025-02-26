@@ -1,0 +1,63 @@
+2025-02-26 00:14:59,348 - INFO - Loading multi-label model results from DS3_APT2/trad-multilabel_bertopic_results.json
+2025-02-26 00:14:59,349 - INFO - Loaded labels from DS3_APT2/trad-multilabel_bertopic_results.json
+2025-02-26 00:14:59,349 - INFO - Found 5 labels
+2025-02-26 00:14:59,349 - INFO - Found 18 PDF files
+2025-02-26 00:15:01,925 - INFO - Extracted text from 18 PDFs
+2025-02-26 00:15:01,955 - INFO - TF–IDF matrix shape: (18, 5000)
+2025-02-26 00:15:01,956 - INFO - Computing multi-label density metrics...
+2025-02-26 00:15:01,957 - DEBUG - Label 'malware, http, intellexa' density: 0.0731
+2025-02-26 00:15:01,958 - DEBUG - Label 'typhoon, microsoft, flax' density: 0.1340
+2025-02-26 00:15:01,958 - DEBUG - Label 'emotet, sysjoker, malware' density: 0.0778
+2025-02-26 00:15:01,959 - DEBUG - Label 'threat, file, actors' density: 0.0939
+2025-02-26 00:15:01,960 - DEBUG - Label 'gootloader, file, registry' density: 0.0712
+2025-02-26 00:15:01,960 - INFO - Overall average density: 0.0900
+2025-02-26 00:15:01,960 - INFO - Computing multiple coherence metrics...
+2025-02-26 00:15:01,970 - DEBUG - Label 'malware, http, intellexa': extracted 46153 tokens
+2025-02-26 00:15:01,973 - DEBUG - Label 'typhoon, microsoft, flax': extracted 18138 tokens
+2025-02-26 00:15:01,980 - DEBUG - Label 'emotet, sysjoker, malware': extracted 32136 tokens
+2025-02-26 00:15:01,989 - DEBUG - Label 'threat, file, actors': extracted 40467 tokens
+2025-02-26 00:15:02,000 - DEBUG - Label 'gootloader, file, registry': extracted 52289 tokens
+2025-02-26 00:15:02,046 - DEBUG - Created dictionary with 6972 unique tokens
+2025-02-26 00:15:02,072 - DEBUG - Label 'malware, http, intellexa' top words: the, to, and, of, a...
+2025-02-26 00:15:02,072 - DEBUG - Label 'typhoon, microsoft, flax' top words: the, to, and, of, in...
+2025-02-26 00:15:02,072 - DEBUG - Label 'emotet, sysjoker, malware' top words: the, to, of, and, a...
+2025-02-26 00:15:02,073 - DEBUG - Label 'threat, file, actors' top words: the, to, and, of, a...
+2025-02-26 00:15:02,074 - DEBUG - Label 'gootloader, file, registry' top words: the, to, and, of, a...
+2025-02-26 00:15:22,380 - INFO - Coherence (c_v): 0.2865
+2025-02-26 00:15:42,420 - INFO - Coherence (c_uci): -0.6791
+2025-02-26 00:16:02,317 - INFO - Coherence (c_npmi): -0.0593
+2025-02-26 00:16:02,319 - INFO - Computing overlap quality metrics...
+2025-02-26 00:16:02,320 - INFO - Average labels per document: 3.00
+2025-02-26 00:16:02,320 - DEBUG - Computing full distance matrix...
+2025-02-26 00:16:02,321 - INFO - Average similarity between docs sharing labels: 0.0758
+2025-02-26 00:16:02,321 - INFO - Average similarity between docs with different labels: 0.0000
+2025-02-26 00:16:02,321 - INFO - Overlap quality index: 0.0758
+2025-02-26 00:16:02,321 - INFO - Computing topic distinctiveness...
+2025-02-26 00:16:02,338 - DEBUG - Label 'malware, http, intellexa': processed 46153 words
+2025-02-26 00:16:02,344 - DEBUG - Label 'typhoon, microsoft, flax': processed 18138 words
+2025-02-26 00:16:02,354 - DEBUG - Label 'emotet, sysjoker, malware': processed 32136 words
+2025-02-26 00:16:02,367 - DEBUG - Label 'threat, file, actors': processed 40467 words
+2025-02-26 00:16:02,383 - DEBUG - Label 'gootloader, file, registry': processed 52289 words
+2025-02-26 00:16:02,394 - DEBUG - Label 'gootloader, file, registry' distinctiveness: 0.1311
+2025-02-26 00:16:02,403 - DEBUG - Label 'gootloader, file, registry' distinctiveness: 0.2227
+2025-02-26 00:16:02,413 - DEBUG - Label 'gootloader, file, registry' distinctiveness: 0.1693
+2025-02-26 00:16:02,424 - DEBUG - Label 'gootloader, file, registry' distinctiveness: 0.1268
+2025-02-26 00:16:02,435 - DEBUG - Label 'gootloader, file, registry' distinctiveness: 0.1049
+2025-02-26 00:16:02,436 - INFO - Overall topic distinctiveness: 0.1049
+2025-02-26 00:16:02,436 - INFO - Computing label balance metrics...
+2025-02-26 00:16:02,436 - DEBUG - Label sizes: {'malware, http, intellexa': 14, 'typhoon, microsoft, flax': 5, 'emotet, sysjoker, malware': 9, 'threat, file, actors': 12, 'gootloader, file, registry': 14}
+2025-02-26 00:16:02,438 - INFO - Total labels: 5
+2025-02-26 00:16:02,438 - INFO - Total unique documents: 18
+2025-02-26 00:16:02,439 - INFO - Label distribution entropy: 2.2407
+2025-02-26 00:16:02,439 - INFO - Average labels per document: 3.00
+2025-02-26 00:16:02,439 - INFO - Saving results to DS3_APT2/trad_3_evaluation_results.json
+2025-02-26 00:16:02,440 - INFO - Evaluation complete.
+2025-02-26 00:16:02,440 - INFO - 
+==== SUMMARY OF KEY METRICS ====
+2025-02-26 00:16:02,440 - INFO - Overall Label Density: 0.0900
+2025-02-26 00:16:02,440 - INFO - Topic Coherence (C_V): 0.2865
+2025-02-26 00:16:02,441 - INFO - Overlap Quality Index: 0.0758
+2025-02-26 00:16:02,441 - INFO - Topic Distinctiveness: 0.1049
+2025-02-26 00:16:02,441 - INFO - Label Entropy: 2.2407
+2025-02-26 00:16:02,441 - INFO - Avg Labels per Doc: 3.00
+2025-02-26 00:16:02,441 - INFO - ==============================

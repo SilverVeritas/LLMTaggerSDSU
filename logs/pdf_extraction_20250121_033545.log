@@ -1,0 +1,53 @@
+2025-01-21 03:35:45,750 - INFO - Starting PDF/TXT extraction process (no streaming)
+2025-01-21 03:35:45,751 - INFO - Starting folder processing: ./test_pdf
+2025-01-21 03:35:45,752 - INFO - Found 2 files (PDF or TXT) to process.
+2025-01-21 03:35:45,752 - INFO - 
+Processing file: Mapping the Increasing Use of LLMs in Scientific Papers.pdf
+2025-01-21 03:35:45,752 - INFO - Starting text extraction from PDF: test_pdf\Mapping the Increasing Use of LLMs in Scientific Papers.pdf
+2025-01-21 03:35:45,757 - INFO - PDF has 25 pages
+2025-01-21 03:35:45,758 - DEBUG - Processing page 1/25
+2025-01-21 03:35:45,780 - DEBUG - Processing page 2/25
+2025-01-21 03:35:45,833 - DEBUG - Processing page 3/25
+2025-01-21 03:35:46,119 - DEBUG - Processing page 4/25
+2025-01-21 03:35:46,144 - DEBUG - Processing page 5/25
+2025-01-21 03:35:46,161 - DEBUG - Processing page 6/25
+2025-01-21 03:35:46,905 - DEBUG - Processing page 7/25
+2025-01-21 03:35:46,921 - DEBUG - Processing page 8/25
+2025-01-21 03:35:47,293 - DEBUG - Processing page 9/25
+2025-01-21 03:35:47,456 - DEBUG - Processing page 10/25
+2025-01-21 03:35:47,463 - DEBUG - Processing page 11/25
+2025-01-21 03:35:47,475 - DEBUG - Processing page 12/25
+2025-01-21 03:35:47,487 - DEBUG - Processing page 13/25
+2025-01-21 03:35:47,499 - DEBUG - Processing page 14/25
+2025-01-21 03:35:47,511 - DEBUG - Processing page 15/25
+2025-01-21 03:35:47,521 - DEBUG - Processing page 16/25
+2025-01-21 03:35:47,561 - DEBUG - Processing page 17/25
+2025-01-21 03:35:47,578 - DEBUG - Processing page 18/25
+2025-01-21 03:35:47,591 - DEBUG - Processing page 19/25
+2025-01-21 03:35:47,608 - DEBUG - Processing page 20/25
+2025-01-21 03:35:47,863 - DEBUG - Processing page 21/25
+2025-01-21 03:35:48,148 - DEBUG - Processing page 22/25
+2025-01-21 03:35:48,364 - DEBUG - Processing page 23/25
+2025-01-21 03:35:48,374 - DEBUG - Processing page 24/25
+2025-01-21 03:35:48,396 - DEBUG - Processing page 25/25
+2025-01-21 03:35:48,405 - INFO - Successfully extracted 61732 characters from PDF
+2025-01-21 03:35:48,452 - INFO - Getting LLM response (no streaming)
+2025-01-21 03:35:52,751 - INFO - Completed processing Mapping the Increasing Use of LLMs in Scientific Papers.pdf
+2025-01-21 03:35:52,751 - INFO - 
+Processing file: The_Evolution_of_Large_Language_Model_Models_Applications_and_Challenges.pdf
+2025-01-21 03:35:52,752 - INFO - Starting text extraction from PDF: test_pdf\The_Evolution_of_Large_Language_Model_Models_Applications_and_Challenges.pdf
+2025-01-21 03:35:52,754 - INFO - PDF has 8 pages
+2025-01-21 03:35:52,754 - DEBUG - Processing page 1/8
+2025-01-21 03:35:52,843 - DEBUG - Processing page 2/8
+2025-01-21 03:35:52,913 - DEBUG - Processing page 3/8
+2025-01-21 03:35:52,973 - DEBUG - Processing page 4/8
+2025-01-21 03:35:53,053 - DEBUG - Processing page 5/8
+2025-01-21 03:35:53,148 - DEBUG - Processing page 6/8
+2025-01-21 03:35:53,237 - DEBUG - Processing page 7/8
+2025-01-21 03:35:53,395 - DEBUG - Processing page 8/8
+2025-01-21 03:35:53,476 - INFO - Successfully extracted 50177 characters from PDF
+2025-01-21 03:35:53,488 - INFO - Getting LLM response (no streaming)
+2025-01-21 03:35:57,893 - INFO - Completed processing The_Evolution_of_Large_Language_Model_Models_Applications_and_Challenges.pdf
+2025-01-21 03:35:57,893 - INFO - Saving results to: extracted_keywords.json
+2025-01-21 03:35:57,893 - INFO - Successfully saved results
+2025-01-21 03:35:57,894 - INFO - Process completed successfully
