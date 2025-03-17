@@ -4,80 +4,71 @@
     "ANALYSIS-ON-APT-TO-BE-ATTACK-THAT-FOCUSING-ON-CHINAS-GOVERNMENT-AGENCY-.pdf",
     "Anthem_hack_all_roads_lead_to_China.pdf",
     "apt29-hammertoss-stealthy-tactics-define-a.pdf",
-    "Attacks against Israeli & Palestinian interests - Cyber security updates.pdf",
-    "Backdoor.Winnti_Trojan.Skelky.pdf",
-    "butterfly-corporate-spies-out-for-financial-gain.pdf",
     "China_Peace_Palace.pdf",
     "CozyDuke.pdf",
-    "cto-tib-20150223-01a.pdf",
     "Cylance SPEAR Team_ A Threat Actor Resurfaces.pdf",
-    "dino.pdf",
-    "Dissecting-LinuxMoose.pdf",
-    "Dissecting-the-Kraken.pdf",
-    "DTL-12012015-01.pdf",
-    "Duke_cloud_Linux.pdf",
-    "Elephantosis.pdf",
-    "WateringHole_Aerospace_CVE-2015-5122_IsSpace.pdf"
+    "Duke_cloud_Linux.pdf"
   ],
   "Cyber Espionage": [
     "Agent.BTZ_to_ComRAT.pdf",
     "Anthem_hack_all_roads_lead_to_China.pdf",
     "apt29-hammertoss-stealthy-tactics-define-a.pdf",
+    "Attacks against Israeli & Palestinian interests - Cyber security updates.pdf",
+    "Backdoor.Winnti_Trojan.Skelky.pdf",
     "butterfly-corporate-spies-out-for-financial-gain.pdf",
     "China_Peace_Palace.pdf",
     "CozyDuke.pdf",
+    "cto-tib-20150223-01a.pdf",
     "Cylance SPEAR Team_ A Threat Actor Resurfaces.pdf",
     "dino.pdf",
     "Dissecting-the-Kraken.pdf",
     "DTL-12012015-01.pdf",
-    "Duke_cloud_Linux.pdf",
-    "Elephantosis.pdf"
-  ],
-  "Malware Analysis": [
-    "Agent.BTZ_to_ComRAT.pdf",
-    "ANALYSIS-ON-APT-TO-BE-ATTACK-THAT-FOCUSING-ON-CHINAS-GOVERNMENT-AGENCY-.pdf",
-    "Anthem_hack_all_roads_lead_to_China.pdf",
-    "apt29-hammertoss-stealthy-tactics-define-a.pdf",
-    "Backdoor.Winnti_Trojan.Skelky.pdf",
-    "butterfly-corporate-spies-out-for-financial-gain.pdf",
-    "CozyDuke.pdf",
-    "Cylance SPEAR Team_ A Threat Actor Resurfaces.pdf",
-    "dino.pdf",
-    "Dissecting-LinuxMoose.pdf",
-    "Dissecting-the-Kraken.pdf",
     "Duke_cloud_Linux.pdf",
     "Elephantosis.pdf",
     "WateringHole_Aerospace_CVE-2015-5122_IsSpace.pdf"
   ],
-  "State-Sponsored Cyber Activity": [
-    "Anthem_hack_all_roads_lead_to_China.pdf",
-    "China_Peace_Palace.pdf",
-    "CozyDuke.pdf",
-    "Duke_cloud_Linux.pdf",
-    "Elephantosis.pdf"
-  ],
-  "Network and System Security": [
+  "Malware and Exploits": [
+    "Agent.BTZ_to_ComRAT.pdf",
     "ANALYSIS-ON-APT-TO-BE-ATTACK-THAT-FOCUSING-ON-CHINAS-GOVERNMENT-AGENCY-.pdf",
+    "Anthem_hack_all_roads_lead_to_China.pdf",
+    "apt29-hammertoss-stealthy-tactics-define-a.pdf",
     "Attacks against Israeli & Palestinian interests - Cyber security updates.pdf",
     "Backdoor.Winnti_Trojan.Skelky.pdf",
     "butterfly-corporate-spies-out-for-financial-gain.pdf",
-    "Dissecting-LinuxMoose.pdf",
-    "Dissecting-the-Kraken.pdf",
-    "DTL-12012015-01.pdf",
-    "WateringHole_Aerospace_CVE-2015-5122_IsSpace.pdf"
-  ],
-  "Threat Intelligence": [
-    "Anthem_hack_all_roads_lead_to_China.pdf",
     "China_Peace_Palace.pdf",
     "CozyDuke.pdf",
     "cto-tib-20150223-01a.pdf",
-    "Duke_cloud_Linux.pdf"
+    "Cylance SPEAR Team_ A Threat Actor Resurfaces.pdf",
+    "dino.pdf",
+    "Dissecting-LinuxMoose.pdf",
+    "Dissecting-the-Kraken.pdf",
+    "DTL-12012015-01.pdf",
+    "Duke_cloud_Linux.pdf",
+    "Elephantosis.pdf",
+    "WateringHole_Aerospace_CVE-2015-5122_IsSpace.pdf"
   ],
-  "Phishing and Social Engineering": [
-    "ANALYSIS-ON-APT-TO-BE-ATTACK-THAT-FOCUSING-ON-CHINAS-GOVERNMENT-AGENCY-.pdf",
+  "Geopolitical and State-Sponsored Activities": [
     "Anthem_hack_all_roads_lead_to_China.pdf",
+    "apt29-hammertoss-stealthy-tactics-define-a.pdf",
     "Attacks against Israeli & Palestinian interests - Cyber security updates.pdf",
+    "China_Peace_Palace.pdf",
     "Cylance SPEAR Team_ A Threat Actor Resurfaces.pdf",
     "Duke_cloud_Linux.pdf"
+  ],
+  "Corporate and Financial Espionage": [
+    "butterfly-corporate-spies-out-for-financial-gain.pdf"
+  ],
+  "Technical Analysis and Mitigation": [
+    "Agent.BTZ_to_ComRAT.pdf",
+    "ANALYSIS-ON-APT-TO-BE-ATTACK-THAT-FOCUSING-ON-CHINAS-GOVERNMENT-AGENCY-.pdf",
+    "Backdoor.Winnti_Trojan.Skelky.pdf",
+    "butterfly-corporate-spies-out-for-financial-gain.pdf",
+    "cto-tib-20150223-01a.pdf",
+    "Dissecting-LinuxMoose.pdf",
+    "Dissecting-the-Kraken.pdf",
+    "DTL-12012015-01.pdf",
+    "Duke_cloud_Linux.pdf",
+    "Elephantosis.pdf",
+    "WateringHole_Aerospace_CVE-2015-5122_IsSpace.pdf"
   ]
 }

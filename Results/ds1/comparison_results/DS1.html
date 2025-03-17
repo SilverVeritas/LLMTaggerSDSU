@@ -27,9 +27,9 @@
     
                 <p>Based on 7 comparative metrics:</p>
                 <ul>
-                    <li>LLM approach wins on 2 metrics</li>
-                    <li>Traditional approach wins on 5 metrics</li>
-                    <li>Overall recommendation: <strong>Traditional</strong></li>
+                    <li>LLM approach wins on 5 metrics</li>
+                    <li>Traditional approach wins on 2 metrics</li>
+                    <li>Overall recommendation: <strong>LLM</strong></li>
                 </ul>
             </div>
             
@@ -45,65 +45,65 @@
     
                 <tr>
                     <td>Overall Density</td>
-                    <td class="worse">0.0839</td>
-                    <td class="better">0.0900</td>
-                    <td>-0.0061</td>
+                    <td class="worse">0.0501</td>
+                    <td class="better">0.1652</td>
+                    <td>-0.1151</td>
                     <td>Traditional</td>
                 </tr>
             
                 <tr>
                     <td>Overall Distinctiveness</td>
-                    <td class="worse">0.0993</td>
-                    <td class="better">0.1049</td>
-                    <td>-0.0057</td>
-                    <td>Traditional</td>
-                </tr>
-            
-                <tr>
-                    <td>Coherence C V</td>
-                    <td class="worse">0.2833</td>
-                    <td class="better">0.2865</td>
-                    <td>-0.0031</td>
-                    <td>Traditional</td>
-                </tr>
-            
-                <tr>
-                    <td>Coherence C Uci</td>
-                    <td class="better">-0.6314</td>
-                    <td class="worse">-0.6791</td>
-                    <td>0.0477</td>
+                    <td class="better">0.4721</td>
+                    <td class="worse">0.2124</td>
+                    <td>0.2597</td>
                     <td>LLM</td>
                 </tr>
             
                 <tr>
-                    <td>Coherence C Npmi</td>
-                    <td class="worse">-0.0600</td>
-                    <td class="better">-0.0593</td>
-                    <td>-0.0007</td>
+                    <td>Coherence C V</td>
+                    <td class="better">0.3564</td>
+                    <td class="worse">0.3317</td>
+                    <td>0.0248</td>
+                    <td>LLM</td>
+                </tr>
+            
+                <tr>
+                    <td>Coherence C Uci</td>
+                    <td class="worse">-0.3546</td>
+                    <td class="better">-0.1743</td>
+                    <td>-0.1803</td>
                     <td>Traditional</td>
+                </tr>
+            
+                <tr>
+                    <td>Coherence C Npmi</td>
+                    <td class="better">-0.0133</td>
+                    <td class="worse">-0.0195</td>
+                    <td>0.0063</td>
+                    <td>LLM</td>
                 </tr>
             
                 <tr>
                     <td>Overlap Quality Index</td>
-                    <td class="worse">0.0758</td>
-                    <td class="better">0.0758</td>
-                    <td>0.0000</td>
-                    <td>Traditional</td>
+                    <td class="better">0.0864</td>
+                    <td class="worse">0.0279</td>
+                    <td>0.0585</td>
+                    <td>LLM</td>
                 </tr>
             
                 <tr>
                     <td>Label Entropy</td>
-                    <td class="better">2.7431</td>
-                    <td class="worse">2.2407</td>
-                    <td>0.5024</td>
+                    <td class="better">3.3249</td>
+                    <td class="worse">2.1890</td>
+                    <td>1.1359</td>
                     <td>LLM</td>
                 </tr>
             
                 <tr>
                     <td>Avg Labels Per Doc</td>
-                    <td>4.5556</td>
-                    <td>3.0000</td>
-                    <td>1.5556</td>
+                    <td>1.4000</td>
+                    <td>1.9000</td>
+                    <td>-0.5000</td>
                     <td>More labels is not necessarily better, depends on use case</td>
                 </tr>
             
@@ -120,15 +120,15 @@
     
             <tr>
                 <td>Label Count</td>
-                <td>7</td>
+                <td>11</td>
                 <td>5</td>
-                <td>2</td>
+                <td>6</td>
             </tr>
         
             <tr>
                 <td>Doc Count</td>
-                <td>18</td>
-                <td>18</td>
+                <td>10</td>
+                <td>10</td>
                 <td>0</td>
             </tr>
         
@@ -145,23 +145,23 @@
     
             <tr>
                 <td>Avg Label Density</td>
-                <td class="worse">0.0839</td>
-                <td class="better">0.0900</td>
+                <td class="worse">0.0501</td>
+                <td class="better">0.1652</td>
                 <td>Traditional</td>
             </tr>
         
             <tr>
                 <td>Avg Label Distinctiveness</td>
-                <td class="worse">0.0993</td>
-                <td class="better">0.1049</td>
-                <td>Traditional</td>
+                <td class="better">0.4721</td>
+                <td class="worse">0.2124</td>
+                <td>LLM</td>
             </tr>
         
             <tr>
                 <td>Unique Top Words Count</td>
+                <td class="better">10.0000</td>
                 <td class="worse">6.0000</td>
-                <td class="better">6.0000</td>
-                <td>Traditional</td>
+                <td>LLM</td>
             </tr>
         
             </table>
@@ -187,42 +187,48 @@
             <h3>LLM Model Labels</h3>
             <ul>
     
-            <li><strong>Advanced Persistent Threats (APTs)</strong> (20 documents) - Top words: the, to, and, of, a</li>
+            <li><strong>Explainable AI and Interpretability</strong> (20 documents) - Top words: the, of, a, and, to</li>
         
-            <li><strong>Cyber Espionage</strong> (20 documents) - Top words: the, to, and, of, a</li>
+            <li><strong>Clustering and Explanations</strong> (20 documents) - Top words: the, of, 1, to, and</li>
         
-            <li><strong>Nation-State Sponsored Threats</strong> (20 documents) - Top words: the, to, and, of, in</li>
+            <li><strong>Fraud Detection and GANs</strong> (20 documents) - Top words: the, and, of, in, supply</li>
         
-            <li><strong>Cybersecurity Techniques and Tools</strong> (20 documents) - Top words: the, to, and, of, a</li>
+            <li><strong>Fuzzing and Testing in Large Systems</strong> (20 documents) - Top words: the, of, and, in, to</li>
         
-            <li><strong>Indicators of Compromise (IOCs)</strong> (20 documents) - Top words: the, to, and, of, a</li>
+            <li><strong>Deep Learning and Medical Applications</strong> (20 documents) - Top words: the, of, and, a, to</li>
         
-            <li><strong>Malware and Exploits</strong> (20 documents) - Top words: the, to, and, of, a</li>
+            <li><strong>Large Language Models and Scientific Publishing</strong> (20 documents) - Top words: the, and, of, in, to</li>
         
-            <li><strong>Geopolitical Implications</strong> (20 documents) - Top words: the, to, and, of, in</li>
+            <li><strong>Information Retrieval and Mechanistic Interpretability</strong> (20 documents) - Top words: the, and, in, of, a</li>
+        
+            <li><strong>Activity Scheduling and Generative Models</strong> (20 documents) - Top words: 0, the, of, and, a</li>
+        
+            <li><strong>Domain-Informed Neural Networks and Epidemiology</strong> (20 documents) - Top words: the, a, of, in, and</li>
+        
+            <li><strong>Distributed Systems and Privacy</strong> (20 documents) - Top words: the, k, and, a, of</li>
         
             </ul>
             
             <h3>Traditional Model Labels</h3>
             <ul>
     
-            <li><strong>malware, http, intellexa</strong> (20 documents) - Top words: the, to, and, of, a</li>
+            <li><strong>cluster, risk, counterfactual</strong> (20 documents) - Top words: the, of, and, a, to</li>
         
-            <li><strong>typhoon, microsoft, flax</strong> (20 documents) - Top words: the, to, and, of, in</li>
+            <li><strong>test, fuzzing, sandboxfuzz</strong> (20 documents) - Top words: the, and, of, in, a</li>
         
-            <li><strong>emotet, sysjoker, malware</strong> (20 documents) - Top words: the, to, of, and, a</li>
+            <li><strong>activity, model, eeg</strong> (20 documents) - Top words: the, of, and, a, to</li>
         
-            <li><strong>threat, file, actors</strong> (20 documents) - Top words: the, to, and, of, a</li>
+            <li><strong>arxiv, language, text</strong> (20 documents) - Top words: the, and, of, in, to</li>
         
-            <li><strong>gootloader, file, registry</strong> (20 documents) - Top words: the, to, and, of, a</li>
+            <li><strong>ir, mechir, interpretability</strong> (20 documents) - Top words: the, of, and, a, to</li>
         
             </ul>
             
             <h2>Conclusion</h2>
     
-            <p>The traditional BERTopic approach demonstrates superior performance overall, particularly in metrics related to 
-            cluster density and distinctiveness. This suggests that for this specific document set, 
-            the statistical approach to topic modeling is more effective at creating well-separated topic clusters.</p>
+            <p>The LLM-based approach demonstrates superior performance overall, particularly in metrics related to 
+            semantic coherence and quality of clustering. This suggests that for this specific document set, 
+            the language model's understanding of context and semantics provides more meaningful topic groupings.</p>
         
         </div>
     </body>

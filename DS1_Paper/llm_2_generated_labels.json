@@ -4,36 +4,35 @@
     "MechIR A Mechanistic Interpretability Framework.pdf",
     "SEANN A Domain-Informed Neural Network for.pdf"
   ],
-  "Machine Learning and Neural Networks": [
-    "Counterfactual Explanations for k-means and Gaussian Clustering.pdf",
-    "Detection of AI Deepfake and Fraud in Online Payments Using GAN-Based.pdf",
-    "Hybrid Deep Learning Model for epileptic seizure.pdf",
-    "MechIR A Mechanistic Interpretability Framework.pdf",
-    "Modelling Activity Scheduling Behaviour with Deep.pdf",
-    "SEANN A Domain-Informed Neural Network for.pdf",
-    "The_Evolution_of_Large_Language_Model_Models_Applications_and_Challenges.pdf"
+  "Clustering and Explanations": [
+    "Counterfactual Explanations for k-means and Gaussian Clustering.pdf"
   ],
-  "Generative Models and GANs": [
-    "Detection of AI Deepfake and Fraud in Online Payments Using GAN-Based.pdf",
-    "Modelling Activity Scheduling Behaviour with Deep.pdf"
+  "Fraud Detection and GANs": [
+    "Detection of AI Deepfake and Fraud in Online Payments Using GAN-Based.pdf"
   ],
-  "Security and Privacy": [
-    "Grey-Box Fuzzing in Constrained Ultra-Large Systems Lessons.pdf",
-    "The Distributed Multi-User Point Function.pdf"
+  "Fuzzing and Testing in Large Systems": [
+    "Grey-Box Fuzzing in Constrained Ultra-Large Systems Lessons.pdf"
   ],
-  "Large Language Models and NLP": [
+  "Deep Learning and Medical Applications": [
+    "Hybrid Deep Learning Model for epileptic seizure.pdf"
+  ],
+  "Large Language Models and Scientific Publishing": [
     "Mapping the Increasing Use of LLMs in Scientific Papers.pdf",
     "The_Evolution_of_Large_Language_Model_Models_Applications_and_Challenges.pdf"
   ],
-  "Biomedical and Health Applications": [
-    "Hybrid Deep Learning Model for epileptic seizure.pdf",
+  "Information Retrieval and Mechanistic Interpretability": [
+    "MechIR A Mechanistic Interpretability Framework.pdf"
+  ],
+  "Activity Scheduling and Generative Models": [
+    "Modelling Activity Scheduling Behaviour with Deep.pdf"
+  ],
+  "Domain-Informed Neural Networks and Epidemiology": [
     "SEANN A Domain-Informed Neural Network for.pdf"
   ],
-  "Distributed Systems and Cloud Computing": [
-    "Grey-Box Fuzzing in Constrained Ultra-Large Systems Lessons.pdf",
+  "Distributed Systems and Privacy": [
     "The Distributed Multi-User Point Function.pdf"
   ],
-  "Scientific Publishing and Research Analysis": [
-    "Mapping the Increasing Use of LLMs in Scientific Papers.pdf"
+  "Large Language Models and NLP": [
+    "The_Evolution_of_Large_Language_Model_Models_Applications_and_Challenges.pdf"
   ]
 }

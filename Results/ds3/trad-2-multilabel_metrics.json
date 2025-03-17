@@ -1,0 +1,198 @@
+{
+  "label_densities": {
+    "malware, http, intellexa": 0.07306324671342504,
+    "typhoon, microsoft, flax": 0.1339833881337183,
+    "emotet, sysjoker, malware": 0.07783870806614251,
+    "threat, file, actors": 0.09393039934310354,
+    "gootloader, file, registry": 0.07118844205177831
+  },
+  "overall_density": 0.09000083686163354,
+  "coherence_metrics": {
+    "c_v": 0.28647074861294186,
+    "c_uci": -0.679079755603285,
+    "c_npmi": -0.059283446663803786
+  },
+  "top_words_per_label": {
+    "malware, http, intellexa": [
+      "the",
+      "to",
+      "and",
+      "of",
+      "a",
+      "in",
+      "is",
+      "that",
+      "with",
+      "this",
+      "1",
+      "it",
+      "as",
+      "on",
+      "for",
+      "by",
+      "from",
+      "com",
+      "malware",
+      "https"
+    ],
+    "typhoon, microsoft, flax": [
+      "the",
+      "to",
+      "and",
+      "of",
+      "in",
+      "a",
+      "this",
+      "is",
+      "typhoon",
+      "apt",
+      "that",
+      "threat",
+      "on",
+      "by",
+      "microsoft",
+      "with",
+      "1",
+      "group",
+      "blog",
+      "for"
+    ],
+    "emotet, sysjoker, malware": [
+      "the",
+      "to",
+      "of",
+      "and",
+      "a",
+      "in",
+      "is",
+      "that",
+      "as",
+      "with",
+      "1",
+      "from",
+      "this",
+      "it",
+      "on",
+      "for",
+      "malware",
+      "by",
+      "0",
+      "com"
+    ],
+    "threat, file, actors": [
+      "the",
+      "to",
+      "and",
+      "of",
+      "a",
+      "in",
+      "is",
+      "that",
+      "this",
+      "with",
+      "by",
+      "1",
+      "on",
+      "for",
+      "threat",
+      "as",
+      "com",
+      "it",
+      "24",
+      "https"
+    ],
+    "gootloader, file, registry": [
+      "the",
+      "to",
+      "and",
+      "of",
+      "a",
+      "in",
+      "is",
+      "that",
+      "this",
+      "on",
+      "with",
+      "as",
+      "for",
+      "1",
+      "by",
+      "from",
+      "it",
+      "com",
+      "are",
+      "https"
+    ]
+  },
+  "overlap_metrics": {
+    "avg_labels_per_doc": 3.0,
+    "avg_shared_label_similarity": 0.07581717109285759,
+    "avg_diff_label_similarity": 0.0,
+    "overlap_quality_index": 0.07581717109285759,
+    "shared_pairs_count": 153,
+    "diff_pairs_count": 0
+  },
+  "topic_distinctiveness": {
+    "gootloader, file, registry": 0.10494040665408394
+  },
+  "overall_distinctiveness": 0.10494040665408394,
+  "balance_metrics": {
+    "label_size_stats": {
+      "min": 5,
+      "max": 14,
+      "mean": 10.8,
+      "std": 3.4292856398964493
+    },
+    "doc_label_stats": {
+      "min": 3,
+      "max": 3,
+      "mean": 3.0,
+      "std": 0.0
+    },
+    "label_entropy": 2.240730959317461,
+    "total_labels": 5,
+    "total_docs": 18,
+    "avg_labels_per_doc": 3.0
+  },
+  "label_overlap": {
+    "label_overlap_embedding_corr": -0.24918753644641362,
+    "label_overlap_embedding_corr_p": 0.177222848687621,
+    "label_correlation_matrix": [
+      [
+        0.0,
+        -0.8618916073713345,
+        0.5345224838248489,
+        -0.3779644730092272,
+        -0.2857142857142857
+      ],
+      [
+        -0.8618916073713345,
+        0.0,
+        -0.6201736729460423,
+        0.43852900965351466,
+        0.03314967720658979
+      ],
+      [
+        0.5345224838248489,
+        -0.6201736729460423,
+        0.0,
+        -0.7071067811865477,
+        -0.2672612419124245
+      ],
+      [
+        -0.3779644730092272,
+        0.43852900965351466,
+        -0.7071067811865477,
+        0.0,
+        -0.37796447300922725
+      ],
+      [
+        -0.2857142857142857,
+        0.03314967720658979,
+        -0.2672612419124245,
+        -0.37796447300922725,
+        0.0
+      ]
+    ]
+  }
+}

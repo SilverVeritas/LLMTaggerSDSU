@@ -1,0 +1,214 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Model Comparison Report</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+            h1, h2, h3 { color: #333; }
+            .container { max-width: 1200px; margin: 0 auto; }
+            table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .best { font-weight: bold; color: green; }
+            .worse { color: #666; }
+            .summary { background-color: #f0f8ff; padding: 15px; border-radius: 5px; margin-bottom: 20px; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Model Comparison Report: All Approaches</h1>
+            
+            <div class="summary">
+                <h2>Executive Summary</h2>
+    
+                <p>Based on 7 comparative metrics:</p>
+                <ul>
+                    <li>LLM approach (with keyword extraction) wins on 1 metrics</li>
+                    <li>Traditional approach wins on 1 metrics</li>
+                    <li>No-Tagging approach (direct document-to-label) wins on 1 metrics</li>
+                    <li>Summarization approach (summarize → extract → label) wins on 4 metrics</li>
+                    <li>Overall recommendation: <strong>Summarization</strong></li>
+                </ul>
+            </div>
+            
+            <h2>Key Metrics Comparison</h2>
+            <table>
+                <tr>
+                    <th>Metric</th>
+                    <th>LLM</th>
+                    <th>Traditional</th>
+                    <th>No-Tagging</th>
+                    <th>Summarization</th>
+                    <th>Best Model</th>
+                </tr>
+    
+                <tr>
+                    <td>Overall Density</td>
+                    <td class="worse">0.0839</td>
+                    <td class="best">0.0900</td>
+                    <td class="worse">0.0785</td>
+                    <td class="worse">0.0832</td>
+                    <td>Traditional</td>
+                </tr>
+            
+                <tr>
+                    <td>Overall Distinctiveness</td>
+                    <td class="worse">0.0993</td>
+                    <td class="worse">0.1049</td>
+                    <td class="worse">0.0233</td>
+                    <td class="best">0.1947</td>
+                    <td>Summary</td>
+                </tr>
+            
+                <tr>
+                    <td>Coherence C V</td>
+                    <td class="worse">0.2833</td>
+                    <td class="worse">0.2865</td>
+                    <td class="worse">0.3000</td>
+                    <td class="best">0.3058</td>
+                    <td>Summary</td>
+                </tr>
+            
+                <tr>
+                    <td>Coherence C Uci</td>
+                    <td class="worse">-0.6314</td>
+                    <td class="worse">-0.6791</td>
+                    <td class="worse">-0.5915</td>
+                    <td class="best">-0.4258</td>
+                    <td>Summary</td>
+                </tr>
+            
+                <tr>
+                    <td>Coherence C Npmi</td>
+                    <td class="worse">-0.0600</td>
+                    <td class="worse">-0.0593</td>
+                    <td class="worse">-0.0544</td>
+                    <td class="best">-0.0462</td>
+                    <td>Summary</td>
+                </tr>
+            
+                <tr>
+                    <td>Overlap Quality Index</td>
+                    <td class="worse">0.0758</td>
+                    <td class="worse">0.0758</td>
+                    <td class="best">0.0758</td>
+                    <td class="worse">0.0034</td>
+                    <td>No Tagging</td>
+                </tr>
+            
+                <tr>
+                    <td>Label Entropy</td>
+                    <td class="best">2.7431</td>
+                    <td class="worse">2.2407</td>
+                    <td class="worse">2.3166</td>
+                    <td class="worse">2.3066</td>
+                    <td>Llm</td>
+                </tr>
+            
+                <tr>
+                    <td>Avg Labels Per Doc</td>
+                    <td>4.5556</td>
+                    <td>3.0000</td>
+                    <td>4.3333</td>
+                    <td>2.4375</td>
+                    <td>More labels is not necessarily better, depends on use case</td>
+                </tr>
+            
+            </table>
+            
+            <h2>Label and Document Counts</h2>
+            <table>
+                <tr>
+                    <th>Metric</th>
+                    <th>LLM</th>
+                    <th>Traditional</th>
+                    <th>No-Tagging</th>
+                    <th>Summarization</th>
+                </tr>
+    
+            <tr>
+                <td>Label Count</td>
+                <td>7</td>
+                <td>5</td>
+                <td>5</td>
+                <td>5</td>
+            </tr>
+        
+            <tr>
+                <td>Doc Count</td>
+                <td>18</td>
+                <td>18</td>
+                <td>18</td>
+                <td>16</td>
+            </tr>
+        
+            </table>
+            
+            <h2>Label Quality Analysis</h2>
+            <table>
+                <tr>
+                    <th>Metric</th>
+                    <th>LLM</th>
+                    <th>Traditional</th>
+                    <th>No-Tagging</th>
+                    <th>Summarization</th>
+                    <th>Best Model</th>
+                </tr>
+    
+            <tr>
+                <td>Avg Label Density</td>
+                <td class="worse">0.0839</td>
+                <td class="best">0.0900</td>
+                <td class="worse">0.0785</td>
+                <td class="worse">0.0832</td>
+                <td>Traditional</td>
+            </tr>
+        
+            <tr>
+                <td>Avg Label Distinctiveness</td>
+                <td class="worse">0.0993</td>
+                <td class="worse">0.1049</td>
+                <td class="worse">0.0233</td>
+                <td class="best">0.1947</td>
+                <td>Summary</td>
+            </tr>
+        
+            </table>
+            
+            <h2>Approach Descriptions</h2>
+            <table>
+                <tr>
+                    <th>Approach</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>LLM</td>
+                    <td>Extract keywords from full documents using LLM, then generate labels from those keywords.</td>
+                </tr>
+                <tr>
+                    <td>Traditional</td>
+                    <td>Use BERTopic or similar statistical approach to generate topics from document embeddings.</td>
+                </tr>
+                <tr>
+                    <td>No-Tagging</td>
+                    <td>Send documents directly to LLM to generate labels without intermediate keyword extraction.</td>
+                </tr>
+                <tr>
+                    <td>Summarization</td>
+                    <td>First summarize documents using LLM, then extract keywords from summaries, then generate labels.</td>
+                </tr>
+            </table>
+            
+            <h2>Conclusion</h2>
+    
+            <p>The Summarization approach (summarize → extract → label) demonstrates superior performance overall. This suggests that 
+            condensing documents first removes noise and helps focus on the most relevant content, leading to better keyword extraction 
+            and ultimately more effective labels. The three-step pipeline appears to provide the best balance of coherence, distinctiveness, 
+            and quality for this document set.</p>
+        
+        </div>
+    </body>
+    </html>
+    

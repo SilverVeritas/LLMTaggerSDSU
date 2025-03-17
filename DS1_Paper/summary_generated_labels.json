@@ -1,0 +1,31 @@
+{
+  "Clustering and Explanations": [
+    "Counterfactual Explanations for k-means and Gaussian Clustering.pdf"
+  ],
+  "AI and Machine Learning Applications": [
+    "Detection of AI Deepfake and Fraud in Online Payments Using GAN-Based.pdf",
+    "Hybrid Deep Learning Model for epileptic seizure.pdf",
+    "SEANN A Domain-Informed Neural Network for.pdf",
+    "The_Evolution_of_Large_Language_Model_Models_Applications_and_Challenges.pdf"
+  ],
+  "Fuzzing and Software Testing": [
+    "Grey-Box Fuzzing in Constrained Ultra-Large Systems Lessons.pdf"
+  ],
+  "Deep Learning and Neural Networks": [
+    "Hybrid Deep Learning Model for epileptic seizure.pdf",
+    "SEANN A Domain-Informed Neural Network for.pdf"
+  ],
+  "Large Language Models and NLP": [
+    "Mapping the Increasing Use of LLMs in Scientific Papers.pdf",
+    "The_Evolution_of_Large_Language_Model_Models_Applications_and_Challenges.pdf"
+  ],
+  "Mechanistic Interpretability and Information Retrieval": [
+    "MechIR A Mechanistic Interpretability Framework.pdf"
+  ],
+  "Human Behavior and Activity Modeling": [
+    "Modelling Activity Scheduling Behaviour with Deep.pdf"
+  ],
+  "Privacy and Secret Sharing": [
+    "The Distributed Multi-User Point Function.pdf"
+  ]
+}
